@@ -1,0 +1,21 @@
+NOTE: Found a clock output pin: clk_to_sdram[0]
+NOTE: Found a clock output pin: clk_to_sdram_n[0]
+Running DDR system timing analysis equations.. pwd:/net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse
+NOTE:     Speed Grade c3 used for analysis
+  
+ DDR read data capture: DDR Data to DQS strobe edges at capture registers. 
+             Setup slack is   422 ps    associated with pin 'ddr_dq[3]'  ( variation port 'dq(3)', 'dq_captured_falling')              
+             Hold slack is   1352 ps    associated with pin 'ddr_dq[0]'  ( variation port 'dq(0)', 'dq_captured_rising')              
+  
+ Read data resynchronisation: Captured data to resync clock at resync registers ('resynched_data').  
+             Setup slack is   778 ps    associated with pin 'ddr_dq[10]'  ( variation port 'dq(10)', 'dq_captured_rising')                  
+             Hold slack is   1943 ps    associated with pin 'ddr_dq[0]'  ( variation port 'dq(0)', 'dq_captured_rising')              
+  
+ Read Postamble Enable: Enable-release to DQS strobe postamble period at negative-edge capture registers.  
+             Setup slack is  1800 ps    associated with pin 'ddr_dq[0]'  ( variation port 'dq(0)', 'dq_captured_rising')                  
+             Hold slack is guaranteed by design to always be positive for Stratix II
+  
+ Read Postamble Control: Preset-release ('dq_enable_reset') to DQS strobe negative edges at postamble register ('dq_enable').       
+             Setup slack is  1338 ps    associated with pin 'ddr_dq[8]'  ( variation port 'dq(8)', 'dq_captured_rising')                  
+             Hold slack is   2615 ps    associated with pin 'ddr_dq[0]'  ( variation port 'dq(0)', 'dq_captured_rising')              
+  

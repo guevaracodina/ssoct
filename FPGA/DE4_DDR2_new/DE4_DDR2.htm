@@ -1,0 +1,1991 @@
+<html>
+<body>
+<h1 align="center">DE4 FPGA Board Configuration</h1>
+<br />
+<br />
+<h2 align="left">Pin Assignments:</h2>
+<ul>
+<a href="#CLOCK"><li>CLOCK</li></a>
+<br />
+<a href="#LED x 8"><li>LED x 8</li></a>
+<br />
+<a href="#BUTTON x 4"><li>BUTTON x 4</li></a>
+<br />
+<a href="#DDR2 SODIMM"><li>DDR2 SODIMM</li></a>
+<br />
+<a href="#DDR2 SODIMM"><li>DDR2 SODIMM</li></a>
+<br />
+</ul>
+<br />
+<br />
+<br />
+<h2 align="left">Pin Assignment Table:</h2>
+<h2><a name="CLOCK"></a></h2><table border="3">
+<caption  align="left">CLOCK</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">OSC_50_Bank2</td>
+   <td align="left">AC35</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_Bank3</td>
+   <td align="left">AV22</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_Bank4</td>
+   <td align="left">AV19</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_Bank5</td>
+   <td align="left">AC6</td>
+   <td align="left">input</td>
+   <td align="left">3.0-V PCI-X</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_Bank6</td>
+   <td align="left">AB6</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_Bank7</td>
+   <td align="left">A19</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">GCLKOUT_FPGA</td>
+   <td align="left">AH19</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">GCLKIN</td>
+   <td align="left">A21</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">PLL_CLKIN_p</td>
+   <td align="left">B22</td>
+   <td align="left">input</td>
+   <td align="left">LVDS</td>
+</tr>
+<tr>
+   <td align="left">MAX_PLL_D[0]</td>
+   <td align="left">AP24</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">MAX_PLL_D[1]</td>
+   <td align="left">AN22</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">MAX_PLL_D[2]</td>
+   <td align="left">AG17</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">MAX_CONF_D[2]</td>
+   <td align="left">AV11</td>
+   <td align="left">inout</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">MAX_CONF_D[1]</td>
+   <td align="left">AG22</td>
+   <td align="left">inout</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">MAX_CONF_D[0]</td>
+   <td align="left">AW32</td>
+   <td align="left">inout</td>
+   <td align="left">1.8 V</td>
+</tr>
+</table>
+<h2><a name="LED x 8"></a></h2><table border="3">
+<caption  align="left">LED x 8</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">LED[0]</td>
+   <td align="left">M30</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[1]</td>
+   <td align="left">N30</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[2]</td>
+   <td align="left">M29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[3]</td>
+   <td align="left">N29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[4]</td>
+   <td align="left">P29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[5]</td>
+   <td align="left">R29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[6]</td>
+   <td align="left">W28</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[7]</td>
+   <td align="left">V28</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+</table>
+<h2><a name="BUTTON x 4"></a></h2><table border="3">
+<caption  align="left">BUTTON x 4</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">BUTTON[0]</td>
+   <td align="left">AG8</td>
+   <td align="left">input</td>
+   <td align="left">3.0-V PCI-X</td>
+</tr>
+<tr>
+   <td align="left">BUTTON[1]</td>
+   <td align="left">AG7</td>
+   <td align="left">input</td>
+   <td align="left">3.0-V PCI-X</td>
+</tr>
+<tr>
+   <td align="left">BUTTON[2]</td>
+   <td align="left">AG5</td>
+   <td align="left">input</td>
+   <td align="left">3.0-V PCI-X</td>
+</tr>
+<tr>
+   <td align="left">BUTTON[3]</td>
+   <td align="left">AH5</td>
+   <td align="left">input</td>
+   <td align="left">3.0-V PCI-X</td>
+</tr>
+<tr>
+   <td align="left">EXT_IO</td>
+   <td align="left">AC11</td>
+   <td align="left">inout</td>
+   <td align="left">3.0-V PCI-X</td>
+</tr>
+<tr>
+   <td align="left">CPU_RESET_n</td>
+   <td align="left">V34</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+</tr>
+</table>
+<h2><a name="DDR2 SODIMM"></a></h2><table border="3">
+<caption  align="left">DDR2 SODIMM_0</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+   <th align="left" bgcolor="Khaki">DDR2 SODIMM Pin Index</th>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[4]</td>
+   <td align="left">AW34</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">4</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[0]</td>
+   <td align="left">AV32</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">5</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[5]</td>
+   <td align="left">AW33</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">6</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[1]</td>
+   <td align="left">AV31</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">7</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[0]</td>
+   <td align="left">AW31</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">10</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[0]</td>
+   <td align="left">AW30</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">11</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[0]</td>
+   <td align="left">AV29</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">13</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[6]</td>
+   <td align="left">AW28</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">14</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[7]</td>
+   <td align="left">AW27</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">16</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[2]</td>
+   <td align="left">AW29</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">17</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[3]</td>
+   <td align="left">AV28</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">19</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[12]</td>
+   <td align="left">AM25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">20</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[13]</td>
+   <td align="left">AN25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">22</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[8]</td>
+   <td align="left">AP25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">23</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[9]</td>
+   <td align="left">AV26</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">25</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[1]</td>
+   <td align="left">AW26</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">26</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[1]</td>
+   <td align="left">AU26</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">29</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_clk[0]</td>
+   <td align="left">AP28</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">30</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[1]</td>
+   <td align="left">AT26</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">31</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_clk_n[0]</td>
+   <td align="left">AR28</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">32</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[10]</td>
+   <td align="left">AU25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">35</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[14]</td>
+   <td align="left">AR25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">36</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[11]</td>
+   <td align="left">AT25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">37</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[15]</td>
+   <td align="left">AN24</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">38</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[16]</td>
+   <td align="left">AN23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">43</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[20]</td>
+   <td align="left">AM23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">44</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[17]</td>
+   <td align="left">AP23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">45</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[21]</td>
+   <td align="left">AR23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">46</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[2]</td>
+   <td align="left">AU24</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">49</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[2]</td>
+   <td align="left">AT24</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">51</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[2]</td>
+   <td align="left">AU23</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">52</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[18]</td>
+   <td align="left">AL22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">55</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[22]</td>
+   <td align="left">AT23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">56</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[19]</td>
+   <td align="left">AM22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">57</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[23]</td>
+   <td align="left">AL21</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">58</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[24]</td>
+   <td align="left">AJ22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">61</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[28]</td>
+   <td align="left">AK24</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">62</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[25]</td>
+   <td align="left">AH23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">63</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[29]</td>
+   <td align="left">AJ23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">64</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[3]</td>
+   <td align="left">AH22</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">67</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[3]</td>
+   <td align="left">AL23</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">68</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[3]</td>
+   <td align="left">AK23</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">70</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[26]</td>
+   <td align="left">AF22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">73</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[30]</td>
+   <td align="left">AF23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">74</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[27]</td>
+   <td align="left">AE23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">75</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[31]</td>
+   <td align="left">AE22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">76</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_cke[0]</td>
+   <td align="left">AT28</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">79</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_cke[1]</td>
+   <td align="left">AK27</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">80</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[15]</td>
+   <td align="left">AT29</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">84</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_ba[2]</td>
+   <td align="left">AP27</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">85</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[14]</td>
+   <td align="left">AU29</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">86</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[12]</td>
+   <td align="left">AP26</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">89</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[11]</td>
+   <td align="left">AU28</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">90</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[9]</td>
+   <td align="left">AN27</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">91</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[7]</td>
+   <td align="left">AT27</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">92</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[8]</td>
+   <td align="left">AL27</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">93</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[6]</td>
+   <td align="left">AU27</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">94</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[5]</td>
+   <td align="left">AK26</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">97</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[4]</td>
+   <td align="left">AN26</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">98</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[3]</td>
+   <td align="left">AM26</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">99</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[2]</td>
+   <td align="left">AW23</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">100</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[1]</td>
+   <td align="left">AL25</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">101</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[0]</td>
+   <td align="left">AV23</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">102</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[10]</td>
+   <td align="left">AJ26</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">105</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_ba[1]</td>
+   <td align="left">AD25</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">106</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_ba[0]</td>
+   <td align="left">AH26</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">107</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_ras_n</td>
+   <td align="left">AE21</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">108</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_we_n</td>
+   <td align="left">AK25</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">109</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_cs_n[0]</td>
+   <td align="left">AG21</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">110</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_cas_n</td>
+   <td align="left">AJ25</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">113</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_odt[0]</td>
+   <td align="left">AG20</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">114</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_cs_n[1]</td>
+   <td align="left">AE25</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">115</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_addr[13]</td>
+   <td align="left">AD21</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">116</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_odt[1]</td>
+   <td align="left">AE24</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">119</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[32]</td>
+   <td align="left">AK17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">123</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[36]</td>
+   <td align="left">AG16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">124</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[33]</td>
+   <td align="left">AM17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">125</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[37]</td>
+   <td align="left">AH17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">126</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[4]</td>
+   <td align="left">AL16</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">129</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[4]</td>
+   <td align="left">AL17</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">130</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[4]</td>
+   <td align="left">AK16</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">131</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[38]</td>
+   <td align="left">AF17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">134</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[34]</td>
+   <td align="left">AH16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">135</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[39]</td>
+   <td align="left">AE17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">136</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[35]</td>
+   <td align="left">AJ16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">137</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[44]</td>
+   <td align="left">AN17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">140</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[40]</td>
+   <td align="left">AR17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">141</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[45]</td>
+   <td align="left">AP17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">142</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[41]</td>
+   <td align="left">AN16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">143</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[5]</td>
+   <td align="left">AR16</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">146</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[5]</td>
+   <td align="left">AT16</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">147</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[5]</td>
+   <td align="left">AP16</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">148</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[42]</td>
+   <td align="left">AU16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">151</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[46]</td>
+   <td align="left">AU15</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">152</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[43]</td>
+   <td align="left">AW16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">153</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[47]</td>
+   <td align="left">AT15</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">154</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[48]</td>
+   <td align="left">AW11</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">157</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[52]</td>
+   <td align="left">AW14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">158</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[49]</td>
+   <td align="left">AW12</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">159</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[53]</td>
+   <td align="left">AV14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">160</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_clk[1]</td>
+   <td align="left">AE20</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">164</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_clk_n[1]</td>
+   <td align="left">AF20</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">166</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[6]</td>
+   <td align="left">AW13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">167</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[6]</td>
+   <td align="left">AV13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">169</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[6]</td>
+   <td align="left">AU14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">170</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[50]</td>
+   <td align="left">AT14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">173</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[54]</td>
+   <td align="left">AU11</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">174</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[51]</td>
+   <td align="left">AU12</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">175</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[55]</td>
+   <td align="left">AT12</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">176</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[56]</td>
+   <td align="left">AP13</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">179</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[60]</td>
+   <td align="left">AR14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">180</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[57]</td>
+   <td align="left">AN14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">181</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[61]</td>
+   <td align="left">AP14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">182</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dm[7]</td>
+   <td align="left">AN13</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">185</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqsn[7]</td>
+   <td align="left">AT13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">186</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dqs[7]</td>
+   <td align="left">AR13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">188</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[58]</td>
+   <td align="left">AL15</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">189</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[59]</td>
+   <td align="left">AM14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">191</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[62]</td>
+   <td align="left">AL14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">192</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_dq[63]</td>
+   <td align="left">AL13</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">194</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_SDA</td>
+   <td align="left">AG24</td>
+   <td align="left">inout</td>
+   <td align="left">1.8 V</td>
+   <td align="left">195</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_SCL</td>
+   <td align="left">AH24</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+   <td align="left">197</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_SA[0]</td>
+   <td align="left">AV25</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+   <td align="left">198</td>
+</tr>
+<tr>
+   <td align="left">M1_DDR2_SA[1]</td>
+   <td align="left">AW25</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+   <td align="left">200</td>
+</tr>
+</table>
+<h2><a name="DDR2 SODIMM"></a></h2><table border="3">
+<caption  align="left">DDR2 SODIMM_1</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+   <th align="left" bgcolor="Khaki">DDR2 SODIMM Pin Index</th>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[4]</td>
+   <td align="left">J12</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">4</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[0]</td>
+   <td align="left">F12</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">5</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[5]</td>
+   <td align="left">J13</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">6</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[1]</td>
+   <td align="left">H13</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">7</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[0]</td>
+   <td align="left">H14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">10</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[0]</td>
+   <td align="left">E13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">11</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[0]</td>
+   <td align="left">F13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">13</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[6]</td>
+   <td align="left">G14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">14</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[7]</td>
+   <td align="left">D13</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">16</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[2]</td>
+   <td align="left">E14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">17</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[3]</td>
+   <td align="left">F14</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">19</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[12]</td>
+   <td align="left">P16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">20</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[13]</td>
+   <td align="left">N16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">22</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[8]</td>
+   <td align="left">P17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">23</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[9]</td>
+   <td align="left">N17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">25</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[1]</td>
+   <td align="left">M17</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">26</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[1]</td>
+   <td align="left">J16</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">29</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_clk[0]</td>
+   <td align="left">L13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">30</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[1]</td>
+   <td align="left">K16</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">31</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_clk_n[0]</td>
+   <td align="left">K13</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">32</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[10]</td>
+   <td align="left">L16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">35</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[14]</td>
+   <td align="left">J17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">36</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[11]</td>
+   <td align="left">K17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">37</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[15]</td>
+   <td align="left">H17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">38</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[16]</td>
+   <td align="left">B16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">43</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[20]</td>
+   <td align="left">C16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">44</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[17]</td>
+   <td align="left">A16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">45</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[21]</td>
+   <td align="left">E16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">46</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[2]</td>
+   <td align="left">C15</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">49</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[2]</td>
+   <td align="left">D15</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">51</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[2]</td>
+   <td align="left">G15</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">52</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[18]</td>
+   <td align="left">F15</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">55</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[22]</td>
+   <td align="left">G16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">56</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[19]</td>
+   <td align="left">D16</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">57</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[23]</td>
+   <td align="left">G17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">58</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[24]</td>
+   <td align="left">C17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">61</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[28]</td>
+   <td align="left">C18</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">62</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[25]</td>
+   <td align="left">E17</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">63</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[29]</td>
+   <td align="left">D18</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">64</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[3]</td>
+   <td align="left">F17</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">67</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[3]</td>
+   <td align="left">F18</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">68</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[3]</td>
+   <td align="left">G18</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">70</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[26]</td>
+   <td align="left">F19</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">73</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[30]</td>
+   <td align="left">F20</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">74</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[27]</td>
+   <td align="left">G19</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">75</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[31]</td>
+   <td align="left">G20</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">76</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_cke[0]</td>
+   <td align="left">D11</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">79</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_cke[1]</td>
+   <td align="left">K12</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">80</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[15]</td>
+   <td align="left">M13</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">84</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_ba[2]</td>
+   <td align="left">B10</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">85</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[14]</td>
+   <td align="left">K14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">86</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[12]</td>
+   <td align="left">N15</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">89</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[11]</td>
+   <td align="left">L14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">90</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[9]</td>
+   <td align="left">M14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">91</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[7]</td>
+   <td align="left">N13</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">92</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[8]</td>
+   <td align="left">A10</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">93</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[6]</td>
+   <td align="left">A11</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">94</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[5]</td>
+   <td align="left">C11</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">97</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[4]</td>
+   <td align="left">C13</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">98</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[3]</td>
+   <td align="left">R14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">99</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[2]</td>
+   <td align="left">D14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">100</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[1]</td>
+   <td align="left">B11</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">101</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[0]</td>
+   <td align="left">B14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">102</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[10]</td>
+   <td align="left">R18</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">105</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_ba[1]</td>
+   <td align="left">C14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">106</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_ba[0]</td>
+   <td align="left">C12</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">107</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_ras_n</td>
+   <td align="left">J18</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">108</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_we_n</td>
+   <td align="left">P18</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">109</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_cs_n[0]</td>
+   <td align="left">H19</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">110</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_cas_n</td>
+   <td align="left">A13</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">113</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_odt[0]</td>
+   <td align="left">D19</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">114</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_cs_n[1]</td>
+   <td align="left">B13</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">115</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_addr[13]</td>
+   <td align="left">C19</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">116</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_odt[1]</td>
+   <td align="left">A14</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">119</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[32]</td>
+   <td align="left">N22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">123</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[36]</td>
+   <td align="left">R22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">124</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[33]</td>
+   <td align="left">M23</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">125</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[37]</td>
+   <td align="left">P22</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">126</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[4]</td>
+   <td align="left">K23</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">129</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[4]</td>
+   <td align="left">P23</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">130</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[4]</td>
+   <td align="left">L23</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">131</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[38]</td>
+   <td align="left">M24</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">134</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[34]</td>
+   <td align="left">K24</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">135</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[39]</td>
+   <td align="left">J24</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">136</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[35]</td>
+   <td align="left">J25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">137</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[44]</td>
+   <td align="left">G24</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">140</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[40]</td>
+   <td align="left">G25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">141</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[45]</td>
+   <td align="left">F24</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">142</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[41]</td>
+   <td align="left">C25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">143</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[5]</td>
+   <td align="left">E25</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">146</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[5]</td>
+   <td align="left">B25</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">147</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[5]</td>
+   <td align="left">F25</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">148</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[42]</td>
+   <td align="left">A26</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">151</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[46]</td>
+   <td align="left">D25</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">152</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[43]</td>
+   <td align="left">C26</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">153</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[47]</td>
+   <td align="left">D26</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">154</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[48]</td>
+   <td align="left">F27</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">157</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[52]</td>
+   <td align="left">H26</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">158</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[49]</td>
+   <td align="left">G27</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">159</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[53]</td>
+   <td align="left">J26</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">160</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_clk[1]</td>
+   <td align="left">B17</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">164</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_clk_n[1]</td>
+   <td align="left">A17</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">166</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[6]</td>
+   <td align="left">D29</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">167</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[6]</td>
+   <td align="left">E29</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">169</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[6]</td>
+   <td align="left">D28</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">170</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[50]</td>
+   <td align="left">F28</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">173</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[54]</td>
+   <td align="left">E28</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">174</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[51]</td>
+   <td align="left">H28</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">175</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[55]</td>
+   <td align="left">G29</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">176</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[56]</td>
+   <td align="left">C29</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">179</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[60]</td>
+   <td align="left">A27</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">180</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[57]</td>
+   <td align="left">A31</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">181</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[61]</td>
+   <td align="left">A28</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">182</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dm[7]</td>
+   <td align="left">C30</td>
+   <td align="left">output</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">185</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqsn[7]</td>
+   <td align="left">B28</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">186</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dqs[7]</td>
+   <td align="left">C28</td>
+   <td align="left">inout</td>
+   <td align="left">Differential 1.8-V SSTL Class I</td>
+   <td align="left">188</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[58]</td>
+   <td align="left">C27</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">189</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[59]</td>
+   <td align="left">D27</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">191</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[62]</td>
+   <td align="left">B29</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">192</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_dq[63]</td>
+   <td align="left">B31</td>
+   <td align="left">inout</td>
+   <td align="left">SSTL-18 Class I</td>
+   <td align="left">194</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_SDA</td>
+   <td align="left">J15</td>
+   <td align="left">inout</td>
+   <td align="left">1.8 V</td>
+   <td align="left">195</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_SCL</td>
+   <td align="left">K15</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+   <td align="left">197</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_SA[0]</td>
+   <td align="left">A18</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+   <td align="left">198</td>
+</tr>
+<tr>
+   <td align="left">M2_DDR2_SA[1]</td>
+   <td align="left">B19</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+   <td align="left">200</td>
+</tr>
+</table>
+</html>
+</body>

@@ -1,0 +1,1113 @@
+<html>
+<body>
+<h1 align="center">DE4 FPGA Board Configuration</h1>
+<br />
+<br />
+<h2 align="left">Pin Assignments:</h2>
+<ul>
+<a href="#CLOCK"><li>CLOCK</li></a>
+<br />
+<a href="#External PLL"><li>External PLL</li></a>
+<br />
+<a href="#LED x 8"><li>LED x 8</li></a>
+<br />
+<a href="#CPU_RESET_n"><li>CPU_RESET_n</li></a>
+<br />
+<a href="#Flash and SRAM Address/Data Share Bus"><li>Flash and SRAM Address/Data Share Bus</li></a>
+<br />
+<a href="#Flash Control"><li>Flash Control</li></a>
+<br />
+<a href="#HSMC-B"><li>HSMC-B</li></a>
+<br />
+<a href="#HSMC I2C"><li>HSMC I2C</li></a>
+<br />
+</ul>
+<br />
+<br />
+<br />
+<h2 align="left">Pin Assignment Table:</h2>
+<h2><a name="CLOCK"></a></h2><table border="3">
+<caption  align="left">CLOCK</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">OSC_50_BANK2</td>
+   <td align="left">AC35</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_BANK3</td>
+   <td align="left">AV22</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_BANK4</td>
+   <td align="left">AV19</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_BANK5</td>
+   <td align="left">AC6</td>
+   <td align="left">input</td>
+   <td align="left">3.0-V PCI-X</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_BANK6</td>
+   <td align="left">AB6</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">OSC_50_BANK7</td>
+   <td align="left">A19</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">GCLKOUT_FPGA</td>
+   <td align="left">AH19</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">GCLKIN</td>
+   <td align="left">A21</td>
+   <td align="left">input</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">PLL_CLKIN_p</td>
+   <td align="left">B22</td>
+   <td align="left">input</td>
+   <td align="left">LVDS</td>
+</tr>
+</table>
+<h2><a name="External PLL"></a></h2><table border="3">
+<caption  align="left">External PLL</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">MAX_I2C_SCLK</td>
+   <td align="left">AP24</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">MAX_I2C_SDAT</td>
+   <td align="left">AN22</td>
+   <td align="left">inout</td>
+   <td align="left">1.8 V</td>
+</tr>
+</table>
+<h2><a name="LED x 8"></a></h2><table border="3">
+<caption  align="left">LED x 8</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">LED[0]</td>
+   <td align="left">V28</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[1]</td>
+   <td align="left">W28</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[2]</td>
+   <td align="left">R29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[3]</td>
+   <td align="left">P29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[4]</td>
+   <td align="left">N29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[5]</td>
+   <td align="left">M29</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[6]</td>
+   <td align="left">M30</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">LED[7]</td>
+   <td align="left">N30</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+</table>
+<h2><a name="CPU_RESET_n"></a></h2><table border="3">
+<caption  align="left">CPU_RESET_n</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">CPU_RESET_n</td>
+   <td align="left">V34</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+</tr>
+</table>
+<h2><a name="Flash and SRAM Address/Data Share Bus"></a></h2><table border="3">
+<caption  align="left">Flash and SRAM Address/Data Share Bus</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">FSM_D[0]</td>
+   <td align="left">K29</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[1]</td>
+   <td align="left">J30</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[2]</td>
+   <td align="left">K30</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[3]</td>
+   <td align="left">L29</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[4]</td>
+   <td align="left">K31</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[5]</td>
+   <td align="left">E32</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[6]</td>
+   <td align="left">F32</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[7]</td>
+   <td align="left">H32</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[8]</td>
+   <td align="left">B32</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[9]</td>
+   <td align="left">C32</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[10]</td>
+   <td align="left">C35</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[11]</td>
+   <td align="left">D35</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[12]</td>
+   <td align="left">M22</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[13]</td>
+   <td align="left">M28</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[14]</td>
+   <td align="left">C31</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_D[15]</td>
+   <td align="left">D31</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[1]</td>
+   <td align="left">G22</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[2]</td>
+   <td align="left">G23</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[3]</td>
+   <td align="left">A25</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[4]</td>
+   <td align="left">H22</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[5]</td>
+   <td align="left">H23</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[6]</td>
+   <td align="left">J22</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[7]</td>
+   <td align="left">K22</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[8]</td>
+   <td align="left">M21</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[9]</td>
+   <td align="left">J23</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[10]</td>
+   <td align="left">F34</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[11]</td>
+   <td align="left">G35</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[12]</td>
+   <td align="left">E34</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[13]</td>
+   <td align="left">J32</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[14]</td>
+   <td align="left">F35</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[15]</td>
+   <td align="left">C24</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[16]</td>
+   <td align="left">A24</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[17]</td>
+   <td align="left">D23</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[18]</td>
+   <td align="left">D24</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[19]</td>
+   <td align="left">T27</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[20]</td>
+   <td align="left">T28</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[21]</td>
+   <td align="left">D22</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[22]</td>
+   <td align="left">E23</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[23]</td>
+   <td align="left">N20</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[24]</td>
+   <td align="left">P20</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FSM_A[25]</td>
+   <td align="left">C22</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+</table>
+<h2><a name="Flash Control"></a></h2><table border="3">
+<caption  align="left">Flash Control</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">FLASH_RYBY_n</td>
+   <td align="left">G21</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FLASH_CLK</td>
+   <td align="left">E22</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FLASH_RESET_n</td>
+   <td align="left">D21</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FLASH_OE_n</td>
+   <td align="left">N21</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FLASH_WE_n</td>
+   <td align="left">R20</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FLASH_ADV_n</td>
+   <td align="left">F21</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+<tr>
+   <td align="left">FLASH_CE_n</td>
+   <td align="left">F23</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+</tr>
+</table>
+<h2><a name="HSMC-B"></a></h2><table border="3">
+<caption  align="left">HSMC-B connect to None</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+   <th align="left" bgcolor="Khaki">HSMC Pin Index</th>
+</tr>
+<tr>
+   <td align="left">CLKOUT0</td>
+   <td align="left">L8</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">39</td>
+</tr>
+<tr>
+   <td align="left">CLKIN1</td>
+   <td align="left">AA5</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">40</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[13]</td>
+   <td align="left">H10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">41</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[13]</td>
+   <td align="left">D6</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">42</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[12]</td>
+   <td align="left">G10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">43</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[12]</td>
+   <td align="left">C6</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">44</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[11]</td>
+   <td align="left">K9</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">47</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[11]</td>
+   <td align="left">D5</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">48</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[10]</td>
+   <td align="left">J9</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">49</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[10]</td>
+   <td align="left">C5</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">50</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[9]</td>
+   <td align="left">K10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">53</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[9]</td>
+   <td align="left">D10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">54</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[8]</td>
+   <td align="left">J10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">55</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[8]</td>
+   <td align="left">C10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">56</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[7]</td>
+   <td align="left">N11</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">59</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[7]</td>
+   <td align="left">D9</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">60</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[6]</td>
+   <td align="left">N10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">61</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[6]</td>
+   <td align="left">C9</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">62</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[5]</td>
+   <td align="left">N12</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">65</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[5]</td>
+   <td align="left">D8</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">66</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[4]</td>
+   <td align="left">M12</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">67</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[4]</td>
+   <td align="left">C8</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">68</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[3]</td>
+   <td align="left">R12</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">71</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[3]</td>
+   <td align="left">D7</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">72</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[2]</td>
+   <td align="left">R11</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">73</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[2]</td>
+   <td align="left">C7</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">74</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[1]</td>
+   <td align="left">T13</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">77</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[1]</td>
+   <td align="left">F10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">78</td>
+</tr>
+<tr>
+   <td align="left">ADA_D[0]</td>
+   <td align="left">T12</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">79</td>
+</tr>
+<tr>
+   <td align="left">ADB_D[0]</td>
+   <td align="left">E10</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">80</td>
+</tr>
+<tr>
+   <td align="left">ADA_OR</td>
+   <td align="left">R13</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">83</td>
+</tr>
+<tr>
+   <td align="left">ADB_OR</td>
+   <td align="left">G5</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">84</td>
+</tr>
+<tr>
+   <td align="left">ADA_OE</td>
+   <td align="left">P13</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">85</td>
+</tr>
+<tr>
+   <td align="left">ADB_OE</td>
+   <td align="left">F5</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">86</td>
+</tr>
+<tr>
+   <td align="left">ADA_SPI_CS</td>
+   <td align="left">H7</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">89</td>
+</tr>
+<tr>
+   <td align="left">ADB_SPI_CS</td>
+   <td align="left">G6</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">90</td>
+</tr>
+<tr>
+   <td align="left">AD_SDIO</td>
+   <td align="left">G7</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">91</td>
+</tr>
+<tr>
+   <td align="left">AD_SCLK</td>
+   <td align="left">F6</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">92</td>
+</tr>
+<tr>
+   <td align="left">FPGA_CLK_A_P</td>
+   <td align="left">K8</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">95</td>
+</tr>
+<tr>
+   <td align="left">XT_IN_P</td>
+   <td align="left">W34</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">96</td>
+</tr>
+<tr>
+   <td align="left">FPGA_CLK_A_N</td>
+   <td align="left">J8</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">97</td>
+</tr>
+<tr>
+   <td align="left">XT_IN_N</td>
+   <td align="left">W35</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">98</td>
+</tr>
+<tr>
+   <td align="left">DA[13]</td>
+   <td align="left">M10</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">101</td>
+</tr>
+<tr>
+   <td align="left">DB[13]</td>
+   <td align="left">F7</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">102</td>
+</tr>
+<tr>
+   <td align="left">DA[12]</td>
+   <td align="left">L10</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">103</td>
+</tr>
+<tr>
+   <td align="left">DB[12]</td>
+   <td align="left">E7</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">104</td>
+</tr>
+<tr>
+   <td align="left">DA[11]</td>
+   <td align="left">M8</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">107</td>
+</tr>
+<tr>
+   <td align="left">DB[11]</td>
+   <td align="left">G8</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">108</td>
+</tr>
+<tr>
+   <td align="left">DA[10]</td>
+   <td align="left">M7</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">109</td>
+</tr>
+<tr>
+   <td align="left">DB[10]</td>
+   <td align="left">F8</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">110</td>
+</tr>
+<tr>
+   <td align="left">DA[9]</td>
+   <td align="left">M11</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">113</td>
+</tr>
+<tr>
+   <td align="left">DB[9]</td>
+   <td align="left">G9</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">114</td>
+</tr>
+<tr>
+   <td align="left">DA[8]</td>
+   <td align="left">L11</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">115</td>
+</tr>
+<tr>
+   <td align="left">DB[8]</td>
+   <td align="left">F9</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">116</td>
+</tr>
+<tr>
+   <td align="left">DA[7]</td>
+   <td align="left">N9</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">119</td>
+</tr>
+<tr>
+   <td align="left">DB[7]</td>
+   <td align="left">N6</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">120</td>
+</tr>
+<tr>
+   <td align="left">DA[6]</td>
+   <td align="left">P8</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">121</td>
+</tr>
+<tr>
+   <td align="left">DB[6]</td>
+   <td align="left">N5</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">122</td>
+</tr>
+<tr>
+   <td align="left">DA[5]</td>
+   <td align="left">R9</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">125</td>
+</tr>
+<tr>
+   <td align="left">DB[5]</td>
+   <td align="left">M6</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">126</td>
+</tr>
+<tr>
+   <td align="left">DA[4]</td>
+   <td align="left">R8</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">127</td>
+</tr>
+<tr>
+   <td align="left">DB[4]</td>
+   <td align="left">L5</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">128</td>
+</tr>
+<tr>
+   <td align="left">DA[3]</td>
+   <td align="left">U10</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">131</td>
+</tr>
+<tr>
+   <td align="left">DB[3]</td>
+   <td align="left">R6</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">132</td>
+</tr>
+<tr>
+   <td align="left">DA[2]</td>
+   <td align="left">T9</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">133</td>
+</tr>
+<tr>
+   <td align="left">DB[2]</td>
+   <td align="left">R5</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">134</td>
+</tr>
+<tr>
+   <td align="left">DA[1]</td>
+   <td align="left">V10</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">137</td>
+</tr>
+<tr>
+   <td align="left">DB[1]</td>
+   <td align="left">R7</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">138</td>
+</tr>
+<tr>
+   <td align="left">DA[0]</td>
+   <td align="left">V9</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">139</td>
+</tr>
+<tr>
+   <td align="left">DB[0]</td>
+   <td align="left">P6</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">140</td>
+</tr>
+<tr>
+   <td align="left">AIC_DIN</td>
+   <td align="left">T10</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">143</td>
+</tr>
+<tr>
+   <td align="left">AIC_DOUT</td>
+   <td align="left">V6</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">144</td>
+</tr>
+<tr>
+   <td align="left">AIC_LRCIN</td>
+   <td align="left">R10</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">145</td>
+</tr>
+<tr>
+   <td align="left">AIC_LRCOUT</td>
+   <td align="left">U5</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">146</td>
+</tr>
+<tr>
+   <td align="left">AIC_BCLK</td>
+   <td align="left">V12</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">149</td>
+</tr>
+<tr>
+   <td align="left">AIC_XCLK</td>
+   <td align="left">W8</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">150</td>
+</tr>
+<tr>
+   <td align="left">AIC_SPI_CS</td>
+   <td align="left">V11</td>
+   <td align="left">output</td>
+   <td align="left">2.5 V</td>
+   <td align="left">151</td>
+</tr>
+<tr>
+   <td align="left">J1_152</td>
+   <td align="left">W7</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">152</td>
+</tr>
+<tr>
+   <td align="left">FPGA_CLK_B_P</td>
+   <td align="left">W12</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">155</td>
+</tr>
+<tr>
+   <td align="left">ADA_DCO</td>
+   <td align="left">W6</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">156</td>
+</tr>
+<tr>
+   <td align="left">FPGA_CLK_B_N</td>
+   <td align="left">W11</td>
+   <td align="left">inout</td>
+   <td align="left">2.5 V</td>
+   <td align="left">157</td>
+</tr>
+<tr>
+   <td align="left">ADB_DCO</td>
+   <td align="left">W5</td>
+   <td align="left">input</td>
+   <td align="left">2.5 V</td>
+   <td align="left">158</td>
+</tr>
+</table>
+<h2><a name="HSMC I2C"></a></h2><table border="3">
+<caption  align="left">HSMC I2C</caption>
+<br />
+<br />
+<tr>
+   <th align="left" bgcolor="Khaki">Name</th>
+   <th align="left" bgcolor="Khaki">Location</th>
+   <th align="left" bgcolor="Khaki">Direction</th>
+   <th align="left" bgcolor="Khaki">Standard</th>
+</tr>
+<tr>
+   <td align="left">HSMC_SCL</td>
+   <td align="left">L19</td>
+   <td align="left">output</td>
+   <td align="left">1.8 V</td>
+</tr>
+<tr>
+   <td align="left">HSMC_SDA</td>
+   <td align="left">M19</td>
+   <td align="left">inout</td>
+   <td align="left">1.8 V</td>
+</tr>
+</table>
+</html>
+</body>

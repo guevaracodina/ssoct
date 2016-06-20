@@ -1,0 +1,126 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.591 ns
+From           : ADC_DATA[5]
+To             : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|a2di2[1]
+From Clock     : --
+To Clock       : PLD_CLOCKINPUT[1]
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.079 ns
+From           : std_2s60:inst|reconfig_request_pio:the_reconfig_request_pio|data_out
+To             : PLD_RECONFIGREQ_N
+From Clock     : PLD_CLOCKINPUT[1]
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.002 ns
+From           : altera_internal_jtag~TDO
+To             : altera_reserved_tdo
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.708 ns
+From           : altera_internal_jtag~TMSUTAP
+To             : sld_hub:sld_hub_inst|sld_jtag_state_machine:jtag_state_machine|state[14]
+From Clock     : --
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'sdram_pll:inst5|altpll:altpll_component|_clk0'
+Slack          : 0.376 ns
+Required Time  : 160.00 MHz ( period = 6.250 ns )
+Actual Time    : 170.24 MHz ( period = 5.874 ns )
+From           : std_2s60:inst|std_2s60_burst_9:the_std_2s60_burst_9|reg_downstream_read
+To             : std_2s60:inst|ext_ram_bus_avalon_slave_arbitrator:the_ext_ram_bus_avalon_slave|std_2s60_burst_9_downstream_qualified_request_ext_ram_s1~24_OTERM858
+From Clock     : sdram_pll:inst5|altpll:altpll_component|_clk0
+To Clock       : sdram_pll:inst5|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'sdram_pll:inst5|altpll:altpll_component|_clk2'
+Slack          : 97.878 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : 471.25 MHz ( period = 2.122 ns )
+From           : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|current_byte.10
+To             : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|a2di2[6]
+From Clock     : sdram_pll:inst5|altpll:altpll_component|_clk2
+To Clock       : sdram_pll:inst5|altpll:altpll_component|_clk2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'sdram_pll:inst5|altpll:altpll_component|_clk3'
+Slack          : 98.213 ns
+Required Time  : 2.50 MHz ( period = 400.000 ns )
+Actual Time    : N/A
+From           : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|dati[24]
+To             : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|adFIFO:crossclk|dcfifo:dcfifo_component|dcfifo_rtk1:auto_generated|altsyncram_jm01:fifo_ram|ram_block11a22~porta_datain_reg1
+From Clock     : sdram_pll:inst5|altpll:altpll_component|_clk2
+To Clock       : sdram_pll:inst5|altpll:altpll_component|_clk3
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 191.50 MHz ( period = 5.222 ns )
+From           : sld_hub:sld_hub_inst|sld_dffex:IRF_ENA|Q[0]
+To             : sld_hub:sld_hub_inst|hub_tdo_reg
+From Clock     : altera_internal_jtag~TCKUTAP
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Hold: 'sdram_pll:inst5|altpll:altpll_component|_clk0'
+Slack          : 0.334 ns
+Required Time  : 160.00 MHz ( period = 6.250 ns )
+Actual Time    : N/A
+From           : std_2s60:inst|sys_clk_timer:the_sys_clk_timer|counter_snapshot[30]
+To             : std_2s60:inst|sys_clk_timer:the_sys_clk_timer|readdata[14]
+From Clock     : sdram_pll:inst5|altpll:altpll_component|_clk0
+To Clock       : sdram_pll:inst5|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'sdram_pll:inst5|altpll:altpll_component|_clk3'
+Slack          : 0.341 ns
+Required Time  : 2.50 MHz ( period = 400.000 ns )
+Actual Time    : N/A
+From           : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|adFIFO:crossclk|dcfifo:dcfifo_component|dcfifo_rtk1:auto_generated|a_graycounter_h3c:wrptr_g1p|counter7a7
+To             : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|adFIFO:crossclk|dcfifo:dcfifo_component|dcfifo_rtk1:auto_generated|a_graycounter_h3c:wrptr_g1p|counter7a7
+From Clock     : sdram_pll:inst5|altpll:altpll_component|_clk3
+To Clock       : sdram_pll:inst5|altpll:altpll_component|_clk3
+Failed Paths   : 0
+
+Type           : Clock Hold: 'sdram_pll:inst5|altpll:altpll_component|_clk2'
+Slack          : 0.349 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|a2di1[0]
+To             : std_2s60:inst|ad_buf:the_ad_buf|adBUF:the_adBUF|dati[8]
+From Clock     : sdram_pll:inst5|altpll:altpll_component|_clk2
+To Clock       : sdram_pll:inst5|altpll:altpll_component|_clk2
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

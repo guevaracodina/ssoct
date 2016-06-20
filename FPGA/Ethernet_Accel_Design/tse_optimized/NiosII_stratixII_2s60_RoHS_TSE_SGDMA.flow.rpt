@@ -1,0 +1,321 @@
+Flow report for NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+Tue May 26 16:39:34 2009
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------+
+; Flow Summary                                                             ;
++-------------------------------+------------------------------------------+
+; Flow Status                   ; Successful - Tue May 26 16:39:34 2009    ;
+; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name                 ; NiosII_stratixII_2s60_RoHS_TSE_SGDMA     ;
+; Top-level Entity Name         ; NiosII_stratixII_2s60_RoHS_TSE_SGDMA     ;
+; Family                        ; Stratix II                               ;
+; Device                        ; EP2S60F672C3                             ;
+; Timing Models                 ; Final                                    ;
+; Met timing requirements       ; Yes                                      ;
+; Logic utilization             ; 31 %                                     ;
+;     Combinational ALUTs       ; 10,316 / 48,352 ( 21 % )                 ;
+;     Dedicated logic registers ; 9,094 / 48,352 ( 19 % )                  ;
+; Total registers               ; 9447                                     ;
+; Total pins                    ; 233 / 493 ( 47 % )                       ;
+; Total virtual pins            ; 9                                        ;
+; Total block memory bits       ; 1,250,468 / 2,544,192 ( 49 % )           ;
+; DSP block 9-bit elements      ; 8 / 288 ( 3 % )                          ;
+; Total PLLs                    ; 3 / 6 ( 50 % )                           ;
+; Total DLLs                    ; 1 / 2 ( 50 % )                           ;
++-------------------------------+------------------------------------------+
+
+
++----------------------------------------------------------+
+; Flow Settings                                            ;
++-------------------+--------------------------------------+
+; Option            ; Setting                              ;
++-------------------+--------------------------------------+
+; Start date & time ; 05/26/2009 16:21:27                  ;
+; Main task         ; Compilation                          ;
+; Revision Name     ; NiosII_stratixII_2s60_RoHS_TSE_SGDMA ;
++-------------------+--------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                    ;
++---------------------------------------------------+---------------------------------------------------------------------+--------------------------------+-------------+------------+
+; Assignment Name                                   ; Value                                                               ; Default Value                  ; Entity Name ; Section Id ;
++---------------------------------------------------+---------------------------------------------------------------------+--------------------------------+-------------+------------+
+; COMPILER_SIGNATURE_ID                             ; 143257281672.124338008703992                                        ; --                             ; --          ; --         ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE                  ; Speed                                                               ; Balanced                       ; --          ; --         ;
+; FITTER_EFFORT                                     ; Standard Fit                                                        ; Auto Fit                       ; --          ; --         ;
+; INCREMENTAL_COMPILATION                           ; Off                                                                 ; FULL_INCREMENTAL_COMPILATION   ; --          ; --         ;
+; IP_TOOL_NAME                                      ; Triple Speed Ethernet                                               ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                                      ; DDR SDRAM Controller                                                ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                                   ; 9.0                                                                 ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                                   ; 9.0                                                                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_a_fifo_13.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_a_fifo_24.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_a_fifo_34.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_a_fifo_opt_1246.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_a_fifo_opt_14_44.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_a_fifo_opt_36_10.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_align_sync.v               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_alt2gxb_arriagx.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_alt2gxb_basic.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_alt2gxb_gige.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_alt4gxb_gige.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_altshifttaps.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_altsyncram_dpm_fifo.v      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_bin_cnt.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_carrier_sense.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_clk_cntl.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_clk_gen.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_colision_detect.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_crc328checker.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_crc328generator.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_crc32ctl8.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_crc32galois8.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_dc_fifo.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_dec10b8b.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_dec_func.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_dpram_16x32.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_dpram_8x32.v               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_enc8b10b.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_fifoless_mac_rx.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_fifoless_mac_tx.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_geth_pcs_wo_ratematch.v    ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_gige_reset_ctrl.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_gmii_io.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_gray_cnt.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_gxb_aligned_rxsync.v       ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_gxb_gige_inst.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_gxb_reconfig.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_hashing.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_host_control.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_host_control_small.v       ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_lb_read_cntl.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_lb_wrt_cntl.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_lfsr_10.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_loopback_ff.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac.v                      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_control.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_pcs.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_pcs_gige_woff.v        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_pcs_pma.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_pcs_pma_ena.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_pcs_pma_gige.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_pcs_pma_strx_gx_ena.v  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_pcs_woff.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_rx.v                   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_tx.v                   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mac_woff.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_magic_detection.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mdio.v                     ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mdio_clk_gen.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mdio_cntl.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mdio_reg.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mii_rx_if.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mii_rx_if_pcs.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mii_tx_if.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_mii_tx_if_pcs.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_multi_channel_arbiter.v    ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_multi_mac.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_multi_mac_pcs.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_multi_mac_pcs_pma.v        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_multi_mac_pcs_pma_gige.v   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_pcs.v                      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_pcs_control.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_pcs_host_control.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_pcs_pma.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_pcs_pma_gige.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_pma_lvds_rx.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_pma_lvds_tx.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_quad_16x32.v               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_quad_8x32.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_register_map.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_register_map_small.v       ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_retransmit_cntl.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rgmii_in1.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rgmii_in4.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rgmii_module.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rgmii_out1.v               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rgmii_out4.v               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_converter.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_counter_cntl.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_encapsulation.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_encapsulation_strx_gx.v ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_ff.v                    ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_ff_cntrl.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_ff_cntrl_32.v           ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_ff_cntrl_32_shift16.v   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_ff_length.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_fifo_rd.v               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_min_ff.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_stat_extract.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_rx_sync.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_sdpm_altsyncram.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_sdpm_gen.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_sgmii_clk_cntl.v           ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_sgmii_clk_div.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_sgmii_clk_enable.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_sgmii_clk_scheduler.v      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_shared_mac_control.v       ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_shared_register_map.v      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_timing_adapter32.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_timing_adapter8.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_timing_adapter_fifo32.v    ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_timing_adapter_fifo8.v     ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_pcs.v                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_1000_base_x.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_1000_base_x_strx_gx.v  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_1geth.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_autoneg.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_fifoless_1geth.v       ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_gen_host.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_mdio.v                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_multi_mac.v            ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_multi_mac_pcs.v        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_multi_mac_pcs_gige.v   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_pcs_strx_gx.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_rx.v                   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_rx_converter.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_sgmii.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_sgmii_strx_gx.v        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_tx.v                   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_tx_converter.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_w_fifo.v               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_w_fifo_10_100_1000.v   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_wo_fifo.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_top_wo_fifo_10_100_1000.v  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_converter.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_counter_cntl.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_encapsulation.v         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_ff.v                    ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_ff_cntrl.v              ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_ff_cntrl_32.v           ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_ff_cntrl_32_shift16.v   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_ff_length.v             ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_ff_read_cntl.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_min_ff.v                ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; triple_speed_ethernet-library/altera_tse_tx_stat_extract.v          ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; tse_mac.vhd                                                         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; tse_mac.qip                                                         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; tse_mac.html                                                        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr2_init.vhd                      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_avalon_if.vhd                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_bank_details.vhd               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_controller.vhd                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_functions.vhd                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_init.vhd                       ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_input_buf.vhd                  ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_tb_functions.vhd               ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/auk_ddr_timers.vhd                     ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/example_lfsr8.v                        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_controller-library/example_lfsr8.vhd                      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0.vhd                                                     ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0.cmp                                                     ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_auk_ddr_dqs_group.vhd                                   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_auk_ddr_clk_gen.vhd                                     ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_auk_ddr_datapath.vhd                                    ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_auk_ddr_sdram.vhd                                       ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_auk_ddr_dll.vhd                                         ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_debug_design.vhd                                        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; testbench/ddr_sdram_0_debug_design_tb.vhd                           ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; add_constraints_for_ddr_sdram_0.tcl                                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; verify_timing_for_ddr_sdram_0.tcl                                   ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; constraints_out.txt                                                 ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_ddr_settings.txt                                        ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0_pre_compile_ddr_timing_summary.txt                      ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0.qip                                                     ; --                             ; --          ; --         ;
+; MISC_FILE                                         ; ddr_sdram_0.html                                                    ; --                             ; --          ; --         ;
+; MUX_RESTRUCTURE                                   ; Off                                                                 ; Auto                           ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS                           ; All                                                                 ; --                             ; --          ; --         ;
+; OPTIMIZE_HOLD_TIMING                              ; All Paths                                                           ; IO Paths and Minimum TPD Paths ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ; On                                                                  ; Off                            ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC                    ; On                                                                  ; Off                            ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_EFFORT                         ; Extra                                                               ; Normal                         ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION           ; On                                                                  ; Off                            ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING              ; On                                                                  ; Off                            ; --          ; --         ;
+; POST_FLOW_SCRIPT_FILE                             ; quartus_sh:auto_verify_ddr_timing.tcl                               ; --                             ; --          ; --         ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL                  ; MAXIMUM                                                             ; Normal                         ; --          ; --         ;
+; SEARCH_PATH                                       ; .                                                                   ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; triple_speed_ethernet-library                                       ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; ./                                                                  ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; .                                                                   ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; ddr_sdram_controller-library                                        ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; .                                                                   ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; triple_speed_ethernet-library                                       ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; ./                                                                  ; --                             ; --          ; --         ;
+; SEARCH_PATH                                       ; ddr_sdram_controller-library                                        ; --                             ; --          ; --         ;
+; SOPC_BUILDER_SIGNATURE_ID                         ; 00215ACCA488000001217F149502                                        ; --                             ; --          ; --         ;
+; STATE_MACHINE_PROCESSING                          ; One-Hot                                                             ; Auto                           ; --          ; --         ;
+; STRATIXII_OPTIMIZATION_TECHNIQUE                  ; Speed                                                               ; Balanced                       ; --          ; --         ;
+; SYNTH_TIMING_DRIVEN_SYNTHESIS                     ; On                                                                  ; Off                            ; --          ; --         ;
++---------------------------------------------------+---------------------------------------------------------------------+--------------------------------+-------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:03:17     ; 1.0                     ; --                  ; 00:03:04                           ;
+; Fitter                  ; 00:13:50     ; 1.9                     ; --                  ; 00:16:33                           ;
+; Assembler               ; 00:00:25     ; 1.0                     ; --                  ; 00:00:19                           ;
+; Classic Timing Analyzer ; 00:00:22     ; 1.0                     ; --                  ; 00:00:19                           ;
+; Total                   ; 00:17:54     ; --                      ; --                  ; 00:20:15                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++-------------------------+------------------+---------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name ; OS Version ; Processor type ;
++-------------------------+------------------+---------+------------+----------------+
+; Analysis & Synthesis    ; sj-slsacebld11   ; Red Hat ; 4          ; x86_64         ;
+; Fitter                  ; sj-slsacebld11   ; Red Hat ; 4          ; x86_64         ;
+; Assembler               ; sj-slsacebld11   ; Red Hat ; 4          ; x86_64         ;
+; Classic Timing Analyzer ; sj-slsacebld11   ; Red Hat ; 4          ; x86_64         ;
++-------------------------+------------------+---------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off NiosII_stratixII_2s60_RoHS_TSE_SGDMA -c NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+quartus_fit --read_settings_files=off --write_settings_files=off NiosII_stratixII_2s60_RoHS_TSE_SGDMA -c NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+quartus_asm --read_settings_files=off --write_settings_files=off NiosII_stratixII_2s60_RoHS_TSE_SGDMA -c NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+quartus_tan --read_settings_files=off --write_settings_files=off NiosII_stratixII_2s60_RoHS_TSE_SGDMA -c NiosII_stratixII_2s60_RoHS_TSE_SGDMA --timing_analysis_only
+
+
+

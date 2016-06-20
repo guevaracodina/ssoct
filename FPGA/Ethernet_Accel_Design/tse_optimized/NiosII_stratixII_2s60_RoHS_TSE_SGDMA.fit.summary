@@ -1,0 +1,17 @@
+Fitter Status : Successful - Tue May 26 16:38:38 2009
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+Top-level Entity Name : NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+Family : Stratix II
+Device : EP2S60F672C3
+Timing Models : Final
+Logic utilization : 31 %
+    Combinational ALUTs : 10,316 / 48,352 ( 21 % )
+    Dedicated logic registers : 9,094 / 48,352 ( 19 % )
+Total registers : 9447
+Total pins : 233 / 493 ( 47 % )
+Total virtual pins : 9
+Total block memory bits : 1,250,468 / 2,544,192 ( 49 % )
+DSP block 9-bit elements : 8 / 288 ( 3 % )
+Total PLLs : 3 / 6 ( 50 % )
+Total DLLs : 1 / 2 ( 50 % )

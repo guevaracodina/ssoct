@@ -1,0 +1,29 @@
+NOTE: Found revisions NiosII_stratixII_2s60_RoHS_TSE_SGDMA. Opening "NiosII_stratixII_2s60_RoHS_TSE_SGDMA".
+Running   quartus_tan -t tan_arg_tcl.txt (log messages are from tcl script 'tan_arg_tcl.txt'. messages from 'quartus_tan.exe' are not logged here)
+
+tan_arg:    release_state= release
+tan_arg:    Load Packages..
+tan_arg:    Making timing assignments (when postamble enabled)..
+tan_arg:           set_global_assignment -name "CUT_OFF_CLEAR_AND_PRESET_PATHS"        "ON"  
+tan_arg:    Creating timing netlist (min delay)..
+Creating min netlist
+ Found_hier_path=   'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|'
+tan_arg:    29131 nodes found.
+tan_arg:    16 DQ pins found for variation ddr_sdram_0
+tan_arg:    Finding hierarchy paths for clocks..
+ddr_mode is normal
+tan_arg:    Getting DDR-SDRAM Megacore specific delay paths..
+ERROR:   Cannot find destination node 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\g_datapath:0:g_ddr_io|dqs_io~regout'
+Zero delay was returned for 'reg_2_post' i= 0 
+Changing case of ~regout to ~REGOUT, 'reg_2_post' i= 0 (ignore previous error!)
+tan_arg:    Deleting min timing netlist..
+tan_arg:    Creating timing netlist (max delay)..
+Creating max netlist
+tan_arg:    29131 nodes found.
+tan_arg:    Getting DDR-SDRAM Megacore specific delay paths..
+tan_arg:    Deleting max timing netlist..
+tan_arg:    512 paths successfully extracted.
+tan_arg:    There were 1 zero delay paths
+tan_arg:    All paths extracted successfully.
+tan_arg:    Dumping estimated paths..
+tan_arg:    Running DDR system timing analysis equations..

@@ -1,0 +1,131 @@
+Altera SOPC Builder Version 9.00 Build 132
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+# 2009.05.26 15:42:21 (*) mk_custom_sdk starting
+# 2009.05.26 15:42:21 (*) Reading project /net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse/NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc.ptf.
+
+# 2009.05.26 15:42:22 (*) Finding all CPUs
+# 2009.05.26 15:42:22 (*) Finding all available components
+# 2009.05.26 15:42:22 (*) Reading /net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse/.sopc_builder/install.ptf
+
+# 2009.05.26 15:42:22 (*) Found 67 components
+
+# 2009.05.26 15:42:23 (*) Finding all peripherals
+
+# 2009.05.26 15:42:23 (*) Finding software components
+
+# 2009.05.26 15:42:24 (*) (Legacy SDK Generation Skipped)
+# 2009.05.26 15:42:24 (*) (All TCL Script Generation Skipped)
+# 2009.05.26 15:42:24 (*) (No Libraries Built)
+# 2009.05.26 15:42:24 (*) (Contents Generation Skipped)
+# 2009.05.26 15:42:24 (*) mk_custom_sdk finishing
+
+# 2009.05.26 15:42:24 (*) Starting generation for system: NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc.
+
+.
+.
+.
+..
+.
+.
+..
+..
+.
+.
+...
+...
+..
+.
+..
+
+# 2009.05.26 15:42:26 (*) Running Generator Program for pll
+
+# 2009.05.26 15:42:31 (*) Running Generator Program for cpu
+
+# 2009.05.26 15:42:33 (*)   Checking for plaintext license.
+# 2009.05.26 15:42:33 (*)   Couldn't query license setup in Quartus directory /tools/altera/9.0/132/linux64/quartus
+# 2009.05.26 15:42:33 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2009.05.26 15:42:34 (*)   Plaintext license found.
+# 2009.05.26 15:42:34 (*)   Getting CPU configuration settings
+# 2009.05.26 15:42:34 (*)   Elaborating CPU configuration settings
+# 2009.05.26 15:42:34 (*)   Creating all objects for CPU
+# 2009.05.26 15:42:34 (*)     Testbench
+# 2009.05.26 15:42:34 (*)     Instruction decoding
+# 2009.05.26 15:42:34 (*)       Instruction fields
+# 2009.05.26 15:42:35 (*)       Instruction decodes
+# 2009.05.26 15:42:35 (*)       Signals for RTL simulation waveforms
+# 2009.05.26 15:42:35 (*)       Instruction controls
+# 2009.05.26 15:42:36 (*)     Pipeline frontend
+# 2009.05.26 15:42:36 (*)     Pipeline backend
+# 2009.05.26 15:42:39 (*)   Generating HDL from CPU objects
+# 2009.05.26 15:42:39 (*)   Creating plain-text HDL
+
+# 2009.05.26 15:42:49 (*) Running Generator Program for sys_clk_timer
+
+# 2009.05.26 15:42:51 (*) Running Generator Program for jtag_uart
+
+# 2009.05.26 15:42:54 (*) Running Generator Program for high_res_timer
+
+# 2009.05.26 15:42:56 (*) Running Generator Program for ext_flash
+
+# 2009.05.26 15:42:57 (*) Running Generator Program for lcd_display
+
+# 2009.05.26 15:42:59 (*) Running Generator Program for button_pio
+
+# 2009.05.26 15:43:01 (*) Running Generator Program for led_pio
+
+# 2009.05.26 15:43:03 (*) Running Generator Program for seven_seg_pio
+
+# 2009.05.26 15:43:04 (*) Running Generator Program for bswap
+
+# 2009.05.26 15:43:07 (*) Running Generator Program for interrupt_vector
+
+# 2009.05.26 15:43:09 (*) Running Generator Program for ext_ssram
+
+# 2009.05.26 15:43:10 (*) Running Generator Program for ddr_sdram_0
+
+# 2009.05.26 15:44:04 (*) Running Generator Program for sgdma_tx
+
+# 2009.05.26 15:44:07 (*) Running Generator Program for sgdma_rx
+
+# 2009.05.26 15:44:11 (*) Running Generator Program for descriptor_memory
+
+# 2009.05.26 15:44:13 (*) Running Generator Program for tse_pll
+
+# 2009.05.26 15:44:18 (*) Running Generator Program for packet_memory
+
+# 2009.05.26 15:44:20 (*) Running Generator Program for reconfig_request_pio
+
+# 2009.05.26 15:44:22 (*) Running Generator Program for uart1
+
+# 2009.05.26 15:44:25 (*) Running Generator Program for NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_0
+
+# 2009.05.26 15:44:27 (*) Running Generator Program for NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_1
+
+# 2009.05.26 15:44:30 (*) Running Generator Program for pipeline_bridge
+
+.
+
+# 2009.05.26 15:44:32 (*) Running Test Generator Program for ddr_sdram_0
+
+# 2009.05.26 15:44:33 (*) Making arbitration and system (top) modules.
+
+# 2009.05.26 15:44:52 (*) Generating Quartus symbol for top level: NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc
+
+# 2009.05.26 15:44:52 (*) Symbol /net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse/NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc.bsf already exists, no need to regenerate
+# 2009.05.26 15:44:52 (*) Creating command-line system-generation script: /net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse/NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_generation_script
+
+# 2009.05.26 15:44:52 (*) Running setup for HDL simulator: modelsim
+
+
+# 2009.05.26 15:44:53 (*) Completed generation for system: NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc.
+# 2009.05.26 15:44:53 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : /net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse/NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc.ptf 
+  System HDL Model : /net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse/NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc.vhd 
+  System Generation Script : /net/sj-itnas01b/vol/vol1/abg/home/home/users/holiu/Ethernet_Project/90/May20_32k32k_timing/May7_startfromFeb22_Working90Tse/NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_generation_script 
+
+# 2009.05.26 15:44:53 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

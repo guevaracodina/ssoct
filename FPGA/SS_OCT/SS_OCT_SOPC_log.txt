@@ -1,0 +1,129 @@
+Altera SOPC Builder Version 9.12 Build 350
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.03.05 10:27:20 (*) mk_custom_sdk starting
+# 2012.03.05 10:27:20 (*) Reading project D:/Edgar/Documents/ssoct/FPGA/SS_OCT/SS_OCT_SOPC.ptf.
+
+# 2012.03.05 10:27:21 (*) Finding all CPUs
+# 2012.03.05 10:27:21 (*) Finding all available components
+# 2012.03.05 10:27:21 (*) Reading D:/Edgar/Documents/ssoct/FPGA/SS_OCT/.sopc_builder/install.ptf
+
+# 2012.03.05 10:27:21 (*) Found 67 components
+
+# 2012.03.05 10:27:22 (*) Finding all peripherals
+
+# 2012.03.05 10:27:22 (*) Finding software components
+
+# 2012.03.05 10:27:22 (*) (Legacy SDK Generation Skipped)
+# 2012.03.05 10:27:22 (*) (All TCL Script Generation Skipped)
+# 2012.03.05 10:27:22 (*) (No Libraries Built)
+# 2012.03.05 10:27:22 (*) (Contents Generation Skipped)
+# 2012.03.05 10:27:22 (*) mk_custom_sdk finishing
+
+# 2012.03.05 10:27:22 (*) Starting generation for system: SS_OCT_SOPC.
+
+..
+.
+.
+.
+.
+.
+.
+...
+.
+..
+.
+.
+...
+.
+
+# 2012.03.05 10:27:24 (*) Running Generator Program for ddr2
+
+# 2012.03.05 10:27:25 (*) Running Generator Program for onchip_memory
+
+# 2012.03.05 10:27:28 (*) Running Generator Program for pll
+
+# 2012.03.05 10:27:43 (*) Running Generator Program for cpu
+
+# 2012.03.05 10:27:44 (*) Starting Nios II generation
+# 2012.03.05 10:27:44 (*)   Checking for plaintext license.
+# 2012.03.05 10:27:44 (*)   Plaintext license not found.
+# 2012.03.05 10:27:44 (*)   Checking for encrypted license (non-evaluation).
+# 2012.03.05 10:27:45 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2012.03.05 10:27:45 (*)   Getting CPU configuration settings
+# 2012.03.05 10:27:45 (*)   Elaborating CPU configuration settings
+# 2012.03.05 10:27:45 (*)   Creating all objects for CPU
+
+# 2012.03.05 10:27:45 (*)     Testbench
+# 2012.03.05 10:27:45 (*)     Instruction decoding
+# 2012.03.05 10:27:45 (*)       Instruction fields
+# 2012.03.05 10:27:46 (*)       Instruction decodes
+# 2012.03.05 10:27:46 (*)       Signals for RTL simulation waveforms
+# 2012.03.05 10:27:47 (*)       Instruction controls
+# 2012.03.05 10:27:47 (*)     Pipeline frontend
+# 2012.03.05 10:27:47 (*)     Pipeline backend
+# 2012.03.05 10:27:50 (*)   Generating HDL from CPU objects
+# 2012.03.05 10:27:54 (*)   Creating encrypted HDL
+
+# 2012.03.05 10:27:56 (*) Done Nios II generation
+
+# 2012.03.05 10:27:56 (*) Running Generator Program for ext_flash
+
+# 2012.03.05 10:27:58 (*) Running Generator Program for sysid
+
+# 2012.03.05 10:27:59 (*) Running Generator Program for jtag_uart
+
+# 2012.03.05 10:28:01 (*) Running Generator Program for high_res_timer
+
+# 2012.03.05 10:28:02 (*) Running Generator Program for sys_timer
+
+# 2012.03.05 10:28:04 (*) Running Generator Program for sgdma_tx
+
+# 2012.03.05 10:28:06 (*) Running Generator Program for sgdma_rx
+
+# 2012.03.05 10:28:09 (*) Running Generator Program for descriptor_memory
+
+# 2012.03.05 10:28:11 (*) Running Generator Program for vol_transfer_done_pio
+
+# 2012.03.05 10:28:13 (*) Running Generator Program for vol_recording_done_pio
+
+# 2012.03.05 10:28:14 (*) Running Generator Program for packet_memory
+
+# 2012.03.05 10:28:16 (*) Running Generator Program for SS_OCT_SOPC_clock_0
+
+# 2012.03.05 10:28:18 (*) Running Generator Program for SS_OCT_SOPC_burst_0
+
+# 2012.03.05 10:28:20 (*) Running Generator Program for clock_crossing_master_ddr2
+
+# 2012.03.05 10:28:22 (*) Running Generator Program for pipeline_bridge_ddr2
+
+# 2012.03.05 10:28:24 (*) Running Generator Program for clock_crossing_ddr2_cpu
+
+.
+
+
+# 2012.03.05 10:28:26 (*) Running Test Generator Program for ddr2
+
+# 2012.03.05 10:28:26 (*) Making arbitration and system (top) modules.
+
+# 2012.03.05 10:28:55 (*) Generating Quartus symbol for top level: SS_OCT_SOPC
+
+# 2012.03.05 10:28:55 (*) Generating Symbol D:/Edgar/Documents/ssoct/FPGA/SS_OCT/SS_OCT_SOPC.bsf
+
+# 2012.03.05 10:28:55 (*) Creating command-line system-generation script: D:/Edgar/Documents/ssoct/FPGA/SS_OCT/SS_OCT_SOPC_generation_script
+
+# 2012.03.05 10:28:55 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.03.05 10:28:56 (*) Completed generation for system: SS_OCT_SOPC.
+# 2012.03.05 10:28:56 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/Edgar/Documents/ssoct/FPGA/SS_OCT/SS_OCT_SOPC.ptf 
+  System HDL Model : D:/Edgar/Documents/ssoct/FPGA/SS_OCT/SS_OCT_SOPC.v 
+  System Generation Script : D:/Edgar/Documents/ssoct/FPGA/SS_OCT/SS_OCT_SOPC_generation_script 
+
+# 2012.03.05 10:28:56 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

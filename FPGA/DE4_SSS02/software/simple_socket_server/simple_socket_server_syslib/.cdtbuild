@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="simple_socket_server_syslib.nios2.lib.761689502" name="Nios II Library" projectType="nios2.lib">
+<configuration artifactExtension="a" artifactName="simple_socket_server_syslib" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.lib.debug.16280272" name="Debug" parent="nios2.lib.debug">
+<toolChain id="com.altera.nj.ui.lib.Debug.58984086" name="com.altera.nj.ui.lib.Debug" superClass="com.altera.nj.ui.lib.Debug">
+<tool id="com.altera.nj.ui.tool.compiler.lib.debug.1398716031" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.lib.debug">
+<option id="com.altera.nj.compiler.lib.debug.option.optimization.level.1662320068" superClass="com.altera.nj.compiler.lib.debug.option.optimization.level" value="nios2.optimization.level.most" valueType="enumerated"/>
+</tool>
+<tool id="com.altera.nj.ui.tool.archiver.lib.debug.2000218215" name="Archiver" superClass="com.altera.nj.ui.tool.archiver.lib.debug"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="a" artifactName="simple_socket_server_syslib" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.lib.release.471260129" name="Release" parent="nios2.lib.release">
+<toolChain id="com.altera.nj.ui.lib.Release.1873732980" name="com.altera.nj.ui.lib.Release" superClass="com.altera.nj.ui.lib.Release">
+<tool id="com.altera.nj.ui.tool.compiler.lib.release.1566271180" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.lib.release"/>
+<tool id="com.altera.nj.ui.tool.archiver.lib.release.67717921" name="Archiver" superClass="com.altera.nj.ui.tool.archiver.lib.release"/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

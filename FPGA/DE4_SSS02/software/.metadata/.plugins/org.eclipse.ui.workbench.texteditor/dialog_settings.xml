@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="390" key="DIALOG_Y_ORIGIN"/>
+		<item value="504" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wholeword"/>
+		<item value="dataPointer" key="selection"/>
+		<list key="findhistory">
+			<item value="dataPointer"/>
+			<item value="printf"/>
+			<item value="SSS_RX_BUF_SIZE"/>
+			<item value="SSS_TX_BUF_SIZE"/>
+			<item value="buf"/>
+			<item value="bytes_to_process"/>
+			<item value="done"/>
+			<item value="conn"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

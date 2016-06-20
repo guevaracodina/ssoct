@@ -1,0 +1,583 @@
+#board_class=altera_nios_dev_board_stratix_2s60_rohs
+# Copyright (C) 1991-2007 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		NiosII_stratixII_2s60_RoHS_TSE_SGDMA_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Stratix II"
+set_global_assignment -name DEVICE EP2S60F672C3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 7.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:11:59  SEPTEMBER 26, 2007"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+
+set_instance_assignment -name TCO_REQUIREMENT "3.3 ns" -from * -to adsc_n_to_the_ext_ssram
+set_instance_assignment -name TCO_REQUIREMENT "3.3 ns" -from * -to bwe_n_to_the_ext_ssram
+set_instance_assignment -name TCO_REQUIREMENT "3.3 ns" -from * -to chipenable1_n_to_the_ext_ssram
+set_instance_assignment -name TCO_REQUIREMENT "3.3 ns" -from * -to ext_ssram_bus_data
+set_instance_assignment -name TSU_REQUIREMENT "6 ns" -from * -to ext_ssram_bus_data
+set_instance_assignment -name TCO_REQUIREMENT "3.3 ns" -from * -to outputenable_n_to_the_ext_ssram
+set_instance_assignment -name TCO_REQUIREMENT "3.3 ns" -from * -to ext_ssram_bus_address
+set_instance_assignment -name TCO_REQUIREMENT "3.3 ns" -from * -to bw_n_to_the_ext_ssram
+set_location_assignment PIN_U25 -to ext_flash_enet_bus_address[2]
+set_location_assignment PIN_T25 -to ext_flash_enet_bus_address[3]
+set_location_assignment PIN_T24 -to ext_flash_enet_bus_address[4]
+set_location_assignment PIN_V20 -to ext_flash_enet_bus_address[5]
+set_location_assignment PIN_V19 -to ext_flash_enet_bus_address[6]
+set_location_assignment PIN_U20 -to ext_flash_enet_bus_address[7]
+set_location_assignment PIN_U19 -to ext_flash_enet_bus_address[8]
+set_location_assignment PIN_T22 -to ext_flash_enet_bus_address[9]
+set_location_assignment PIN_T21 -to ext_flash_enet_bus_address[10]
+set_location_assignment PIN_T20 -to ext_flash_enet_bus_address[11]
+set_location_assignment PIN_T19 -to ext_flash_enet_bus_address[12]
+set_location_assignment PIN_U22 -to ext_flash_enet_bus_address[13]
+set_location_assignment PIN_U21 -to ext_flash_enet_bus_address[14]
+set_location_assignment PIN_V22 -to ext_flash_enet_bus_address[15]
+set_location_assignment PIN_Y24 -to byteenablen_to_the_lan91c111[0]
+set_location_assignment PIN_Y23 -to byteenablen_to_the_lan91c111[1]
+set_location_assignment PIN_AA24 -to byteenablen_to_the_lan91c111[2]
+set_location_assignment PIN_AA23 -to byteenablen_to_the_lan91c111[3]
+set_location_assignment PIN_D15 -to ext_flash_enet_bus_data[0]
+set_location_assignment PIN_G15 -to ext_flash_enet_bus_data[1]
+set_location_assignment PIN_E19 -to ext_flash_enet_bus_data[2]
+set_location_assignment PIN_D20 -to ext_flash_enet_bus_data[3]
+set_location_assignment PIN_G19 -to ext_flash_enet_bus_data[4]
+set_location_assignment PIN_D19 -to ext_flash_enet_bus_data[5]
+set_location_assignment PIN_E20 -to ext_flash_enet_bus_data[6]
+set_location_assignment PIN_F20 -to ext_flash_enet_bus_data[7]
+set_location_assignment PIN_M20 -to ext_flash_enet_bus_data[8]
+set_location_assignment PIN_M19 -to ext_flash_enet_bus_data[9]
+set_location_assignment PIN_N20 -to ext_flash_enet_bus_data[10]
+set_location_assignment PIN_N19 -to ext_flash_enet_bus_data[11]
+set_location_assignment PIN_N22 -to ext_flash_enet_bus_data[12]
+set_location_assignment PIN_N21 -to ext_flash_enet_bus_data[13]
+set_location_assignment PIN_M22 -to ext_flash_enet_bus_data[14]
+set_location_assignment PIN_M21 -to ext_flash_enet_bus_data[15]
+set_location_assignment PIN_M24 -to ext_flash_enet_bus_data[16]
+set_location_assignment PIN_M23 -to ext_flash_enet_bus_data[17]
+set_location_assignment PIN_L19 -to ext_flash_enet_bus_data[18]
+set_location_assignment PIN_L18 -to ext_flash_enet_bus_data[19]
+set_location_assignment PIN_L21 -to ext_flash_enet_bus_data[20]
+set_location_assignment PIN_L20 -to ext_flash_enet_bus_data[21]
+set_location_assignment PIN_L23 -to ext_flash_enet_bus_data[22]
+set_location_assignment PIN_L22 -to ext_flash_enet_bus_data[23]
+set_location_assignment PIN_K20 -to ext_flash_enet_bus_data[24]
+set_location_assignment PIN_K19 -to ext_flash_enet_bus_data[25]
+set_location_assignment PIN_K22 -to ext_flash_enet_bus_data[26]
+set_location_assignment PIN_K21 -to ext_flash_enet_bus_data[27]
+set_location_assignment PIN_J20 -to ext_flash_enet_bus_data[28]
+set_location_assignment PIN_J19 -to ext_flash_enet_bus_data[29]
+set_location_assignment PIN_J22 -to ext_flash_enet_bus_data[30]
+set_location_assignment PIN_J21 -to ext_flash_enet_bus_data[31]
+set_location_assignment PIN_Y26 -to ior_n_to_the_lan91c111
+set_location_assignment PIN_Y25 -to iow_n_to_the_lan91c111
+set_location_assignment PIN_W23 -to irq_from_the_lan91c111
+set_location_assignment PIN_AD26 -to rxd_to_the_uart1
+set_location_assignment PIN_AB23 -to txd_from_the_uart1
+set_location_assignment PIN_W15 -to out_port_from_the_led_pio_n[0]
+set_location_assignment PIN_V14 -to out_port_from_the_led_pio_n[1]
+set_location_assignment PIN_AD17 -to out_port_from_the_led_pio_n[2]
+set_location_assignment PIN_AA17 -to out_port_from_the_led_pio_n[3]
+set_location_assignment PIN_V16 -to out_port_from_the_led_pio_n[4]
+set_location_assignment PIN_AB17 -to out_port_from_the_led_pio_n[5]
+set_location_assignment PIN_AD18 -to out_port_from_the_led_pio_n[6]
+set_location_assignment PIN_V17 -to out_port_from_the_led_pio_n[7]
+set_location_assignment PIN_P4 -to in_port_to_the_button_pio[0]
+set_location_assignment PIN_P5 -to in_port_to_the_button_pio[1]
+set_location_assignment PIN_N6 -to in_port_to_the_button_pio[2]
+set_location_assignment PIN_N7 -to in_port_to_the_button_pio[3]
+set_location_assignment PIN_M2 -to LCD_E_from_the_lcd_display
+set_location_assignment PIN_L3 -to LCD_RS_from_the_lcd_display
+set_location_assignment PIN_M1 -to LCD_RW_from_the_lcd_display
+set_location_assignment PIN_G6 -to LCD_data_to_and_from_the_lcd_display[0]
+set_location_assignment PIN_G7 -to LCD_data_to_and_from_the_lcd_display[1]
+set_location_assignment PIN_H5 -to LCD_data_to_and_from_the_lcd_display[2]
+set_location_assignment PIN_H6 -to LCD_data_to_and_from_the_lcd_display[3]
+set_location_assignment PIN_J5 -to LCD_data_to_and_from_the_lcd_display[4]
+set_location_assignment PIN_J6 -to LCD_data_to_and_from_the_lcd_display[5]
+set_location_assignment PIN_H7 -to LCD_data_to_and_from_the_lcd_display[6]
+set_location_assignment PIN_H8 -to LCD_data_to_and_from_the_lcd_display[7]
+set_location_assignment PIN_V25 -to ext_flash_enet_bus_address[0]
+set_location_assignment PIN_U26 -to ext_flash_enet_bus_address[1]
+set_location_assignment PIN_V21 -to ext_flash_enet_bus_address[16]
+set_location_assignment PIN_W22 -to ext_flash_enet_bus_address[17]
+set_location_assignment PIN_W21 -to ext_flash_enet_bus_address[18]
+set_location_assignment PIN_V24 -to ext_flash_enet_bus_address[19]
+set_location_assignment PIN_V23 -to ext_flash_enet_bus_address[20]
+set_location_assignment PIN_U24 -to ext_flash_enet_bus_address[21]
+set_location_assignment PIN_U23 -to ext_flash_enet_bus_address[22]
+set_location_assignment PIN_R24 -to ext_flash_enet_bus_address[23]
+set_location_assignment PIN_H20 -to read_n_to_the_ext_flash
+set_location_assignment PIN_H19 -to select_n_to_the_ext_flash
+set_location_assignment PIN_V26 -to write_n_to_the_ext_flash
+set_location_assignment PIN_G16 -to ext_ssram_bus_address[2]
+set_location_assignment PIN_G17 -to ext_ssram_bus_address[3]
+set_location_assignment PIN_E26 -to ext_ssram_bus_address[4]
+set_location_assignment PIN_E25 -to ext_ssram_bus_address[5]
+set_location_assignment PIN_E24 -to ext_ssram_bus_address[6]
+set_location_assignment PIN_E23 -to ext_ssram_bus_address[7]
+set_location_assignment PIN_F26 -to ext_ssram_bus_address[8]
+set_location_assignment PIN_F25 -to ext_ssram_bus_address[9]
+set_location_assignment PIN_C17 -to ext_ssram_bus_address[10]
+set_location_assignment PIN_C18 -to ext_ssram_bus_address[11]
+set_location_assignment PIN_C19 -to ext_ssram_bus_address[12]
+set_location_assignment PIN_C20 -to ext_ssram_bus_address[13]
+set_location_assignment PIN_G26 -to ext_ssram_bus_address[14]
+set_location_assignment PIN_G25 -to ext_ssram_bus_address[15]
+set_location_assignment PIN_G24 -to ext_ssram_bus_address[16]
+set_location_assignment PIN_G23 -to ext_ssram_bus_address[17]
+set_location_assignment PIN_G21 -to ext_ssram_bus_address[18]
+set_location_assignment PIN_G20 -to ext_ssram_bus_address[19]
+set_location_assignment PIN_H26 -to ext_ssram_bus_address[20]
+set_location_assignment PIN_B16 -to adsc_n_to_the_ext_ssram
+set_location_assignment PIN_H23 -to bw_n_to_the_ext_ssram[0]
+set_location_assignment PIN_J23 -to bw_n_to_the_ext_ssram[1]
+set_location_assignment PIN_K24 -to bw_n_to_the_ext_ssram[2]
+set_location_assignment PIN_F16 -to bw_n_to_the_ext_ssram[3]
+set_location_assignment PIN_F17 -to bwe_n_to_the_ext_ssram
+set_location_assignment PIN_C16 -to chipenable1_n_to_the_ext_ssram
+set_location_assignment PIN_A17 -to ext_ssram_bus_data[0]
+set_location_assignment PIN_A18 -to ext_ssram_bus_data[1]
+set_location_assignment PIN_A19 -to ext_ssram_bus_data[2]
+set_location_assignment PIN_A20 -to ext_ssram_bus_data[3]
+set_location_assignment PIN_B17 -to ext_ssram_bus_data[4]
+set_location_assignment PIN_B18 -to ext_ssram_bus_data[5]
+set_location_assignment PIN_B19 -to ext_ssram_bus_data[6]
+set_location_assignment PIN_B20 -to ext_ssram_bus_data[7]
+set_location_assignment PIN_B24 -to ext_ssram_bus_data[8]
+set_location_assignment PIN_C22 -to ext_ssram_bus_data[9]
+set_location_assignment PIN_B22 -to ext_ssram_bus_data[10]
+set_location_assignment PIN_C21 -to ext_ssram_bus_data[11]
+set_location_assignment PIN_E18 -to ext_ssram_bus_data[12]
+set_location_assignment PIN_D18 -to ext_ssram_bus_data[13]
+set_location_assignment PIN_E17 -to ext_ssram_bus_data[14]
+set_location_assignment PIN_D17 -to ext_ssram_bus_data[15]
+set_location_assignment PIN_F23 -to ext_ssram_bus_data[16]
+set_location_assignment PIN_F22 -to ext_ssram_bus_data[17]
+set_location_assignment PIN_F21 -to ext_ssram_bus_data[18]
+set_location_assignment PIN_B23 -to ext_ssram_bus_data[19]
+set_location_assignment PIN_D25 -to ext_ssram_bus_data[20]
+set_location_assignment PIN_F24 -to ext_ssram_bus_data[21]
+set_location_assignment PIN_H21 -to ext_ssram_bus_data[22]
+set_location_assignment PIN_F19 -to ext_ssram_bus_data[23]
+set_location_assignment PIN_B21 -to ext_ssram_bus_data[24]
+set_location_assignment PIN_A21 -to ext_ssram_bus_data[25]
+set_location_assignment PIN_A22 -to ext_ssram_bus_data[26]
+set_location_assignment PIN_A24 -to ext_ssram_bus_data[27]
+set_location_assignment PIN_C26 -to ext_ssram_bus_data[28]
+set_location_assignment PIN_C25 -to ext_ssram_bus_data[29]
+set_location_assignment PIN_D24 -to ext_ssram_bus_data[30]
+set_location_assignment PIN_C23 -to ext_ssram_bus_data[31]
+set_location_assignment PIN_J26 -to outputenable_n_to_the_ext_ssram
+set_location_assignment PIN_N4 -to out_port_from_the_seven_seg_pio[0]
+set_location_assignment PIN_M6 -to out_port_from_the_seven_seg_pio[1]
+set_location_assignment PIN_M5 -to out_port_from_the_seven_seg_pio[2]
+set_location_assignment PIN_M8 -to out_port_from_the_seven_seg_pio[3]
+set_location_assignment PIN_M7 -to out_port_from_the_seven_seg_pio[4]
+set_location_assignment PIN_L9 -to out_port_from_the_seven_seg_pio[5]
+set_location_assignment PIN_L8 -to out_port_from_the_seven_seg_pio[6]
+set_location_assignment PIN_N5 -to out_port_from_the_seven_seg_pio[7]
+set_location_assignment PIN_L6 -to out_port_from_the_seven_seg_pio[8]
+set_location_assignment PIN_M4 -to out_port_from_the_seven_seg_pio[9]
+set_location_assignment PIN_M3 -to out_port_from_the_seven_seg_pio[10]
+set_location_assignment PIN_L5 -to out_port_from_the_seven_seg_pio[11]
+set_location_assignment PIN_L4 -to out_port_from_the_seven_seg_pio[12]
+set_location_assignment PIN_K9 -to out_port_from_the_seven_seg_pio[13]
+set_location_assignment PIN_K8 -to out_port_from_the_seven_seg_pio[14]
+set_location_assignment PIN_L7 -to out_port_from_the_seven_seg_pio[15]
+set_location_assignment PIN_B13 -to clk
+set_location_assignment PIN_AA15 -to reset_n
+set_location_assignment PIN_C3 -to clk_to_sdram[0]
+set_location_assignment PIN_C4 -to clk_to_sdram_n[0]
+set_location_assignment PIN_B10 -to ddr_a[0]
+set_location_assignment PIN_B9 -to ddr_a[1]
+set_location_assignment PIN_B8 -to ddr_a[2]
+set_location_assignment PIN_B6 -to ddr_a[3]
+set_location_assignment PIN_C5 -to ddr_a[4]
+set_location_assignment PIN_E11 -to ddr_a[5]
+set_location_assignment PIN_E10 -to ddr_a[6]
+set_location_assignment PIN_E9 -to ddr_a[7]
+set_location_assignment PIN_E8 -to ddr_a[8]
+set_location_assignment PIN_E7 -to ddr_a[9]
+set_location_assignment PIN_F11 -to ddr_a[10]
+set_location_assignment PIN_F10 -to ddr_a[11]
+set_location_assignment PIN_F8 -to ddr_a[12]
+set_location_assignment PIN_G10 -to ddr_ba[0]
+set_location_assignment PIN_G11 -to ddr_ba[1]
+set_location_assignment PIN_B3 -to ddr_cas_n[0]
+set_location_assignment PIN_F13 -to ddr_cke[0]
+set_location_assignment PIN_E12 -to ddr_cs_n[0]
+set_location_assignment PIN_A3 -to ddr_ras_n[0]
+set_location_assignment PIN_B4 -to ddr_we_n[0]
+set_location_assignment PIN_A12 -to pll_c1_out
+set_location_assignment PIN_AA22 -to enet_ads_n
+set_location_assignment PIN_AB25 -to enet_aen
+set_location_assignment PIN_AA22 -to ENET_ADS_N
+set_location_assignment PIN_AB25 -to ENET_AEN
+set_location_assignment PIN_J25 -to ssram_adsp_n
+set_location_assignment PIN_J24 -to ssram_adv_n
+set_location_assignment PIN_H16 -to bidir_port_to_and_from_the_reconfig_request_pio
+set_location_assignment PIN_J7 -to PROTO1_IO[40]
+set_location_assignment PIN_R1 -to jtag_debug_offchip_trace_clk_from_the_cpu
+set_location_assignment PIN_T4 -to jtag_debug_offchip_trace_data_from_the_cpu[0]
+set_location_assignment PIN_T5 -to jtag_debug_offchip_trace_data_from_the_cpu[1]
+set_location_assignment PIN_U3 -to jtag_debug_offchip_trace_data_from_the_cpu[2]
+set_location_assignment PIN_U4 -to jtag_debug_offchip_trace_data_from_the_cpu[3]
+set_location_assignment PIN_T8 -to jtag_debug_offchip_trace_data_from_the_cpu[4]
+set_location_assignment PIN_T9 -to jtag_debug_offchip_trace_data_from_the_cpu[5]
+set_location_assignment PIN_V3 -to jtag_debug_offchip_trace_data_from_the_cpu[6]
+set_location_assignment PIN_V4 -to jtag_debug_offchip_trace_data_from_the_cpu[7]
+set_location_assignment PIN_U5 -to jtag_debug_offchip_trace_data_from_the_cpu[8]
+set_location_assignment PIN_U6 -to jtag_debug_offchip_trace_data_from_the_cpu[9]
+set_location_assignment PIN_T6 -to jtag_debug_offchip_trace_data_from_the_cpu[10]
+set_location_assignment PIN_T7 -to jtag_debug_offchip_trace_data_from_the_cpu[11]
+set_location_assignment PIN_V5 -to jtag_debug_offchip_trace_data_from_the_cpu[12]
+set_location_assignment PIN_V6 -to jtag_debug_offchip_trace_data_from_the_cpu[13]
+set_location_assignment PIN_V7 -to jtag_debug_offchip_trace_data_from_the_cpu[14]
+set_location_assignment PIN_V8 -to jtag_debug_offchip_trace_data_from_the_cpu[15]
+set_location_assignment PIN_W5 -to jtag_debug_offchip_trace_data_from_the_cpu[16]
+set_location_assignment PIN_W6 -to jtag_debug_offchip_trace_data_from_the_cpu[17]
+set_location_assignment PIN_U7 -to jtag_debug_trigout_from_the_cpu
+set_instance_assignment -name VIRTUAL_PIN ON -to ddr_cas_n[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ddr_cke[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ddr_cs_n[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ddr_ras_n[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ddr_we_n[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ext_ssram_bus_address[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to ext_ssram_bus_address[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to clk_to_sdram[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to clk_to_sdram_n[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to pll_c0_domain
+set_instance_assignment -name VIRTUAL_PIN ON -to pll_c0_domain_reset
+set_instance_assignment -name VIRTUAL_PIN ON -to reset_to_the_lan91c111
+set_instance_assignment -name RESERVE_PIN "AS OUTPUT DRIVING GROUND" -to ENET_ADS_N
+set_instance_assignment -name RESERVE_PIN "AS OUTPUT DRIVING GROUND" -to ENET_AEN
+set_instance_assignment -name RESERVE_PIN "AS OUTPUT DRIVING VCC" -to ssram_adsp_n
+set_instance_assignment -name RESERVE_PIN "AS OUTPUT DRIVING VCC" -to ssram_adv_n
+set_location_assignment PIN_AF12 -to pll_c0_out
+set_instance_assignment -name PARTITION_HIERARCHY no_file_for_top_partition -to | -section_id Top
+set_global_assignment -name STRATIXII_CONFIGURATION_SCHEME "ACTIVE SERIAL"
+set_global_assignment -name GENERATE_TTF_FILE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER clk_to_sdram -section_id ddr_sdram_clk_out_pair
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER clk_to_sdram_n -section_id ddr_sdram_clk_out_pair
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT EXTRA
+set_global_assignment -name STRATIXII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name OPTIMIZE_HOLD_TIMING "ALL PATHS"
+set_instance_assignment -name CLOCK_SETTINGS PLD_CLOCKINPUT -to PLD_CLOCKINPUT
+set_global_assignment -name FMAX_REQUIREMENT "50 MHz" -section_id PLD_CLOCKINPUT
+set_instance_assignment -name CLOCK_SETTINGS phy_rx_clk -to phy_rx_clk
+set_global_assignment -name FMAX_REQUIREMENT "125 MHz" -section_id phy_rx_clk
+set_instance_assignment -name CLOCK_SETTINGS phy_tx_clk -to phy_tx_clk
+set_global_assignment -name FMAX_REQUIREMENT "125 MHz" -section_id phy_tx_clk
+set_instance_assignment -name CLOCK_SETTINGS tx_mux_clk -to "gmii_mii_mux:gmii_mii_mux_instance|tx_clk_int"
+set_global_assignment -name FMAX_REQUIREMENT "125 MHz" -section_id tx_mux_clk
+set_instance_assignment -name CUT ON -to "gmii_mii_mux:gmii_mii_mux_instance|mode_reg2"
+set_instance_assignment -name MULTICYCLE 5 -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_altsyncram_dpm_fifo:U_RTSM|altsyncram*" -to *
+set_instance_assignment -name MULTICYCLE 5 -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_retransmit_cntl:U_RETR|*" -to *
+set_instance_assignment -name MULTICYCLE 5 -from * -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_retransmit_cntl:U_RETR|*"
+set_instance_assignment -name MULTICYCLE 5 -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|half_duplex_ena_reg2" -to *
+set_instance_assignment -name TPD_REQUIREMENT "7 ns" -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|dout_reg_sft" -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_tx:U_TX|*"
+set_instance_assignment -name TPD_REQUIREMENT "7 ns" -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|eop_sft" -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_tx:U_TX|*"
+set_instance_assignment -name TPD_REQUIREMENT "7 ns" -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|sop_reg" -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_tx:U_TX|*"
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to m_tx_d_from_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to m_tx_en_from_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to m_tx_err_from_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to m_rx_col_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to m_rx_crs_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to m_rx_d_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to m_rx_en_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to m_rx_err_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to gm_rx_d_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to gm_rx_dv_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to gm_rx_err_to_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to gm_tx_d_from_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to gm_tx_en_from_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to gm_tx_err_from_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[0]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[1]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[2]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[3]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[4]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[5]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[6]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_d[7]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_dv
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to phy_rx_err
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[0]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[1]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[2]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[3]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[4]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[5]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[6]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_d[7]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_en
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to phy_tx_err
+set_location_assignment PIN_AC13 -to clk_to_tse_pll
+set_location_assignment PIN_P2 -to phy_rx_clk
+set_location_assignment PIN_K7 -to PLD_CLKOUT
+set_location_assignment PIN_AD11 -to mdc
+set_location_assignment PIN_W12 -to mdio
+set_location_assignment PIN_AB2 -to phy_rx_col
+set_location_assignment PIN_AA1 -to phy_rx_crs
+set_location_assignment PIN_Y2 -to phy_rx_d[7]
+set_location_assignment PIN_W1 -to phy_rx_d[6]
+set_location_assignment PIN_W2 -to phy_rx_d[5]
+set_location_assignment PIN_V1 -to phy_rx_d[4]
+set_location_assignment PIN_V2 -to phy_rx_d[3]
+set_location_assignment PIN_U1 -to phy_rx_d[2]
+set_location_assignment PIN_U2 -to phy_rx_d[1]
+set_location_assignment PIN_T2 -to phy_rx_d[0]
+set_location_assignment PIN_AA2 -to phy_rx_dv
+set_location_assignment PIN_Y1 -to phy_rx_err
+set_location_assignment PIN_T3 -to phy_tx_clk
+set_location_assignment PIN_W4 -to phy_tx_d[7]
+set_location_assignment PIN_Y3 -to phy_tx_d[6]
+set_location_assignment PIN_Y4 -to phy_tx_d[5]
+set_location_assignment PIN_AA3 -to phy_tx_d[4]
+set_location_assignment PIN_AA4 -to phy_tx_d[3]
+set_location_assignment PIN_AB3 -to phy_tx_d[2]
+set_location_assignment PIN_AB4 -to phy_tx_d[1]
+set_location_assignment PIN_AC2 -to phy_tx_d[0]
+set_location_assignment PIN_AB1 -to phy_tx_en
+set_location_assignment PIN_W3 -to phy_tx_err
+set_global_assignment -name POST_FLOW_SCRIPT_FILE "quartus_sh:auto_verify_ddr_timing.tcl"
+set_global_assignment -name TOP_LEVEL_ENTITY NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+set_instance_assignment -name OUTPUT_ENABLE_GROUP 1 -to ddr_dm
+set_instance_assignment -name OUTPUT_ENABLE_GROUP 1 -to ddr_dqs
+set_instance_assignment -name OUTPUT_ENABLE_GROUP 1 -to ddr_dq
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_ras_n
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_cas_n
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_we_n
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_cke[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[1]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[2]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[3]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[4]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[5]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[6]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[7]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[8]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[9]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[10]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[11]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_a[12]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_ba[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_ba[1]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_cs_n[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dm[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dm[1]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[1]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[2]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[3]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[4]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[5]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[6]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[7]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[8]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[9]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[10]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[11]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[12]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[13]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[14]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dq[15]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dqs[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS II" -to ddr_dqs[1]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS I" -to clk_to_sdram[0]
+set_instance_assignment -name IO_STANDARD "SSTL-2 CLASS I" -to clk_to_sdram_n[0]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_ras_n
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_cas_n
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_we_n
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_cke[0]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[0]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[1]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[2]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[3]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[4]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[5]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[6]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[7]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[8]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[9]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[10]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[11]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_a[12]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_ba[0]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_ba[1]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to ddr_cs_n[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dm[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dm[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[2]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[3]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[4]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[5]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[6]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[7]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[8]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[9]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[10]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[11]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[12]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[13]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[14]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dq[15]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dqs[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 4 -to ddr_dqs[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_ras_n
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_cas_n
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_we_n
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_cke[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[2]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[3]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[4]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[5]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[6]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[7]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[8]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[9]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[10]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[11]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_a[12]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_ba[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_ba[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_cs_n[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to clk_to_sdram[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to clk_to_sdram_n[0]
+set_instance_assignment -name IO_STANDARD "2.5-V" -to clock_source
+set_instance_assignment -name CUT ON -from ddr_dqs[0] -to *
+set_instance_assignment -name CUT ON -from ddr_dqs[1] -to *
+set_instance_assignment -name MAX_DATA_ARRIVAL_SKEW "100 ps" -from "ddr_pll_stratixii:g_stratixpll_ddr_pll_inst|altpll:altpll_component|_clk0" -to ddr_sdram_0_clk_out_pair
+set_instance_assignment -name TPD_REQUIREMENT "1.6 ns" -from *captured_* -to *resynched_data*
+set_instance_assignment -name TPD_REQUIREMENT "1.6 ns" -from *dq_enable_reset* -to *
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED "NEVER ALLOW" -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io"
+set_instance_assignment -name REMOVE_DUPLICATE_REGISTERS OFF -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io"
+set_location_assignment PIN_D9 -to ddr_dq[0]
+set_location_assignment LAB_X56_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[0]"
+set_location_assignment LAB_X56_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[8]"
+set_location_assignment LAB_X56_Y50 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|dq_enable_reset[0]"
+set_location_assignment PIN_D8 -to ddr_dq[1]
+set_location_assignment LAB_X56_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[1]"
+set_location_assignment LAB_X56_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[9]"
+set_location_assignment PIN_C8 -to ddr_dq[2]
+set_location_assignment LAB_X56_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[2]"
+set_location_assignment LAB_X56_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[10]"
+set_location_assignment PIN_A9 -to ddr_dq[3]
+set_location_assignment LAB_X55_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[3]"
+set_location_assignment LAB_X55_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[11]"
+set_location_assignment PIN_B11 -to ddr_dq[4]
+set_location_assignment LAB_X49_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[4]"
+set_location_assignment LAB_X49_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[12]"
+set_location_assignment PIN_C11 -to ddr_dq[5]
+set_location_assignment LAB_X50_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[5]"
+set_location_assignment LAB_X50_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[13]"
+set_location_assignment PIN_A10 -to ddr_dq[6]
+set_location_assignment LAB_X50_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[6]"
+set_location_assignment LAB_X50_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[14]"
+set_location_assignment PIN_D10 -to ddr_dq[7]
+set_location_assignment LAB_X50_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[7]"
+set_location_assignment LAB_X50_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data[15]"
+set_location_assignment PIN_C9 -to ddr_dqs[0]
+set_location_assignment PIN_C10 -to ddr_dm[0]
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED "NEVER ALLOW" -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io"
+set_instance_assignment -name REMOVE_DUPLICATE_REGISTERS OFF -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io"
+set_location_assignment PIN_A5 -to ddr_dq[8]
+set_location_assignment LAB_X68_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[0]"
+set_location_assignment LAB_X68_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[8]"
+set_location_assignment LAB_X68_Y50 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|dq_enable_reset[0]"
+set_location_assignment PIN_B5 -to ddr_dq[9]
+set_location_assignment LAB_X68_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[1]"
+set_location_assignment LAB_X68_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[9]"
+set_location_assignment PIN_D6 -to ddr_dq[10]
+set_location_assignment LAB_X68_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[2]"
+set_location_assignment LAB_X68_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[10]"
+set_location_assignment PIN_A6 -to ddr_dq[11]
+set_location_assignment LAB_X67_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[3]"
+set_location_assignment LAB_X67_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[11]"
+set_location_assignment PIN_A8 -to ddr_dq[12]
+set_location_assignment LAB_X62_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[4]"
+set_location_assignment LAB_X62_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[12]"
+set_location_assignment PIN_A7 -to ddr_dq[13]
+set_location_assignment LAB_X63_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[5]"
+set_location_assignment LAB_X63_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[13]"
+set_location_assignment PIN_C7 -to ddr_dq[14]
+set_location_assignment LAB_X63_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[6]"
+set_location_assignment LAB_X63_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[14]"
+set_location_assignment PIN_D7 -to ddr_dq[15]
+set_location_assignment LAB_X63_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[7]"
+set_location_assignment LAB_X63_Y51 -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data[15]"
+set_location_assignment PIN_C6 -to ddr_dqs[1]
+set_location_assignment PIN_B7 -to ddr_dm[1]
+
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name STATE_MACHINE_PROCESSING "ONE-HOT"
+set_global_assignment -name MUX_RESTRUCTURE OFF
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name INCREMENTAL_COMPILATION OFF
+set_instance_assignment -name INPUT_MAX_DELAY "6 ns" -from phy_rx_clk -to phy_rx_col
+set_instance_assignment -name INPUT_MIN_DELAY "0 ns" -from phy_rx_clk -to phy_rx_col
+set_instance_assignment -name INPUT_MAX_DELAY "6 ns" -from phy_rx_clk -to phy_rx_crs
+set_instance_assignment -name INPUT_MIN_DELAY "0 ns" -from phy_rx_clk -to phy_rx_crs
+set_instance_assignment -name INPUT_MAX_DELAY "6 ns" -from phy_rx_clk -to phy_rx_d
+set_instance_assignment -name INPUT_MIN_DELAY "0 ns" -from phy_rx_clk -to phy_rx_d
+set_instance_assignment -name INPUT_MAX_DELAY "6 ns" -from phy_rx_clk -to phy_rx_dv
+set_instance_assignment -name INPUT_MIN_DELAY "0 ns" -from phy_rx_clk -to phy_rx_dv
+set_instance_assignment -name INPUT_MAX_DELAY "6 ns" -from phy_rx_clk -to phy_rx_err
+set_instance_assignment -name INPUT_MIN_DELAY "0 ns" -from phy_rx_clk -to phy_rx_err
+set_instance_assignment -name OUTPUT_MAX_DELAY "5.5 ns" -from PLD_CLKOUT -to phy_tx_d
+set_instance_assignment -name OUTPUT_MIN_DELAY "0.5 ns" -from PLD_CLKOUT -to phy_tx_d
+set_instance_assignment -name OUTPUT_MAX_DELAY "5.5 ns" -from PLD_CLKOUT -to phy_tx_en
+set_instance_assignment -name OUTPUT_MIN_DELAY "0.5 ns" -from PLD_CLKOUT -to phy_tx_en
+set_instance_assignment -name OUTPUT_MAX_DELAY "5.5 ns" -from PLD_CLKOUT -to phy_tx_err
+set_instance_assignment -name OUTPUT_MIN_DELAY "0.5 ns" -from PLD_CLKOUT -to phy_tx_err
+set_global_assignment -name QIP_FILE NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc.qip
+set_global_assignment -name QIP_FILE ddr_sdram_0.qip
+set_instance_assignment -name AUTO_SHIFT_REGISTER_RECOGNITION OFF -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io"
+set_instance_assignment -name AUTO_SHIFT_REGISTER_RECOGNITION OFF -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io"
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PRESERVE_FANOUT_FREE_NODE ON -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:0:g_ddr_io|resynched_data"
+set_instance_assignment -name PRESERVE_FANOUT_FREE_NODE ON -to "NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\\g_datapath:1:g_ddr_io|resynched_data"
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS ON
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+set_global_assignment -name SEED 1
+set_global_assignment -name SEARCH_PATH .
+set_global_assignment -name SEARCH_PATH "triple_speed_ethernet-library"
+set_global_assignment -name SEARCH_PATH ./
+set_global_assignment -name SEARCH_PATH "ddr_sdram_controller-library"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER clk_to_sdram -section_id ddr_sdram_0_clk_out_pair
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER clk_to_sdram_n -section_id ddr_sdram_0_clk_out_pair

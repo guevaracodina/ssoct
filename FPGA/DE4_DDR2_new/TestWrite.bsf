@@ -1,0 +1,127 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 504 208)
+	(text "TestWrite" (rect 5 0 68 12)(font "Arial" ))
+	(text "inst" (rect 8 176 36 188)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "RSTn" (rect 0 0 28 12)(font "Arial" ))
+		(text "RSTn" (rect 21 27 49 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK48MHZ" (rect 0 0 56 12)(font "Arial" ))
+		(text "CLK48MHZ" (rect 21 43 77 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "control_done" (rect 0 0 84 12)(font "Arial" ))
+		(text "control_done" (rect 21 59 105 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "user_buffer_full" (rect 0 0 113 12)(font "Arial" ))
+		(text "user_buffer_full" (rect 21 75 134 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "addressLastCompleteRead[23..0]" (rect 0 0 212 12)(font "Arial" ))
+		(text "addressLastCompleteRead[23..0]" (rect 21 91 233 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 488 32)
+		(output)
+		(text "control_go" (rect 0 0 70 12)(font "Arial" ))
+		(text "control_go" (rect 397 27 467 39)(font "Arial" ))
+		(line (pt 488 32)(pt 472 32)(line_width 1))
+	)
+	(port
+		(pt 488 48)
+		(output)
+		(text "control_write_base[23..0]" (rect 0 0 177 12)(font "Arial" ))
+		(text "control_write_base[23..0]" (rect 290 43 467 55)(font "Arial" ))
+		(line (pt 488 48)(pt 472 48)(line_width 3))
+	)
+	(port
+		(pt 488 64)
+		(output)
+		(text "control_write_length[23..0]" (rect 0 0 191 12)(font "Arial" ))
+		(text "control_write_length[23..0]" (rect 276 59 467 71)(font "Arial" ))
+		(line (pt 488 64)(pt 472 64)(line_width 3))
+	)
+	(port
+		(pt 488 80)
+		(output)
+		(text "user_buffer_data[31..0]" (rect 0 0 162 12)(font "Arial" ))
+		(text "user_buffer_data[31..0]" (rect 305 75 467 87)(font "Arial" ))
+		(line (pt 488 80)(pt 472 80)(line_width 3))
+	)
+	(port
+		(pt 488 96)
+		(output)
+		(text "user_write_buffer" (rect 0 0 120 12)(font "Arial" ))
+		(text "user_write_buffer" (rect 347 91 467 103)(font "Arial" ))
+		(line (pt 488 96)(pt 472 96)(line_width 1))
+	)
+	(port
+		(pt 488 112)
+		(output)
+		(text "addressLastCompleteWrite[23..0]" (rect 0 0 219 12)(font "Arial" ))
+		(text "addressLastCompleteWrite[23..0]" (rect 248 107 467 119)(font "Arial" ))
+		(line (pt 488 112)(pt 472 112)(line_width 3))
+	)
+	(port
+		(pt 488 128)
+		(output)
+		(text "writingDone" (rect 0 0 77 12)(font "Arial" ))
+		(text "writingDone" (rect 390 123 467 135)(font "Arial" ))
+		(line (pt 488 128)(pt 472 128)(line_width 1))
+	)
+	(port
+		(pt 488 144)
+		(output)
+		(text "debugOut[31..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "debugOut[31..0]" (rect 361 139 467 151)(font "Arial" ))
+		(line (pt 488 144)(pt 472 144)(line_width 3))
+	)
+	(port
+		(pt 488 160)
+		(output)
+		(text "errorFull" (rect 0 0 63 12)(font "Arial" ))
+		(text "errorFull" (rect 404 155 467 167)(font "Arial" ))
+		(line (pt 488 160)(pt 472 160)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 472 176)(line_width 1))
+	)
+)

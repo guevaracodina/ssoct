@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="677" key="DIALOG_WIDTH"/>
+		<item value="356" key="DIALOG_Y_ORIGIN"/>
+		<item value="142" key="DIALOG_X_ORIGIN"/>
+		<item value="244" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="org.eclipse.ui.views.problem">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="438" key="DIALOG_WIDTH"/>
+		<item value="129" key="DIALOG_Y_ORIGIN"/>
+		<item value="425" key="DIALOG_X_ORIGIN"/>
+		<item value="559" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="443" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_NOW"/>
+		<item value="232" key="DIALOG_Y_ORIGIN"/>
+		<item value="419" key="DIALOG_X_ORIGIN"/>
+		<item value="398" key="DIALOG_HEIGHT"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

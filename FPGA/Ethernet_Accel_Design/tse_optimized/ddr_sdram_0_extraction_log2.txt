@@ -1,0 +1,513 @@
+Info: *******************************************************************
+Info: Running Quartus II Classic Timing Analyzer
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Copyright (C) 1991-2009 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Tue May 26 16:39:41 2009
+Info: Command: quartus_tan -t /tools/altera/9.0/132/linux64/ip/altera/ddr_ddr2_sdram/system_timing/tan_arg.tcl ddr_sdram_0
+Info: Quartus(args): ddr_sdram_0
+Info: Started post-fitting delay annotation
+Warning: Found 165 output pins without output pin load capacitance assignment
+    Info: Pin "LCD_E_from_the_lcd_display" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_RS_from_the_lcd_display" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_RW_from_the_lcd_display" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "adsc_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bwe_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "chipenable1_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_clk_from_the_cpu" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_trigout_from_the_cpu" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "mdc" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "outputenable_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_en" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_err" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "pll_c1_out" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "read_n_to_the_ext_flash" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "select_n_to_the_ext_flash" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "txd_from_the_uart1" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "write_n_to_the_ext_flash" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bidir_port_to_and_from_the_reconfig_request_pio" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "mdio" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "PLD_CLKOUT" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+Warning: Clock latency analysis for PLL offsets is supported for the current device family, but is not enabled
+Info: Started post-fitting delay annotation
+Warning: Found 165 output pins without output pin load capacitance assignment
+    Info: Pin "LCD_E_from_the_lcd_display" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_RS_from_the_lcd_display" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_RW_from_the_lcd_display" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "adsc_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bw_n_to_the_ext_ssram[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bwe_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "chipenable1_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_address[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_address[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_clk_from_the_cpu" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_offchip_trace_data_from_the_cpu[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "jtag_debug_trigout_from_the_cpu" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "mdc" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_led_pio_n[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "out_port_from_the_seven_seg_pio[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "outputenable_n_to_the_ext_ssram" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_d[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_en" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "phy_tx_err" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "pll_c1_out" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "read_n_to_the_ext_flash" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "select_n_to_the_ext_flash" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "txd_from_the_uart1" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "write_n_to_the_ext_flash" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "LCD_data_to_and_from_the_lcd_display[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "bidir_port_to_and_from_the_reconfig_request_pio" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_flash_enet_bus_data[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[18]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[19]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[20]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[21]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[22]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[23]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[24]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[25]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[26]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[27]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[28]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[29]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[30]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "ext_ssram_bus_data[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "mdio" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info: Pin "PLD_CLKOUT" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Info: Delay annotation completed successfully
+
+>>> POST_compile_mode <<<
+
+    MESSAGE             "NOTE:     Speed Grade c3 used for analysis"
+Info: Extracted data should exist as data arrays.
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1744
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2049
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+tpd_dqspin_2_dqsclk_minus_tshift( min )  = 1754
+tpd_dqsclk_2_ddio_resync( min )  = 450.0
+tpd_dqspin_2_dqsclk_minus_tshift( max )  = 2059
+tpd_dqsclk_2_ddio_resync( max )  = 703.0
+min reg_2_post 630 634
+min post_2_dqsclk 112
+min dqsclk_2_post 450
+min dq_2_ddio 1081 1091 1101 1111 1121
+min ddio_2_core 369 372 373 374 376 380 385 386 392 393 394 395 396 400 403 404 406 407 414 415 420
+min clk_2_pin 853
+min dqsclk_2_ddio_resync 450
+min dqspin_2_dqsclk 1744 1754
+min core_2_reg 97
+max reg_2_post 1041 1060
+max post_2_dqsclk 164
+max dqsclk_2_post 703
+max dq_2_ddio 1672 1682 1692 1702 1712
+max ddio_2_core 713 718 719 720 722 723 727 744 745 746 747 749 750 756 758 760 765 768 769 785 787 794
+max clk_2_pin 1530
+max dqsclk_2_ddio_resync 703
+max dqspin_2_dqsclk 2049 2059
+max core_2_reg 155
+Info: Evaluation of Tcl script /tools/altera/9.0/132/linux64/ip/altera/ddr_ddr2_sdram/system_timing/tan_arg.tcl was successful
+Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 310 megabytes
+    Info: Processing ended: Tue May 26 16:40:50 2009
+    Info: Elapsed time: 00:01:09
+    Info: Total CPU time (on all processors): 00:01:07

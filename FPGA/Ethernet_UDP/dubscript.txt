@@ -1,0 +1,1329 @@
+System_Wizard_Version = "4.20";
+EVENT new_system
+{
+   name = "std_2s60ES";
+   hdl = "verilog";
+}
+EVENT set_board
+{
+   class = "altera_dsp_dev_board_stratix_2s60_es";
+}
+EVENT new_clock
+{
+   name = "clk";
+   freq = "100.0";
+}
+EVENT new_module
+{
+   class = "altera_nios2";
+   name = "cpu";
+   EVENT 
+   {
+      id = "core";
+      value = "s";
+   }
+   EVENT 
+   {
+      id = "icache";
+      value = "4096";
+   }
+   EVENT 
+   {
+      id = "dcache";
+      value = "2048";
+   }
+   EVENT 
+   {
+      title = "Hardware Multiply:";
+      value = "dsp_mul_dsp_shift";
+   }
+   EVENT 
+   {
+      title = "Hardware Divide";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "debug";
+      value = "2";
+   }
+   EVENT 
+   {
+      id = "trace_addr_width";
+      value = "7";
+   }
+   EVENT 
+   {
+      title = "Full Modelsim Signals in Waveforms";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Trap on illegal instructions";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Omit Instruction Cache and associated Avalon instruction_master";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Omit Data Cache";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Omit Avalon data_master";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "ichannels";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "dchannels";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Branch Prediction Type";
+      value = "Automatic";
+   }
+   EVENT 
+   {
+      title = "Number of Entries : ";
+      value = "8";
+   }
+   EVENT 
+   {
+      title = "PC xor global branch history (default)";
+   }
+   EVENT 
+   {
+      title = "Enable Performance Counters";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Performance Counter Width";
+      value = "32";
+   }
+   EVENT 
+   {
+      title = "Return Address Stack Entries : ";
+      value = "4";
+   }
+   EVENT 
+   {
+      title = "Jump Target Buffer Entries : ";
+      value = "5";
+   }
+   EVENT 
+   {
+      title = "Instruction Buffer Entries : ";
+      value = "4";
+   }
+   EVENT 
+   {
+      title = "Always Encrypt";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "Activate PLI Model Checker";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Activate Monitors";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "Activate Test End Checker";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Activate Trace";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "Clear X data bits";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "Bit 31 D-cache bypass";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "Disable D-cache";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "HDL Simulation Caches Cleared";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "Consistent synthesis";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Hardware break test";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Allow full address range";
+      value = "0";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_tri_state_bridge";
+   name = "ext_ram_bus";
+   EVENT 
+   {
+      title = "Registered";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_tri_state_bridge";
+   name = "ext_flash_bus";
+   EVENT 
+   {
+      title = "Registered";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_cfi_flash";
+   name = "ext_flash";
+   EVENT 
+   {
+      pre_path = "#11/#0/#0/#2/";
+      value = "AMD29LV128M-123R (BYTE Mode)";
+   }
+   EVENT 
+   {
+      id = "addr";
+      value = "24";
+   }
+   EVENT 
+   {
+      id = "data";
+      value = "8";
+   }
+   EVENT 
+   {
+      title = "Reference Designator (chip label): ";
+      value = "U17";
+   }
+   EVENT 
+   {
+      title = "Setup:";
+      value = "45";
+   }
+   EVENT 
+   {
+      title = "Wait:";
+      value = "160";
+   }
+   EVENT 
+   {
+      title = "Hold:";
+      value = "35";
+   }
+   EVENT 
+   {
+      title = "Units:";
+      value = "ns";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT lock_base_address
+{
+   lock = "1";
+}
+EVENT new_module
+{
+   class = "altera_nios_dev_kit_stratix_edition_sram2";
+   name = "ext_ram";
+   EVENT 
+   {
+      pre_path = "#12/#1/#1/#4/#2/";
+      value = "1024";
+   }
+   EVENT 
+   {
+      pre_path = "#12/#1/#1/#4/#3/";
+      value = "1024";
+   }
+   EVENT 
+   {
+      title = "Include a functional memory model in the system testbench.";
+      value = "1";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT lock_base_address
+{
+   lock = "1";
+}
+EVENT new_module
+{
+   class = "altera_avalon_onchip_memory2";
+   name = "onchip_ram_64_kbytes";
+   EVENT 
+   {
+      id = "ram";
+   }
+   EVENT 
+   {
+      id = "dp";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "block_type";
+      value = "M4K";
+   }
+   EVENT 
+   {
+      id = "width";
+      value = "32";
+   }
+   EVENT 
+   {
+      id = "size";
+      value = "64";
+   }
+   EVENT 
+   {
+      id = "units";
+      value = "Kbytes";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT lock_base_address
+{
+   lock = "1";
+}
+EVENT new_module
+{
+   class = "altera_avalon_lan91c111";
+   name = "lan91c111";
+   EVENT 
+   {
+      id = "devboard";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_timer";
+   name = "sys_clk_timer";
+   EVENT 
+   {
+      id = "period";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "units";
+      value = "msec";
+   }
+   EVENT 
+   {
+      title = "Preset Configurations: ";
+      value = "Full-featured";
+   }
+   EVENT 
+   {
+      id = "fixed";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "snapshot";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "control";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "pulse";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "watchdog";
+      value = "0";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_jtag_uart";
+   name = "jtag_uart";
+   EVENT 
+   {
+      title = "Depth: ";
+      value = "64";
+   }
+   EVENT 
+   {
+      title = "IRQ Threshold: ";
+      value = "8";
+   }
+   EVENT 
+   {
+      title = "Construct using registers instead of memory blocks";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Depth: ";
+      value = "64";
+   }
+   EVENT 
+   {
+      title = "IRQ Threshold: ";
+      value = "8";
+   }
+   EVENT 
+   {
+      title = "Construct using registers instead of memory blocks";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "read_char_stream";
+      value = "";
+   }
+   EVENT 
+   {
+      id = "sim_interactive_output";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_pio";
+   name = "button_pio";
+   EVENT 
+   {
+      id = "width";
+      value = "4";
+   }
+   EVENT 
+   {
+      id = "input";
+   }
+   EVENT 
+   {
+      id = "capture";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "either";
+   }
+   EVENT 
+   {
+      id = "irq";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "edge";
+   }
+   EVENT 
+   {
+      title = "Hardwire PIO inputs in test bench";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "Drive inputs to ";
+      value = "0x000F";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_pio";
+   name = "led_pio";
+   EVENT 
+   {
+      id = "width";
+      value = "8";
+   }
+   EVENT 
+   {
+      id = "output";
+   }
+   EVENT 
+   {
+      id = "capture";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "rising";
+   }
+   EVENT 
+   {
+      id = "irq";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "level";
+   }
+   EVENT 
+   {
+      title = "Hardwire PIO inputs in test bench";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Drive inputs to ";
+      value = "0x0000";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_lcd_16207";
+   name = "lcd_display";
+}
+EVENT new_module
+{
+   class = "altera_avalon_timer";
+   name = "high_res_timer";
+   EVENT 
+   {
+      id = "period";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "units";
+      value = "msec";
+   }
+   EVENT 
+   {
+      title = "Preset Configurations: ";
+      value = "Full-featured";
+   }
+   EVENT 
+   {
+      id = "fixed";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "snapshot";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "control";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "pulse";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "watchdog";
+      value = "0";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_pio";
+   name = "seven_seg_pio";
+   EVENT 
+   {
+      id = "width";
+      value = "16";
+   }
+   EVENT 
+   {
+      id = "output";
+   }
+   EVENT 
+   {
+      id = "capture";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "rising";
+   }
+   EVENT 
+   {
+      id = "irq";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "level";
+   }
+   EVENT 
+   {
+      title = "Hardwire PIO inputs in test bench";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Drive inputs to ";
+      value = "0x0000";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_pio";
+   name = "reconfig_request_pio";
+   EVENT 
+   {
+      id = "width";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "bidir";
+   }
+   EVENT 
+   {
+      id = "capture";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "rising";
+   }
+   EVENT 
+   {
+      id = "irq";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "level";
+   }
+   EVENT 
+   {
+      title = "Hardwire PIO inputs in test bench";
+      value = "0";
+   }
+   EVENT 
+   {
+      title = "Drive inputs to ";
+      value = "0x0000";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_uart";
+   name = "uart1";
+   EVENT 
+   {
+      id = "baud";
+      value = "115200";
+   }
+   EVENT 
+   {
+      id = "baud_reg";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "parity";
+      value = "N";
+   }
+   EVENT 
+   {
+      id = "data";
+      value = "8";
+   }
+   EVENT 
+   {
+      id = "stop";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "flowctl";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "streaming";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "sim_char_stream";
+      value = "";
+   }
+   EVENT 
+   {
+      id = "sim_interactive_output";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "sim_interactive_input";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "sim_baud_accelerated";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT new_module
+{
+   class = "altera_avalon_sysid";
+   name = "sysid";
+}
+EVENT new_module
+{
+   class = "altera_avalon_new_sdram_controller";
+   name = "sdram";
+   EVENT 
+   {
+      pre_path = "#8/#2/";
+      value = "single Micron MT48LC4M32B2-7 chip";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#1/#2/#1/#2/";
+      value = "32";
+   }
+   EVENT 
+   {
+      id = "cs";
+      value = "1";
+   }
+   EVENT 
+   {
+      id = "banks";
+      value = "4";
+   }
+   EVENT 
+   {
+      id = "rows";
+      value = "12";
+   }
+   EVENT 
+   {
+      title = "Column";
+      value = "8";
+   }
+   EVENT 
+   {
+      id = "share";
+      value = "0";
+   }
+   EVENT 
+   {
+      id = "model";
+      value = "1";
+   }
+   EVENT 
+   {
+      title = "3";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#3/#3/";
+      value = "2";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#4/#3/";
+      value = "15.625";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#5/#3/";
+      value = "100";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#6/#3/";
+      value = "70";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#7/#3/";
+      value = "20";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#8/#3/";
+      value = "20";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#9/#3/";
+      value = "5.5";
+   }
+   EVENT 
+   {
+      pre_path = "#9/#0/#2/#2/#10/#3/";
+      value = "14";
+   }
+   EVENT 
+   {
+      action = "wizard_finish";
+   }
+}
+EVENT lock_base_address
+{
+   lock = "1";
+}
+EVENT set_clock
+{
+   module = "cpu";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "cpu";
+   slave = "jtag_debug_module";
+   addr = "0x02120000";
+}
+EVENT connect_to
+{
+   master = "cpu/instruction_master";
+   slave = "cpu/jtag_debug_module";
+   priority = "1";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "cpu/jtag_debug_module";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "ext_ram_bus";
+   arg = "clk";
+}
+EVENT connect_to
+{
+   master = "cpu/instruction_master";
+   slave = "ext_ram_bus/avalon_slave";
+   priority = "1";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "ext_ram_bus/avalon_slave";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "ext_flash_bus";
+   arg = "clk";
+}
+EVENT connect_to
+{
+   master = "cpu/instruction_master";
+   slave = "ext_flash_bus/avalon_slave";
+   priority = "1";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "ext_flash_bus/avalon_slave";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "ext_flash";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "ext_flash";
+   slave = "s1";
+   addr = "0x00000000";
+}
+EVENT connect_to
+{
+   master = "ext_flash_bus/tristate_master";
+   slave = "ext_flash/s1";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "ext_ram";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "ext_ram";
+   slave = "s1";
+   addr = "0x02000000";
+}
+EVENT connect_to
+{
+   master = "ext_ram_bus/tristate_master";
+   slave = "ext_ram/s1";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "onchip_ram_64_kbytes";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "onchip_ram_64_kbytes";
+   slave = "s1";
+   addr = "0x02100000";
+}
+EVENT connect_to
+{
+   master = "cpu/instruction_master";
+   slave = "onchip_ram_64_kbytes/s1";
+   priority = "1";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "onchip_ram_64_kbytes/s1";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "lan91c111";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "lan91c111";
+   slave = "s1";
+   addr = "0x02110000";
+}
+EVENT connect_to
+{
+   master = "ext_ram_bus/tristate_master";
+   slave = "lan91c111/s1";
+   priority = "1";
+}
+EVENT set_irq
+{
+   irq = "6";
+   slave = "lan91c111/s1";
+   master = "cpu/data_master";
+}
+EVENT set_clock
+{
+   module = "sys_clk_timer";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "sys_clk_timer";
+   slave = "s1";
+   addr = "0x02120800";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "sys_clk_timer/s1";
+   priority = "1";
+}
+EVENT set_irq
+{
+   irq = "0";
+   slave = "sys_clk_timer/s1";
+   master = "cpu/data_master";
+}
+EVENT set_clock
+{
+   module = "jtag_uart";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "jtag_uart";
+   slave = "avalon_jtag_slave";
+   addr = "0x021208B0";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "jtag_uart/avalon_jtag_slave";
+   priority = "1";
+}
+EVENT set_irq
+{
+   irq = "1";
+   slave = "jtag_uart/avalon_jtag_slave";
+   master = "cpu/data_master";
+}
+EVENT set_clock
+{
+   module = "button_pio";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "button_pio";
+   slave = "s1";
+   addr = "0x02120860";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "button_pio/s1";
+   priority = "1";
+}
+EVENT set_irq
+{
+   irq = "2";
+   slave = "button_pio/s1";
+   master = "cpu/data_master";
+}
+EVENT set_clock
+{
+   module = "led_pio";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "led_pio";
+   slave = "s1";
+   addr = "0x02120870";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "led_pio/s1";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "lcd_display";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "lcd_display";
+   slave = "control_slave";
+   addr = "0x02120880";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "lcd_display/control_slave";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "high_res_timer";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "high_res_timer";
+   slave = "s1";
+   addr = "0x02120820";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "high_res_timer/s1";
+   priority = "1";
+}
+EVENT set_irq
+{
+   irq = "3";
+   slave = "high_res_timer/s1";
+   master = "cpu/data_master";
+}
+EVENT set_clock
+{
+   module = "seven_seg_pio";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "seven_seg_pio";
+   slave = "s1";
+   addr = "0x02120890";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "seven_seg_pio/s1";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "reconfig_request_pio";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "reconfig_request_pio";
+   slave = "s1";
+   addr = "0x021208A0";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "reconfig_request_pio/s1";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "uart1";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "uart1";
+   slave = "s1";
+   addr = "0x02120840";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "uart1/s1";
+   priority = "1";
+}
+EVENT set_irq
+{
+   irq = "4";
+   slave = "uart1/s1";
+   master = "cpu/data_master";
+}
+EVENT set_clock
+{
+   module = "sysid";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "sysid";
+   slave = "control_slave";
+   addr = "0x021208B8";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "sysid/control_slave";
+   priority = "1";
+}
+EVENT set_clock
+{
+   module = "sdram";
+   arg = "clk";
+}
+EVENT set_base_address
+{
+   module = "sdram";
+   slave = "s1";
+   addr = "0x01000000";
+}
+EVENT connect_to
+{
+   master = "cpu/instruction_master";
+   slave = "sdram/s1";
+   priority = "1";
+}
+EVENT connect_to
+{
+   master = "cpu/data_master";
+   slave = "sdram/s1";
+   priority = "1";
+}
+EVENT 
+{
+   id = "board_id";
+   value = "altera_dsp_dev_board_stratix_2s60_es";
+}
+EVENT 
+{
+   id = "set_device";
+   value = "STRATIXII";
+}
+EVENT 
+{
+   # TABLE  = "";
+   pre_path = "#9/#3/#29/#4/";
+   EVENT 
+   {
+      row = "0";
+      column = "Memory Module";
+      value = "ext_flash/s1";
+   }
+   EVENT 
+   {
+      row = "0";
+      column = "Offset";
+      value = "0x00000000";
+   }
+   EVENT 
+   {
+      row = "1";
+      column = "Memory Module";
+      value = "sdram/s1";
+   }
+   EVENT 
+   {
+      row = "1";
+      column = "Offset";
+      value = "0x00000020";
+   }
+   EVENT 
+   {
+      row = "2";
+      column = "Memory Module";
+      value = "sdram/s1";
+   }
+   EVENT 
+   {
+      row = "2";
+      column = "Offset";
+      value = "0x00000000";
+   }
+}
+EVENT 
+{
+   id = "legacy_sdk_support";
+   value = "0";
+}
+EVENT 
+{
+   # TABLE  = "";
+   pre_path = "#9/#3/#63/#3/";
+   EVENT 
+   {
+      row = "0";
+      column = "Module";
+      value = "sdram/s1";
+   }
+   EVENT 
+   {
+      row = "1";
+      column = "Module";
+      value = "sdram/s1";
+   }
+   EVENT 
+   {
+      row = "2";
+      column = "Module";
+      value = "uart1/s1";
+   }
+}
+EVENT 
+{
+   title = " System Boot ID:";
+   value = "";
+}
+EVENT 
+{
+   # TABLE  = "";
+   pre_path = "#9/#5/#6/#3/";
+   EVENT 
+   {
+      row = "0";
+      column = "Select Tristate Bridge";
+      value = "";
+   }
+}
+EVENT 
+{
+   title = "SDK.  Generate header files, library files, and memory contents for CPU(s) and peripherals in your system.";
+   value = "0";
+}
+EVENT 
+{
+   title = "HDL.  Generate system module logic in Verilog.";
+   value = "1";
+}
+EVENT 
+{
+   title = "Simulation.  Create ModelSim(tm) project files.";
+   value = "0";
+}
+EVENT 
+{
+   action = "wizard_cancel";
+}

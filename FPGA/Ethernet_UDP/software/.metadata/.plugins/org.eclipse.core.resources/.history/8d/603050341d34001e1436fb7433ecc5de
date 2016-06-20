@@ -1,0 +1,112 @@
+/******************************************************************************
+* Copyright (c) 2006 Altera Corporation, San Jose, California, USA.           *
+* All rights reserved. All use of this software and documentation is          *
+* subject to the License Agreement located at the end of this file below.     *
+*******************************************************************************                                                                             *
+* Date - October 24, 2006                                                     *
+* Module - simple_socket_server.c                                             *
+*                                                                             *                                                                             *
+******************************************************************************/
+ 
+/******************************************************************************
+ * Simple Socket Server (SSS) example. 
+ * 
+ * This example demonstrates the use of MicroC/OS-II running on NIOS II.       
+ * In addition it is to serve as a good starting point for designs using       
+ * MicroC/OS-II and Altera NicheStack TCP/IP Stack - NIOS II Edition.                                          
+ *                                                                             
+ * -Known Issues                                                             
+ *     None.   
+ *      
+ * Please refer to the Altera NicheStack Tutorial documentation for details on this 
+ * software example, as well as details on how to configure the NicheStack TCP/IP 
+ * networking stack and MicroC/OS-II Real-Time Operating System.  
+ */
+//#include  <stdlib.h>  
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h> 
+
+/* MicroC/OS-II definitions */
+#include "includes.h"
+
+/* Simple Socket Server definitions */
+#include "simple_socket_server.h"                                                                    
+#include "alt_error_handler.h"
+
+/* Nichestack definitions */
+#include "ipport.h"
+#include "tcpport.h"
+
+//#include "io.h"
+#include "altera_avalon_pio_regs.h"
+
+/******************************************************************************
+ * SSSSimpleSocketServerTask()
+ * 
+ * This MicroC/OS-II thread spins forever after first establishing a listening
+ * socket for our sss connection, binding it, and listening. Once setup,
+ * it perpetually waits for incoming data to either the listening socket, or
+ * (if a connection is active), the sss data socket. When data arrives, 
+ * the approrpriate routine is called to either accept/reject a connection 
+ * request, or process incoming data.
+ * 
+ ******************************************************************************/
+void SSSSimpleSocketServerTask()
+{
+    // variables definition for UDP protocol
+    int udp_socket;  // discriptor
+    struct sockaddr_in cliaddr;
+    int udp_rc = SSS_BUF_LEN;
+    int nSendBufSize = 1024*1024; //SSS_TX_BUF_SIZE;
+        
+    cliaddr.sin_family      = AF_INET;                    // IPv4 Internet Protocol
+    cliaddr.sin_port        = htons(UDP_PORT);
+    cliaddr.sin_addr.s_addr = inet_addr("192.168.1.213"); // the IP address of where you want the data to be sent to  
+                  
+    while(1)
+    {
+        udp_socket = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP); // creates an endpoint for UDP communication                
+        setsockopt(udp_socket, SOL_SOCKET, SO_SNDBUF, (const char*)&nSendBufSize, sizeof(int)); // set transmit buffer size
+        
+        while(!(udp_socket<0) & udp_rc==SSS_BUF_LEN) 
+        {
+            udp_rc = sendto(udp_socket, (void *)AD_BUFFER_BASE, SSS_BUF_LEN, 0, (struct sockaddr *)&cliaddr, sizeof(cliaddr)); // transfer to PC via UDP protocol
+        }
+        if (udp_rc!=SSS_BUF_LEN)
+            printf("Transmit failed!");
+        close(udp_socket);
+    }
+}
+
+
+/******************************************************************************
+*                                                                             *
+* License Agreement                                                           *
+*                                                                             *
+* Copyright (c) 2006 Altera Corporation, San Jose, California, USA.           *
+* All rights reserved.                                                        *
+*                                                                             *
+* Permission is hereby granted, free of charge, to any person obtaining a     *
+* copy of this software and associated documentation files (the "Software"),  *
+* to deal in the Software without restriction, including without limitation   *
+* the rights to use, copy, modify, merge, publish, distribute, sublicense,    *
+* and/or sell copies of the Software, and to permit persons to whom the       *
+* Software is furnished to do so, subject to the following conditions:        *
+*                                                                             *
+* The above copyright notice and this permission notice shall be included in  *
+* all copies or substantial portions of the Software.                         *
+*                                                                             *
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  *
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,    *
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE *
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER      *
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING     *
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER         *
+* DEALINGS IN THE SOFTWARE.                                                   *
+*                                                                             *
+* This agreement shall be governed in all respects by the laws of the State   *
+* of California and by the laws of the United States of America.              *
+* Altera does not recommend, suggest or require that this reference design    *
+* file be used in conjunction or combination with any other product.          *
+******************************************************************************/

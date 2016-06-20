@@ -1,0 +1,20 @@
+# Estimated data for Pre-Compile
+set min_paths_for_each_half_dq_0(reg_2_post) 630
+set min_paths_for_each_half_dq_0(post_2_dqsclk) 112
+set min_paths_for_each_half_dq_0(dqsclk_2_post) 450
+set min_paths_for_each_half_dq_0(dq_2_ddio) 1081
+set min_paths_for_each_half_dq_0(ddio_2_core) 369
+set min_paths_for_each_half_dq_0(clk_2_pin) 853
+set min_paths_for_each_half_dq_0(dqsclk_2_ddio_resync) 450
+# set min_paths_for_each_half_dq_0(dqspin_2_dqsclk) 1744
+set min_paths_for_each_half_dq_0(core_2_reg) 97
+
+set max_paths_for_each_half_dq_0(reg_2_post) 1060
+set max_paths_for_each_half_dq_0(post_2_dqsclk) 164
+set max_paths_for_each_half_dq_0(dqsclk_2_post) 703
+set max_paths_for_each_half_dq_0(dq_2_ddio) 1712
+set max_paths_for_each_half_dq_0(ddio_2_core) 794
+set max_paths_for_each_half_dq_0(clk_2_pin) 1530
+set max_paths_for_each_half_dq_0(dqsclk_2_ddio_resync) 703
+# set max_paths_for_each_half_dq_0(dqspin_2_dqsclk) 2059
+set max_paths_for_each_half_dq_0(core_2_reg) 155

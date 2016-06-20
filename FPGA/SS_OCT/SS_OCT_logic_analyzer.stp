@@ -1,0 +1,1626 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP4SGX230/ES (0x024090DD)" sof_file="SS_OCT_time_limited.sof" top_level_entity="SS_OCT">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="data horizontal scroll position" value="1417"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup hierarchy RAM:RAM_inst" value="1"/>
+      <single attribute="setup hierarchy root" value="1"/>
+      <single attribute="setup hierarchy sample_addressing_custom:sample_addressing_custom_inst" value="1"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="1"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="32"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="480"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2012/03/02 13:57:31  #0">
+      <clock name="ADA_DCO" polarity="posedge" tap_mode="probeonly"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="16384" trigger_in_enable="yes" trigger_in_node="GPIO[6]" trigger_in_tap_mode="classic" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="ADA_D[0]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[10]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[11]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[12]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[13]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[1]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[2]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[3]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[4]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[5]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[6]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[7]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[8]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[9]" tap_mode="classic" type="input pin"/>
+          <wire name="DA[0]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[10]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[11]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[12]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[13]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[1]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[2]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[3]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[4]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[5]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[6]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[7]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[8]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[9]" tap_mode="classic" type="output pin"/>
+          <wire name="RAMdata[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[100]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[101]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[102]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[103]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[104]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[105]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[106]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[107]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[108]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[109]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[110]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[111]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[112]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[113]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[114]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[115]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[116]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[117]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[118]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[119]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[120]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[121]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[122]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[123]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[124]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[125]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[126]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[127]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[128]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[129]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[130]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[131]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[132]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[133]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[134]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[135]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[136]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[137]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[138]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[139]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[140]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[141]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[142]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[143]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[144]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[145]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[146]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[147]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[148]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[149]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[150]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[151]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[152]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[153]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[154]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[155]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[156]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[157]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[158]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[159]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[160]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[161]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[162]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[163]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[164]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[165]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[166]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[167]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[168]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[169]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[170]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[171]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[172]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[173]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[174]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[175]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[176]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[177]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[178]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[179]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[180]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[181]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[182]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[183]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[184]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[185]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[186]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[187]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[188]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[189]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[190]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[191]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[192]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[193]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[194]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[195]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[196]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[197]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[198]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[199]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[200]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[201]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[202]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[203]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[204]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[205]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[206]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[207]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[208]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[209]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[210]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[211]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[212]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[213]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[214]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[215]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[216]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[217]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[218]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[219]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[220]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[221]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[222]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[223]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[224]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[225]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[226]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[227]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[228]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[229]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[230]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[231]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[232]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[233]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[234]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[235]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[236]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[237]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[238]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[239]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[240]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[241]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[242]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[243]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[244]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[245]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[246]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[247]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[248]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[249]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[250]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[251]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[252]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[253]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[254]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[255]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[32]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[33]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[34]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[35]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[36]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[37]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[38]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[39]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[40]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[41]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[42]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[43]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[44]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[45]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[46]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[47]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[48]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[49]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[50]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[51]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[52]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[53]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[54]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[55]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[56]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[57]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[58]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[59]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[60]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[61]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[62]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[63]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[64]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[65]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[66]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[67]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[68]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[69]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[70]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[71]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[72]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[73]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[74]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[75]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[76]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[77]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[78]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[79]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[80]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[81]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[82]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[83]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[84]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[85]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[86]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[87]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[88]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[89]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[90]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[91]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[92]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[93]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[94]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[95]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[96]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[97]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[98]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[99]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_done" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="trigger50kHz" tap_mode="classic" type="combinatorial"/>
+          <wire name="GCLKIN" tap_mode="probeonly" type="input pin"/>
+          <wire name="GPIO[6]" tap_mode="probeonly" type="bidir pin"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="ADA_D[0]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[10]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[11]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[12]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[13]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[1]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[2]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[3]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[4]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[5]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[6]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[7]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[8]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[9]" tap_mode="classic" type="input pin"/>
+          <wire name="DA[0]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[10]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[11]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[12]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[13]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[1]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[2]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[3]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[4]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[5]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[6]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[7]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[8]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[9]" tap_mode="classic" type="output pin"/>
+          <wire name="RAMdata[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[100]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[101]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[102]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[103]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[104]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[105]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[106]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[107]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[108]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[109]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[110]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[111]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[112]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[113]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[114]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[115]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[116]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[117]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[118]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[119]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[120]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[121]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[122]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[123]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[124]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[125]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[126]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[127]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[128]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[129]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[130]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[131]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[132]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[133]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[134]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[135]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[136]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[137]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[138]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[139]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[140]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[141]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[142]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[143]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[144]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[145]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[146]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[147]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[148]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[149]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[150]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[151]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[152]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[153]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[154]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[155]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[156]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[157]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[158]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[159]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[160]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[161]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[162]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[163]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[164]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[165]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[166]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[167]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[168]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[169]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[170]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[171]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[172]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[173]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[174]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[175]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[176]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[177]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[178]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[179]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[180]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[181]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[182]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[183]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[184]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[185]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[186]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[187]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[188]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[189]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[190]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[191]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[192]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[193]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[194]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[195]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[196]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[197]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[198]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[199]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[200]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[201]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[202]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[203]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[204]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[205]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[206]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[207]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[208]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[209]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[210]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[211]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[212]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[213]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[214]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[215]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[216]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[217]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[218]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[219]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[220]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[221]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[222]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[223]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[224]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[225]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[226]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[227]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[228]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[229]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[230]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[231]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[232]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[233]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[234]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[235]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[236]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[237]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[238]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[239]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[240]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[241]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[242]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[243]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[244]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[245]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[246]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[247]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[248]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[249]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[250]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[251]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[252]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[253]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[254]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[255]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[32]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[33]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[34]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[35]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[36]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[37]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[38]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[39]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[40]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[41]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[42]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[43]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[44]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[45]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[46]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[47]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[48]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[49]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[50]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[51]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[52]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[53]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[54]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[55]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[56]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[57]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[58]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[59]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[60]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[61]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[62]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[63]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[64]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[65]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[66]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[67]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[68]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[69]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[70]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[71]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[72]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[73]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[74]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[75]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[76]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[77]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[78]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[79]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[80]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[81]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[82]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[83]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[84]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[85]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[86]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[87]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[88]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[89]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[90]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[91]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[92]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[93]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[94]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[95]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[96]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[97]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[98]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[99]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_done" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="trigger50kHz" tap_mode="classic" type="combinatorial"/>
+          <wire name="GCLKIN" tap_mode="probeonly" type="input pin"/>
+          <wire name="GPIO[6]" tap_mode="probeonly" type="bidir pin"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="ADA_D[0]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[10]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[11]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[12]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[13]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[1]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[2]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[3]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[4]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[5]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[6]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[7]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[8]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[9]" tap_mode="classic" type="input pin"/>
+          <wire name="DA[0]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[10]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[11]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[12]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[13]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[1]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[2]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[3]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[4]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[5]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[6]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[7]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[8]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[9]" tap_mode="classic" type="output pin"/>
+          <wire name="RAMdata[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[100]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[101]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[102]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[103]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[104]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[105]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[106]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[107]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[108]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[109]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[110]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[111]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[112]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[113]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[114]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[115]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[116]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[117]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[118]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[119]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[120]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[121]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[122]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[123]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[124]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[125]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[126]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[127]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[128]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[129]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[130]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[131]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[132]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[133]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[134]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[135]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[136]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[137]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[138]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[139]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[140]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[141]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[142]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[143]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[144]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[145]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[146]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[147]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[148]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[149]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[150]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[151]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[152]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[153]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[154]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[155]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[156]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[157]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[158]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[159]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[160]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[161]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[162]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[163]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[164]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[165]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[166]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[167]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[168]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[169]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[170]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[171]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[172]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[173]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[174]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[175]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[176]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[177]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[178]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[179]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[180]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[181]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[182]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[183]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[184]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[185]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[186]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[187]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[188]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[189]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[190]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[191]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[192]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[193]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[194]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[195]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[196]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[197]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[198]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[199]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[200]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[201]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[202]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[203]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[204]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[205]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[206]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[207]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[208]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[209]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[210]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[211]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[212]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[213]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[214]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[215]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[216]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[217]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[218]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[219]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[220]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[221]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[222]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[223]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[224]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[225]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[226]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[227]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[228]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[229]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[230]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[231]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[232]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[233]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[234]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[235]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[236]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[237]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[238]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[239]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[240]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[241]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[242]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[243]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[244]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[245]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[246]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[247]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[248]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[249]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[250]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[251]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[252]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[253]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[254]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[255]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[32]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[33]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[34]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[35]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[36]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[37]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[38]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[39]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[40]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[41]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[42]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[43]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[44]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[45]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[46]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[47]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[48]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[49]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[50]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[51]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[52]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[53]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[54]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[55]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[56]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[57]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[58]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[59]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[60]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[61]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[62]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[63]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[64]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[65]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[66]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[67]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[68]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[69]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[70]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[71]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[72]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[73]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[74]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[75]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[76]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[77]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[78]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[79]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[80]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[81]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[82]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[83]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[84]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[85]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[86]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[87]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[88]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[89]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[90]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[91]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[92]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[93]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[94]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[95]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[96]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[97]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[98]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[99]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMdata[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_done" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="trigger50kHz" tap_mode="classic" type="combinatorial"/>
+          <wire name="GCLKIN" tap_mode="probeonly" type="input pin"/>
+          <wire name="GPIO[6]" tap_mode="probeonly" type="bidir pin"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="DA" order="lsb_to_msb" radix="line" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="DA[0]"/>
+            <net is_signal_inverted="no" name="DA[1]"/>
+            <net is_signal_inverted="no" name="DA[2]"/>
+            <net is_signal_inverted="no" name="DA[3]"/>
+            <net is_signal_inverted="no" name="DA[4]"/>
+            <net is_signal_inverted="no" name="DA[5]"/>
+            <net is_signal_inverted="no" name="DA[6]"/>
+            <net is_signal_inverted="no" name="DA[7]"/>
+            <net is_signal_inverted="no" name="DA[8]"/>
+            <net is_signal_inverted="no" name="DA[9]"/>
+            <net is_signal_inverted="no" name="DA[10]"/>
+            <net is_signal_inverted="no" name="DA[11]"/>
+            <net is_signal_inverted="no" name="DA[12]"/>
+            <net is_signal_inverted="no" name="DA[13]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ADA_D" order="lsb_to_msb" radix="line" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="ADA_D[0]"/>
+            <net is_signal_inverted="no" name="ADA_D[1]"/>
+            <net is_signal_inverted="no" name="ADA_D[2]"/>
+            <net is_signal_inverted="no" name="ADA_D[3]"/>
+            <net is_signal_inverted="no" name="ADA_D[4]"/>
+            <net is_signal_inverted="no" name="ADA_D[5]"/>
+            <net is_signal_inverted="no" name="ADA_D[6]"/>
+            <net is_signal_inverted="no" name="ADA_D[7]"/>
+            <net is_signal_inverted="no" name="ADA_D[8]"/>
+            <net is_signal_inverted="no" name="ADA_D[9]"/>
+            <net is_signal_inverted="no" name="ADA_D[10]"/>
+            <net is_signal_inverted="no" name="ADA_D[11]"/>
+            <net is_signal_inverted="no" name="ADA_D[12]"/>
+            <net is_signal_inverted="no" name="ADA_D[13]"/>
+          </bus>
+          <net is_signal_inverted="no" name="GCLKIN"/>
+          <net is_signal_inverted="no" name="GPIO[6]"/>
+          <net is_signal_inverted="no" name="trigger50kHz"/>
+          <bus is_signal_inverted="no" link="all" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position" order="lsb_to_msb" radix="line" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]"/>
+          </bus>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_done"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read"/>
+          <bus is_signal_inverted="no" link="all" name="RAMdata" order="lsb_to_msb" radix="line_signed" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAMdata[0]"/>
+            <net is_signal_inverted="no" name="RAMdata[1]"/>
+            <net is_signal_inverted="no" name="RAMdata[2]"/>
+            <net is_signal_inverted="no" name="RAMdata[3]"/>
+            <net is_signal_inverted="no" name="RAMdata[4]"/>
+            <net is_signal_inverted="no" name="RAMdata[5]"/>
+            <net is_signal_inverted="no" name="RAMdata[6]"/>
+            <net is_signal_inverted="no" name="RAMdata[7]"/>
+            <net is_signal_inverted="no" name="RAMdata[8]"/>
+            <net is_signal_inverted="no" name="RAMdata[9]"/>
+            <net is_signal_inverted="no" name="RAMdata[10]"/>
+            <net is_signal_inverted="no" name="RAMdata[11]"/>
+            <net is_signal_inverted="no" name="RAMdata[12]"/>
+            <net is_signal_inverted="no" name="RAMdata[13]"/>
+            <net is_signal_inverted="no" name="RAMdata[14]"/>
+            <net is_signal_inverted="no" name="RAMdata[15]"/>
+            <net is_signal_inverted="no" name="RAMdata[16]"/>
+            <net is_signal_inverted="no" name="RAMdata[17]"/>
+            <net is_signal_inverted="no" name="RAMdata[18]"/>
+            <net is_signal_inverted="no" name="RAMdata[19]"/>
+            <net is_signal_inverted="no" name="RAMdata[20]"/>
+            <net is_signal_inverted="no" name="RAMdata[21]"/>
+            <net is_signal_inverted="no" name="RAMdata[22]"/>
+            <net is_signal_inverted="no" name="RAMdata[23]"/>
+            <net is_signal_inverted="no" name="RAMdata[24]"/>
+            <net is_signal_inverted="no" name="RAMdata[25]"/>
+            <net is_signal_inverted="no" name="RAMdata[26]"/>
+            <net is_signal_inverted="no" name="RAMdata[27]"/>
+            <net is_signal_inverted="no" name="RAMdata[28]"/>
+            <net is_signal_inverted="no" name="RAMdata[29]"/>
+            <net is_signal_inverted="no" name="RAMdata[30]"/>
+            <net is_signal_inverted="no" name="RAMdata[31]"/>
+            <net is_signal_inverted="no" name="RAMdata[32]"/>
+            <net is_signal_inverted="no" name="RAMdata[33]"/>
+            <net is_signal_inverted="no" name="RAMdata[34]"/>
+            <net is_signal_inverted="no" name="RAMdata[35]"/>
+            <net is_signal_inverted="no" name="RAMdata[36]"/>
+            <net is_signal_inverted="no" name="RAMdata[37]"/>
+            <net is_signal_inverted="no" name="RAMdata[38]"/>
+            <net is_signal_inverted="no" name="RAMdata[39]"/>
+            <net is_signal_inverted="no" name="RAMdata[40]"/>
+            <net is_signal_inverted="no" name="RAMdata[41]"/>
+            <net is_signal_inverted="no" name="RAMdata[42]"/>
+            <net is_signal_inverted="no" name="RAMdata[43]"/>
+            <net is_signal_inverted="no" name="RAMdata[44]"/>
+            <net is_signal_inverted="no" name="RAMdata[45]"/>
+            <net is_signal_inverted="no" name="RAMdata[46]"/>
+            <net is_signal_inverted="no" name="RAMdata[47]"/>
+            <net is_signal_inverted="no" name="RAMdata[48]"/>
+            <net is_signal_inverted="no" name="RAMdata[49]"/>
+            <net is_signal_inverted="no" name="RAMdata[50]"/>
+            <net is_signal_inverted="no" name="RAMdata[51]"/>
+            <net is_signal_inverted="no" name="RAMdata[52]"/>
+            <net is_signal_inverted="no" name="RAMdata[53]"/>
+            <net is_signal_inverted="no" name="RAMdata[54]"/>
+            <net is_signal_inverted="no" name="RAMdata[55]"/>
+            <net is_signal_inverted="no" name="RAMdata[56]"/>
+            <net is_signal_inverted="no" name="RAMdata[57]"/>
+            <net is_signal_inverted="no" name="RAMdata[58]"/>
+            <net is_signal_inverted="no" name="RAMdata[59]"/>
+            <net is_signal_inverted="no" name="RAMdata[60]"/>
+            <net is_signal_inverted="no" name="RAMdata[61]"/>
+            <net is_signal_inverted="no" name="RAMdata[62]"/>
+            <net is_signal_inverted="no" name="RAMdata[63]"/>
+            <net is_signal_inverted="no" name="RAMdata[64]"/>
+            <net is_signal_inverted="no" name="RAMdata[65]"/>
+            <net is_signal_inverted="no" name="RAMdata[66]"/>
+            <net is_signal_inverted="no" name="RAMdata[67]"/>
+            <net is_signal_inverted="no" name="RAMdata[68]"/>
+            <net is_signal_inverted="no" name="RAMdata[69]"/>
+            <net is_signal_inverted="no" name="RAMdata[70]"/>
+            <net is_signal_inverted="no" name="RAMdata[71]"/>
+            <net is_signal_inverted="no" name="RAMdata[72]"/>
+            <net is_signal_inverted="no" name="RAMdata[73]"/>
+            <net is_signal_inverted="no" name="RAMdata[74]"/>
+            <net is_signal_inverted="no" name="RAMdata[75]"/>
+            <net is_signal_inverted="no" name="RAMdata[76]"/>
+            <net is_signal_inverted="no" name="RAMdata[77]"/>
+            <net is_signal_inverted="no" name="RAMdata[78]"/>
+            <net is_signal_inverted="no" name="RAMdata[79]"/>
+            <net is_signal_inverted="no" name="RAMdata[80]"/>
+            <net is_signal_inverted="no" name="RAMdata[81]"/>
+            <net is_signal_inverted="no" name="RAMdata[82]"/>
+            <net is_signal_inverted="no" name="RAMdata[83]"/>
+            <net is_signal_inverted="no" name="RAMdata[84]"/>
+            <net is_signal_inverted="no" name="RAMdata[85]"/>
+            <net is_signal_inverted="no" name="RAMdata[86]"/>
+            <net is_signal_inverted="no" name="RAMdata[87]"/>
+            <net is_signal_inverted="no" name="RAMdata[88]"/>
+            <net is_signal_inverted="no" name="RAMdata[89]"/>
+            <net is_signal_inverted="no" name="RAMdata[90]"/>
+            <net is_signal_inverted="no" name="RAMdata[91]"/>
+            <net is_signal_inverted="no" name="RAMdata[92]"/>
+            <net is_signal_inverted="no" name="RAMdata[93]"/>
+            <net is_signal_inverted="no" name="RAMdata[94]"/>
+            <net is_signal_inverted="no" name="RAMdata[95]"/>
+            <net is_signal_inverted="no" name="RAMdata[96]"/>
+            <net is_signal_inverted="no" name="RAMdata[97]"/>
+            <net is_signal_inverted="no" name="RAMdata[98]"/>
+            <net is_signal_inverted="no" name="RAMdata[99]"/>
+            <net is_signal_inverted="no" name="RAMdata[100]"/>
+            <net is_signal_inverted="no" name="RAMdata[101]"/>
+            <net is_signal_inverted="no" name="RAMdata[102]"/>
+            <net is_signal_inverted="no" name="RAMdata[103]"/>
+            <net is_signal_inverted="no" name="RAMdata[104]"/>
+            <net is_signal_inverted="no" name="RAMdata[105]"/>
+            <net is_signal_inverted="no" name="RAMdata[106]"/>
+            <net is_signal_inverted="no" name="RAMdata[107]"/>
+            <net is_signal_inverted="no" name="RAMdata[108]"/>
+            <net is_signal_inverted="no" name="RAMdata[109]"/>
+            <net is_signal_inverted="no" name="RAMdata[110]"/>
+            <net is_signal_inverted="no" name="RAMdata[111]"/>
+            <net is_signal_inverted="no" name="RAMdata[112]"/>
+            <net is_signal_inverted="no" name="RAMdata[113]"/>
+            <net is_signal_inverted="no" name="RAMdata[114]"/>
+            <net is_signal_inverted="no" name="RAMdata[115]"/>
+            <net is_signal_inverted="no" name="RAMdata[116]"/>
+            <net is_signal_inverted="no" name="RAMdata[117]"/>
+            <net is_signal_inverted="no" name="RAMdata[118]"/>
+            <net is_signal_inverted="no" name="RAMdata[119]"/>
+            <net is_signal_inverted="no" name="RAMdata[120]"/>
+            <net is_signal_inverted="no" name="RAMdata[121]"/>
+            <net is_signal_inverted="no" name="RAMdata[122]"/>
+            <net is_signal_inverted="no" name="RAMdata[123]"/>
+            <net is_signal_inverted="no" name="RAMdata[124]"/>
+            <net is_signal_inverted="no" name="RAMdata[125]"/>
+            <net is_signal_inverted="no" name="RAMdata[126]"/>
+            <net is_signal_inverted="no" name="RAMdata[127]"/>
+            <net is_signal_inverted="no" name="RAMdata[128]"/>
+            <net is_signal_inverted="no" name="RAMdata[129]"/>
+            <net is_signal_inverted="no" name="RAMdata[130]"/>
+            <net is_signal_inverted="no" name="RAMdata[131]"/>
+            <net is_signal_inverted="no" name="RAMdata[132]"/>
+            <net is_signal_inverted="no" name="RAMdata[133]"/>
+            <net is_signal_inverted="no" name="RAMdata[134]"/>
+            <net is_signal_inverted="no" name="RAMdata[135]"/>
+            <net is_signal_inverted="no" name="RAMdata[136]"/>
+            <net is_signal_inverted="no" name="RAMdata[137]"/>
+            <net is_signal_inverted="no" name="RAMdata[138]"/>
+            <net is_signal_inverted="no" name="RAMdata[139]"/>
+            <net is_signal_inverted="no" name="RAMdata[140]"/>
+            <net is_signal_inverted="no" name="RAMdata[141]"/>
+            <net is_signal_inverted="no" name="RAMdata[142]"/>
+            <net is_signal_inverted="no" name="RAMdata[143]"/>
+            <net is_signal_inverted="no" name="RAMdata[144]"/>
+            <net is_signal_inverted="no" name="RAMdata[145]"/>
+            <net is_signal_inverted="no" name="RAMdata[146]"/>
+            <net is_signal_inverted="no" name="RAMdata[147]"/>
+            <net is_signal_inverted="no" name="RAMdata[148]"/>
+            <net is_signal_inverted="no" name="RAMdata[149]"/>
+            <net is_signal_inverted="no" name="RAMdata[150]"/>
+            <net is_signal_inverted="no" name="RAMdata[151]"/>
+            <net is_signal_inverted="no" name="RAMdata[152]"/>
+            <net is_signal_inverted="no" name="RAMdata[153]"/>
+            <net is_signal_inverted="no" name="RAMdata[154]"/>
+            <net is_signal_inverted="no" name="RAMdata[155]"/>
+            <net is_signal_inverted="no" name="RAMdata[156]"/>
+            <net is_signal_inverted="no" name="RAMdata[157]"/>
+            <net is_signal_inverted="no" name="RAMdata[158]"/>
+            <net is_signal_inverted="no" name="RAMdata[159]"/>
+            <net is_signal_inverted="no" name="RAMdata[160]"/>
+            <net is_signal_inverted="no" name="RAMdata[161]"/>
+            <net is_signal_inverted="no" name="RAMdata[162]"/>
+            <net is_signal_inverted="no" name="RAMdata[163]"/>
+            <net is_signal_inverted="no" name="RAMdata[164]"/>
+            <net is_signal_inverted="no" name="RAMdata[165]"/>
+            <net is_signal_inverted="no" name="RAMdata[166]"/>
+            <net is_signal_inverted="no" name="RAMdata[167]"/>
+            <net is_signal_inverted="no" name="RAMdata[168]"/>
+            <net is_signal_inverted="no" name="RAMdata[169]"/>
+            <net is_signal_inverted="no" name="RAMdata[170]"/>
+            <net is_signal_inverted="no" name="RAMdata[171]"/>
+            <net is_signal_inverted="no" name="RAMdata[172]"/>
+            <net is_signal_inverted="no" name="RAMdata[173]"/>
+            <net is_signal_inverted="no" name="RAMdata[174]"/>
+            <net is_signal_inverted="no" name="RAMdata[175]"/>
+            <net is_signal_inverted="no" name="RAMdata[176]"/>
+            <net is_signal_inverted="no" name="RAMdata[177]"/>
+            <net is_signal_inverted="no" name="RAMdata[178]"/>
+            <net is_signal_inverted="no" name="RAMdata[179]"/>
+            <net is_signal_inverted="no" name="RAMdata[180]"/>
+            <net is_signal_inverted="no" name="RAMdata[181]"/>
+            <net is_signal_inverted="no" name="RAMdata[182]"/>
+            <net is_signal_inverted="no" name="RAMdata[183]"/>
+            <net is_signal_inverted="no" name="RAMdata[184]"/>
+            <net is_signal_inverted="no" name="RAMdata[185]"/>
+            <net is_signal_inverted="no" name="RAMdata[186]"/>
+            <net is_signal_inverted="no" name="RAMdata[187]"/>
+            <net is_signal_inverted="no" name="RAMdata[188]"/>
+            <net is_signal_inverted="no" name="RAMdata[189]"/>
+            <net is_signal_inverted="no" name="RAMdata[190]"/>
+            <net is_signal_inverted="no" name="RAMdata[191]"/>
+            <net is_signal_inverted="no" name="RAMdata[192]"/>
+            <net is_signal_inverted="no" name="RAMdata[193]"/>
+            <net is_signal_inverted="no" name="RAMdata[194]"/>
+            <net is_signal_inverted="no" name="RAMdata[195]"/>
+            <net is_signal_inverted="no" name="RAMdata[196]"/>
+            <net is_signal_inverted="no" name="RAMdata[197]"/>
+            <net is_signal_inverted="no" name="RAMdata[198]"/>
+            <net is_signal_inverted="no" name="RAMdata[199]"/>
+            <net is_signal_inverted="no" name="RAMdata[200]"/>
+            <net is_signal_inverted="no" name="RAMdata[201]"/>
+            <net is_signal_inverted="no" name="RAMdata[202]"/>
+            <net is_signal_inverted="no" name="RAMdata[203]"/>
+            <net is_signal_inverted="no" name="RAMdata[204]"/>
+            <net is_signal_inverted="no" name="RAMdata[205]"/>
+            <net is_signal_inverted="no" name="RAMdata[206]"/>
+            <net is_signal_inverted="no" name="RAMdata[207]"/>
+            <net is_signal_inverted="no" name="RAMdata[208]"/>
+            <net is_signal_inverted="no" name="RAMdata[209]"/>
+            <net is_signal_inverted="no" name="RAMdata[210]"/>
+            <net is_signal_inverted="no" name="RAMdata[211]"/>
+            <net is_signal_inverted="no" name="RAMdata[212]"/>
+            <net is_signal_inverted="no" name="RAMdata[213]"/>
+            <net is_signal_inverted="no" name="RAMdata[214]"/>
+            <net is_signal_inverted="no" name="RAMdata[215]"/>
+            <net is_signal_inverted="no" name="RAMdata[216]"/>
+            <net is_signal_inverted="no" name="RAMdata[217]"/>
+            <net is_signal_inverted="no" name="RAMdata[218]"/>
+            <net is_signal_inverted="no" name="RAMdata[219]"/>
+            <net is_signal_inverted="no" name="RAMdata[220]"/>
+            <net is_signal_inverted="no" name="RAMdata[221]"/>
+            <net is_signal_inverted="no" name="RAMdata[222]"/>
+            <net is_signal_inverted="no" name="RAMdata[223]"/>
+            <net is_signal_inverted="no" name="RAMdata[224]"/>
+            <net is_signal_inverted="no" name="RAMdata[225]"/>
+            <net is_signal_inverted="no" name="RAMdata[226]"/>
+            <net is_signal_inverted="no" name="RAMdata[227]"/>
+            <net is_signal_inverted="no" name="RAMdata[228]"/>
+            <net is_signal_inverted="no" name="RAMdata[229]"/>
+            <net is_signal_inverted="no" name="RAMdata[230]"/>
+            <net is_signal_inverted="no" name="RAMdata[231]"/>
+            <net is_signal_inverted="no" name="RAMdata[232]"/>
+            <net is_signal_inverted="no" name="RAMdata[233]"/>
+            <net is_signal_inverted="no" name="RAMdata[234]"/>
+            <net is_signal_inverted="no" name="RAMdata[235]"/>
+            <net is_signal_inverted="no" name="RAMdata[236]"/>
+            <net is_signal_inverted="no" name="RAMdata[237]"/>
+            <net is_signal_inverted="no" name="RAMdata[238]"/>
+            <net is_signal_inverted="no" name="RAMdata[239]"/>
+            <net is_signal_inverted="no" name="RAMdata[240]"/>
+            <net is_signal_inverted="no" name="RAMdata[241]"/>
+            <net is_signal_inverted="no" name="RAMdata[242]"/>
+            <net is_signal_inverted="no" name="RAMdata[243]"/>
+            <net is_signal_inverted="no" name="RAMdata[244]"/>
+            <net is_signal_inverted="no" name="RAMdata[245]"/>
+            <net is_signal_inverted="no" name="RAMdata[246]"/>
+            <net is_signal_inverted="no" name="RAMdata[247]"/>
+            <net is_signal_inverted="no" name="RAMdata[248]"/>
+            <net is_signal_inverted="no" name="RAMdata[249]"/>
+            <net is_signal_inverted="no" name="RAMdata[250]"/>
+            <net is_signal_inverted="no" name="RAMdata[251]"/>
+            <net is_signal_inverted="no" name="RAMdata[252]"/>
+            <net is_signal_inverted="no" name="RAMdata[253]"/>
+            <net is_signal_inverted="no" name="RAMdata[254]"/>
+            <net is_signal_inverted="no" name="RAMdata[255]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="DA" order="lsb_to_msb" radix="line" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="DA[0]"/>
+            <net is_signal_inverted="no" name="DA[1]"/>
+            <net is_signal_inverted="no" name="DA[2]"/>
+            <net is_signal_inverted="no" name="DA[3]"/>
+            <net is_signal_inverted="no" name="DA[4]"/>
+            <net is_signal_inverted="no" name="DA[5]"/>
+            <net is_signal_inverted="no" name="DA[6]"/>
+            <net is_signal_inverted="no" name="DA[7]"/>
+            <net is_signal_inverted="no" name="DA[8]"/>
+            <net is_signal_inverted="no" name="DA[9]"/>
+            <net is_signal_inverted="no" name="DA[10]"/>
+            <net is_signal_inverted="no" name="DA[11]"/>
+            <net is_signal_inverted="no" name="DA[12]"/>
+            <net is_signal_inverted="no" name="DA[13]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ADA_D" order="lsb_to_msb" radix="line" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="ADA_D[0]"/>
+            <net is_signal_inverted="no" name="ADA_D[1]"/>
+            <net is_signal_inverted="no" name="ADA_D[2]"/>
+            <net is_signal_inverted="no" name="ADA_D[3]"/>
+            <net is_signal_inverted="no" name="ADA_D[4]"/>
+            <net is_signal_inverted="no" name="ADA_D[5]"/>
+            <net is_signal_inverted="no" name="ADA_D[6]"/>
+            <net is_signal_inverted="no" name="ADA_D[7]"/>
+            <net is_signal_inverted="no" name="ADA_D[8]"/>
+            <net is_signal_inverted="no" name="ADA_D[9]"/>
+            <net is_signal_inverted="no" name="ADA_D[10]"/>
+            <net is_signal_inverted="no" name="ADA_D[11]"/>
+            <net is_signal_inverted="no" name="ADA_D[12]"/>
+            <net is_signal_inverted="no" name="ADA_D[13]"/>
+          </bus>
+          <net is_signal_inverted="no" name="trigger50kHz"/>
+          <bus is_signal_inverted="no" link="all" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position" order="lsb_to_msb" radix="line" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]"/>
+          </bus>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_done"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read"/>
+          <bus is_signal_inverted="no" link="all" name="RAMdata" order="lsb_to_msb" radix="line_signed" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAMdata[0]"/>
+            <net is_signal_inverted="no" name="RAMdata[1]"/>
+            <net is_signal_inverted="no" name="RAMdata[2]"/>
+            <net is_signal_inverted="no" name="RAMdata[3]"/>
+            <net is_signal_inverted="no" name="RAMdata[4]"/>
+            <net is_signal_inverted="no" name="RAMdata[5]"/>
+            <net is_signal_inverted="no" name="RAMdata[6]"/>
+            <net is_signal_inverted="no" name="RAMdata[7]"/>
+            <net is_signal_inverted="no" name="RAMdata[8]"/>
+            <net is_signal_inverted="no" name="RAMdata[9]"/>
+            <net is_signal_inverted="no" name="RAMdata[10]"/>
+            <net is_signal_inverted="no" name="RAMdata[11]"/>
+            <net is_signal_inverted="no" name="RAMdata[12]"/>
+            <net is_signal_inverted="no" name="RAMdata[13]"/>
+            <net is_signal_inverted="no" name="RAMdata[14]"/>
+            <net is_signal_inverted="no" name="RAMdata[15]"/>
+            <net is_signal_inverted="no" name="RAMdata[16]"/>
+            <net is_signal_inverted="no" name="RAMdata[17]"/>
+            <net is_signal_inverted="no" name="RAMdata[18]"/>
+            <net is_signal_inverted="no" name="RAMdata[19]"/>
+            <net is_signal_inverted="no" name="RAMdata[20]"/>
+            <net is_signal_inverted="no" name="RAMdata[21]"/>
+            <net is_signal_inverted="no" name="RAMdata[22]"/>
+            <net is_signal_inverted="no" name="RAMdata[23]"/>
+            <net is_signal_inverted="no" name="RAMdata[24]"/>
+            <net is_signal_inverted="no" name="RAMdata[25]"/>
+            <net is_signal_inverted="no" name="RAMdata[26]"/>
+            <net is_signal_inverted="no" name="RAMdata[27]"/>
+            <net is_signal_inverted="no" name="RAMdata[28]"/>
+            <net is_signal_inverted="no" name="RAMdata[29]"/>
+            <net is_signal_inverted="no" name="RAMdata[30]"/>
+            <net is_signal_inverted="no" name="RAMdata[31]"/>
+            <net is_signal_inverted="no" name="RAMdata[32]"/>
+            <net is_signal_inverted="no" name="RAMdata[33]"/>
+            <net is_signal_inverted="no" name="RAMdata[34]"/>
+            <net is_signal_inverted="no" name="RAMdata[35]"/>
+            <net is_signal_inverted="no" name="RAMdata[36]"/>
+            <net is_signal_inverted="no" name="RAMdata[37]"/>
+            <net is_signal_inverted="no" name="RAMdata[38]"/>
+            <net is_signal_inverted="no" name="RAMdata[39]"/>
+            <net is_signal_inverted="no" name="RAMdata[40]"/>
+            <net is_signal_inverted="no" name="RAMdata[41]"/>
+            <net is_signal_inverted="no" name="RAMdata[42]"/>
+            <net is_signal_inverted="no" name="RAMdata[43]"/>
+            <net is_signal_inverted="no" name="RAMdata[44]"/>
+            <net is_signal_inverted="no" name="RAMdata[45]"/>
+            <net is_signal_inverted="no" name="RAMdata[46]"/>
+            <net is_signal_inverted="no" name="RAMdata[47]"/>
+            <net is_signal_inverted="no" name="RAMdata[48]"/>
+            <net is_signal_inverted="no" name="RAMdata[49]"/>
+            <net is_signal_inverted="no" name="RAMdata[50]"/>
+            <net is_signal_inverted="no" name="RAMdata[51]"/>
+            <net is_signal_inverted="no" name="RAMdata[52]"/>
+            <net is_signal_inverted="no" name="RAMdata[53]"/>
+            <net is_signal_inverted="no" name="RAMdata[54]"/>
+            <net is_signal_inverted="no" name="RAMdata[55]"/>
+            <net is_signal_inverted="no" name="RAMdata[56]"/>
+            <net is_signal_inverted="no" name="RAMdata[57]"/>
+            <net is_signal_inverted="no" name="RAMdata[58]"/>
+            <net is_signal_inverted="no" name="RAMdata[59]"/>
+            <net is_signal_inverted="no" name="RAMdata[60]"/>
+            <net is_signal_inverted="no" name="RAMdata[61]"/>
+            <net is_signal_inverted="no" name="RAMdata[62]"/>
+            <net is_signal_inverted="no" name="RAMdata[63]"/>
+            <net is_signal_inverted="no" name="RAMdata[64]"/>
+            <net is_signal_inverted="no" name="RAMdata[65]"/>
+            <net is_signal_inverted="no" name="RAMdata[66]"/>
+            <net is_signal_inverted="no" name="RAMdata[67]"/>
+            <net is_signal_inverted="no" name="RAMdata[68]"/>
+            <net is_signal_inverted="no" name="RAMdata[69]"/>
+            <net is_signal_inverted="no" name="RAMdata[70]"/>
+            <net is_signal_inverted="no" name="RAMdata[71]"/>
+            <net is_signal_inverted="no" name="RAMdata[72]"/>
+            <net is_signal_inverted="no" name="RAMdata[73]"/>
+            <net is_signal_inverted="no" name="RAMdata[74]"/>
+            <net is_signal_inverted="no" name="RAMdata[75]"/>
+            <net is_signal_inverted="no" name="RAMdata[76]"/>
+            <net is_signal_inverted="no" name="RAMdata[77]"/>
+            <net is_signal_inverted="no" name="RAMdata[78]"/>
+            <net is_signal_inverted="no" name="RAMdata[79]"/>
+            <net is_signal_inverted="no" name="RAMdata[80]"/>
+            <net is_signal_inverted="no" name="RAMdata[81]"/>
+            <net is_signal_inverted="no" name="RAMdata[82]"/>
+            <net is_signal_inverted="no" name="RAMdata[83]"/>
+            <net is_signal_inverted="no" name="RAMdata[84]"/>
+            <net is_signal_inverted="no" name="RAMdata[85]"/>
+            <net is_signal_inverted="no" name="RAMdata[86]"/>
+            <net is_signal_inverted="no" name="RAMdata[87]"/>
+            <net is_signal_inverted="no" name="RAMdata[88]"/>
+            <net is_signal_inverted="no" name="RAMdata[89]"/>
+            <net is_signal_inverted="no" name="RAMdata[90]"/>
+            <net is_signal_inverted="no" name="RAMdata[91]"/>
+            <net is_signal_inverted="no" name="RAMdata[92]"/>
+            <net is_signal_inverted="no" name="RAMdata[93]"/>
+            <net is_signal_inverted="no" name="RAMdata[94]"/>
+            <net is_signal_inverted="no" name="RAMdata[95]"/>
+            <net is_signal_inverted="no" name="RAMdata[96]"/>
+            <net is_signal_inverted="no" name="RAMdata[97]"/>
+            <net is_signal_inverted="no" name="RAMdata[98]"/>
+            <net is_signal_inverted="no" name="RAMdata[99]"/>
+            <net is_signal_inverted="no" name="RAMdata[100]"/>
+            <net is_signal_inverted="no" name="RAMdata[101]"/>
+            <net is_signal_inverted="no" name="RAMdata[102]"/>
+            <net is_signal_inverted="no" name="RAMdata[103]"/>
+            <net is_signal_inverted="no" name="RAMdata[104]"/>
+            <net is_signal_inverted="no" name="RAMdata[105]"/>
+            <net is_signal_inverted="no" name="RAMdata[106]"/>
+            <net is_signal_inverted="no" name="RAMdata[107]"/>
+            <net is_signal_inverted="no" name="RAMdata[108]"/>
+            <net is_signal_inverted="no" name="RAMdata[109]"/>
+            <net is_signal_inverted="no" name="RAMdata[110]"/>
+            <net is_signal_inverted="no" name="RAMdata[111]"/>
+            <net is_signal_inverted="no" name="RAMdata[112]"/>
+            <net is_signal_inverted="no" name="RAMdata[113]"/>
+            <net is_signal_inverted="no" name="RAMdata[114]"/>
+            <net is_signal_inverted="no" name="RAMdata[115]"/>
+            <net is_signal_inverted="no" name="RAMdata[116]"/>
+            <net is_signal_inverted="no" name="RAMdata[117]"/>
+            <net is_signal_inverted="no" name="RAMdata[118]"/>
+            <net is_signal_inverted="no" name="RAMdata[119]"/>
+            <net is_signal_inverted="no" name="RAMdata[120]"/>
+            <net is_signal_inverted="no" name="RAMdata[121]"/>
+            <net is_signal_inverted="no" name="RAMdata[122]"/>
+            <net is_signal_inverted="no" name="RAMdata[123]"/>
+            <net is_signal_inverted="no" name="RAMdata[124]"/>
+            <net is_signal_inverted="no" name="RAMdata[125]"/>
+            <net is_signal_inverted="no" name="RAMdata[126]"/>
+            <net is_signal_inverted="no" name="RAMdata[127]"/>
+            <net is_signal_inverted="no" name="RAMdata[128]"/>
+            <net is_signal_inverted="no" name="RAMdata[129]"/>
+            <net is_signal_inverted="no" name="RAMdata[130]"/>
+            <net is_signal_inverted="no" name="RAMdata[131]"/>
+            <net is_signal_inverted="no" name="RAMdata[132]"/>
+            <net is_signal_inverted="no" name="RAMdata[133]"/>
+            <net is_signal_inverted="no" name="RAMdata[134]"/>
+            <net is_signal_inverted="no" name="RAMdata[135]"/>
+            <net is_signal_inverted="no" name="RAMdata[136]"/>
+            <net is_signal_inverted="no" name="RAMdata[137]"/>
+            <net is_signal_inverted="no" name="RAMdata[138]"/>
+            <net is_signal_inverted="no" name="RAMdata[139]"/>
+            <net is_signal_inverted="no" name="RAMdata[140]"/>
+            <net is_signal_inverted="no" name="RAMdata[141]"/>
+            <net is_signal_inverted="no" name="RAMdata[142]"/>
+            <net is_signal_inverted="no" name="RAMdata[143]"/>
+            <net is_signal_inverted="no" name="RAMdata[144]"/>
+            <net is_signal_inverted="no" name="RAMdata[145]"/>
+            <net is_signal_inverted="no" name="RAMdata[146]"/>
+            <net is_signal_inverted="no" name="RAMdata[147]"/>
+            <net is_signal_inverted="no" name="RAMdata[148]"/>
+            <net is_signal_inverted="no" name="RAMdata[149]"/>
+            <net is_signal_inverted="no" name="RAMdata[150]"/>
+            <net is_signal_inverted="no" name="RAMdata[151]"/>
+            <net is_signal_inverted="no" name="RAMdata[152]"/>
+            <net is_signal_inverted="no" name="RAMdata[153]"/>
+            <net is_signal_inverted="no" name="RAMdata[154]"/>
+            <net is_signal_inverted="no" name="RAMdata[155]"/>
+            <net is_signal_inverted="no" name="RAMdata[156]"/>
+            <net is_signal_inverted="no" name="RAMdata[157]"/>
+            <net is_signal_inverted="no" name="RAMdata[158]"/>
+            <net is_signal_inverted="no" name="RAMdata[159]"/>
+            <net is_signal_inverted="no" name="RAMdata[160]"/>
+            <net is_signal_inverted="no" name="RAMdata[161]"/>
+            <net is_signal_inverted="no" name="RAMdata[162]"/>
+            <net is_signal_inverted="no" name="RAMdata[163]"/>
+            <net is_signal_inverted="no" name="RAMdata[164]"/>
+            <net is_signal_inverted="no" name="RAMdata[165]"/>
+            <net is_signal_inverted="no" name="RAMdata[166]"/>
+            <net is_signal_inverted="no" name="RAMdata[167]"/>
+            <net is_signal_inverted="no" name="RAMdata[168]"/>
+            <net is_signal_inverted="no" name="RAMdata[169]"/>
+            <net is_signal_inverted="no" name="RAMdata[170]"/>
+            <net is_signal_inverted="no" name="RAMdata[171]"/>
+            <net is_signal_inverted="no" name="RAMdata[172]"/>
+            <net is_signal_inverted="no" name="RAMdata[173]"/>
+            <net is_signal_inverted="no" name="RAMdata[174]"/>
+            <net is_signal_inverted="no" name="RAMdata[175]"/>
+            <net is_signal_inverted="no" name="RAMdata[176]"/>
+            <net is_signal_inverted="no" name="RAMdata[177]"/>
+            <net is_signal_inverted="no" name="RAMdata[178]"/>
+            <net is_signal_inverted="no" name="RAMdata[179]"/>
+            <net is_signal_inverted="no" name="RAMdata[180]"/>
+            <net is_signal_inverted="no" name="RAMdata[181]"/>
+            <net is_signal_inverted="no" name="RAMdata[182]"/>
+            <net is_signal_inverted="no" name="RAMdata[183]"/>
+            <net is_signal_inverted="no" name="RAMdata[184]"/>
+            <net is_signal_inverted="no" name="RAMdata[185]"/>
+            <net is_signal_inverted="no" name="RAMdata[186]"/>
+            <net is_signal_inverted="no" name="RAMdata[187]"/>
+            <net is_signal_inverted="no" name="RAMdata[188]"/>
+            <net is_signal_inverted="no" name="RAMdata[189]"/>
+            <net is_signal_inverted="no" name="RAMdata[190]"/>
+            <net is_signal_inverted="no" name="RAMdata[191]"/>
+            <net is_signal_inverted="no" name="RAMdata[192]"/>
+            <net is_signal_inverted="no" name="RAMdata[193]"/>
+            <net is_signal_inverted="no" name="RAMdata[194]"/>
+            <net is_signal_inverted="no" name="RAMdata[195]"/>
+            <net is_signal_inverted="no" name="RAMdata[196]"/>
+            <net is_signal_inverted="no" name="RAMdata[197]"/>
+            <net is_signal_inverted="no" name="RAMdata[198]"/>
+            <net is_signal_inverted="no" name="RAMdata[199]"/>
+            <net is_signal_inverted="no" name="RAMdata[200]"/>
+            <net is_signal_inverted="no" name="RAMdata[201]"/>
+            <net is_signal_inverted="no" name="RAMdata[202]"/>
+            <net is_signal_inverted="no" name="RAMdata[203]"/>
+            <net is_signal_inverted="no" name="RAMdata[204]"/>
+            <net is_signal_inverted="no" name="RAMdata[205]"/>
+            <net is_signal_inverted="no" name="RAMdata[206]"/>
+            <net is_signal_inverted="no" name="RAMdata[207]"/>
+            <net is_signal_inverted="no" name="RAMdata[208]"/>
+            <net is_signal_inverted="no" name="RAMdata[209]"/>
+            <net is_signal_inverted="no" name="RAMdata[210]"/>
+            <net is_signal_inverted="no" name="RAMdata[211]"/>
+            <net is_signal_inverted="no" name="RAMdata[212]"/>
+            <net is_signal_inverted="no" name="RAMdata[213]"/>
+            <net is_signal_inverted="no" name="RAMdata[214]"/>
+            <net is_signal_inverted="no" name="RAMdata[215]"/>
+            <net is_signal_inverted="no" name="RAMdata[216]"/>
+            <net is_signal_inverted="no" name="RAMdata[217]"/>
+            <net is_signal_inverted="no" name="RAMdata[218]"/>
+            <net is_signal_inverted="no" name="RAMdata[219]"/>
+            <net is_signal_inverted="no" name="RAMdata[220]"/>
+            <net is_signal_inverted="no" name="RAMdata[221]"/>
+            <net is_signal_inverted="no" name="RAMdata[222]"/>
+            <net is_signal_inverted="no" name="RAMdata[223]"/>
+            <net is_signal_inverted="no" name="RAMdata[224]"/>
+            <net is_signal_inverted="no" name="RAMdata[225]"/>
+            <net is_signal_inverted="no" name="RAMdata[226]"/>
+            <net is_signal_inverted="no" name="RAMdata[227]"/>
+            <net is_signal_inverted="no" name="RAMdata[228]"/>
+            <net is_signal_inverted="no" name="RAMdata[229]"/>
+            <net is_signal_inverted="no" name="RAMdata[230]"/>
+            <net is_signal_inverted="no" name="RAMdata[231]"/>
+            <net is_signal_inverted="no" name="RAMdata[232]"/>
+            <net is_signal_inverted="no" name="RAMdata[233]"/>
+            <net is_signal_inverted="no" name="RAMdata[234]"/>
+            <net is_signal_inverted="no" name="RAMdata[235]"/>
+            <net is_signal_inverted="no" name="RAMdata[236]"/>
+            <net is_signal_inverted="no" name="RAMdata[237]"/>
+            <net is_signal_inverted="no" name="RAMdata[238]"/>
+            <net is_signal_inverted="no" name="RAMdata[239]"/>
+            <net is_signal_inverted="no" name="RAMdata[240]"/>
+            <net is_signal_inverted="no" name="RAMdata[241]"/>
+            <net is_signal_inverted="no" name="RAMdata[242]"/>
+            <net is_signal_inverted="no" name="RAMdata[243]"/>
+            <net is_signal_inverted="no" name="RAMdata[244]"/>
+            <net is_signal_inverted="no" name="RAMdata[245]"/>
+            <net is_signal_inverted="no" name="RAMdata[246]"/>
+            <net is_signal_inverted="no" name="RAMdata[247]"/>
+            <net is_signal_inverted="no" name="RAMdata[248]"/>
+            <net is_signal_inverted="no" name="RAMdata[249]"/>
+            <net is_signal_inverted="no" name="RAMdata[250]"/>
+            <net is_signal_inverted="no" name="RAMdata[251]"/>
+            <net is_signal_inverted="no" name="RAMdata[252]"/>
+            <net is_signal_inverted="no" name="RAMdata[253]"/>
+            <net is_signal_inverted="no" name="RAMdata[254]"/>
+            <net is_signal_inverted="no" name="RAMdata[255]"/>
+          </bus>
+          <net is_signal_inverted="no" name="GCLKIN"/>
+          <net is_signal_inverted="no" name="GPIO[6]"/>
+        </setup_view>
+      </presentation>
+      <trigger attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2012/03/02 13:57:31  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="rising edge" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node>
+              <op_node left="281" top="291" type="Advanced Trigger Level Result"/>
+            </op_node>
+          </level>
+          <custom_flow_control>
+            <flow_expression><![CDATA[state ST1:
+trigger;]]>
+            </flow_expression>
+            <runtime_configurable comparison_operator="yes" counter_action="no" flag_action="no" logical_operator="yes" numerical_value="yes" state_transition="yes"/>
+            <power_up_flow_expression><![CDATA[state ST1:
+trigger;]]>
+            </power_up_flow_expression>
+          </custom_flow_control>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics>
+    <table name="state_table" width="6">
+      <symbol name="State_CheckAcqDone" value="000001"/>
+      <symbol name="State_CheckAcqDone2" value="000010"/>
+      <symbol name="State_CheckControllerReady" value="000100"/>
+      <symbol name="State_CheckFIFOFull" value="001000"/>
+      <symbol name="State_Done" value="010000"/>
+      <symbol name="State_Writing" value="100000"/>
+    </table>
+  </mnemonics>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="column width" size="23" value="34,34,431,74,68,70,88,88,98,98,88,88,110,101,101,101,101,101,101,101,101,107,78"/>
+    <multi attribute="window position" size="9" value="1379,980,398,124,356,50,24,0,0"/>
+  </global_info>
+</session>

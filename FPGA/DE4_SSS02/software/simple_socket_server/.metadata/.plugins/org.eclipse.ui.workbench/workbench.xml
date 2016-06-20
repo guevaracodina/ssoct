@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="1036" width="960" x="0" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="161" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Nios II C/C++">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="simple_socket_server.c" partName="simple_socket_server.c" path="D:/Edgar/Documents/ssoct/FPGA/DE4_SSS02/software/simple_socket_server/simple_socket_server/simple_socket_server.c" title="simple_socket_server.c" tooltip="simple_socket_server/simple_socket_server.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/simple_socket_server/simple_socket_server.c"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.sorting="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Targets">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState columnWidth0="421" columnWidth1="81" columnWidth2="156" columnWidth3="66" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="1"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.altera.nj.ui.Nios2CView" partName="Nios II C/C++ Projects">
+<viewState horizontalPosition="0" verticalPosition="6">
+<expanded>&#x0A;<element path="D:\Edgar\Documents\ssoct\FPGA\DE4_SSS02\software\simple_socket_server\simple_socket_server"/>
+</expanded>
+<selection>&#x0A;<element path="D:/Edgar/Documents/ssoct/FPGA/DE4_SSS02/software/simple_socket_server/simple_socket_server/simple_socket_server.c"/>
+</selection>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="com.altera.nj.ui.Nios2CView_patternFilterId_.*" isEnabled="true"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ExecutableFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.SharedFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ClosedProjectFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.NonCElementFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ObjectFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ArchiveFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.NonCProjectsFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.altera.nj.ui.CPerspective">
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.altera.nj.ui.Nios2CPerspectiveFactory" id="com.altera.nj.ui.CPerspective" label="Nios II C/C++"/>
+<alwaysOnActionSet id="com.altera.nj.doc.user.NiosIIDocumentation"/>
+<alwaysOnActionSet id="com.altera.nj.launch.NiosIIToolsMenuActionSet"/>
+<alwaysOnActionSet id="com.altera.nj.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.altera.nj.ui.Nios2CView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="com.altera.ide.chac.views.ChacView"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.ManagedNJWizard"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.ManagedSDKCWizard"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.NJDIYWizard"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.ManagedLibWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="com.altera.ide.gprof.ui.GprofPerspective"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<view id="com.altera.nj.ui.Nios2CView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.74950296" ratioLeft="754" ratioRight="252" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.74930364" ratioLeft="538" ratioRight="180" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Targets"/>
+<page content="com.altera.nj.ui.Nios2CView" label="Nios II C/C++ Projects"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="5"/>
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.views.BookmarkView" ratio="0.4992764" ratioLeft="345" ratioRight="346" relationship="2" relative="bottom"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/micrium_uc_osii/UCOSII/inc/ucos_ii.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/netinet/in_pcb.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/netinet/tcp.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/netinet6/ip6_fw.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/netinet6/ipsec.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/namespace.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/un-namespace.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/net/bindresvport.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/net/name6.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/sockops.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/socket.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/sparc64/sys/syscall.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/ftp/ftpclnt.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/ftp/ftpsrv.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/ftp/ftpssock.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/h/bsdsock.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/h/sockcall.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/h/socket.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/h/socket6.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/h/tcpport.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/led.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/network_utilities.c"/>
+</editors>
+<item historyLabel="simple_socket_server.h" index="1">
+<position info="not_deleted" x="6159" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="7760" y="0"/>
+</item>
+<item historyLabel="ucos_ii.h" index="2">
+<position info="not_deleted" x="50623" y="7"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="19016" y="0"/>
+</item>
+<item historyLabel="in_pcb.h" index="3">
+<position info="not_deleted" x="6169" y="10"/>
+</item>
+<item historyLabel="tcp.h" index="4">
+<position info="not_deleted" x="4859" y="10"/>
+</item>
+<item historyLabel="ip6_fw.h" index="5">
+<position info="not_deleted" x="3459" y="10"/>
+</item>
+<item historyLabel="ipsec.h" index="6">
+<position info="not_deleted" x="5355" y="10"/>
+</item>
+<item historyLabel="namespace.h" index="7">
+<position info="not_deleted" x="4272" y="10"/>
+</item>
+<item historyLabel="namespace.h" index="7">
+<position info="not_deleted" x="4286" y="10"/>
+</item>
+<item historyLabel="un-namespace.h" index="8">
+<position info="not_deleted" x="2608" y="10"/>
+</item>
+<item historyLabel="bindresvport.c" index="9">
+<position info="not_deleted" x="3540" y="10"/>
+</item>
+<item historyLabel="bindresvport.c" index="9">
+<position info="not_deleted" x="3764" y="10"/>
+</item>
+<item historyLabel="name6.c" index="10">
+<position info="not_deleted" x="42470" y="10"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="18048" y="0"/>
+</item>
+<item historyLabel="sockops.h" index="11">
+<position info="not_deleted" x="531" y="10"/>
+</item>
+<item historyLabel="socket.c" index="12">
+<position info="not_deleted" x="1192" y="10"/>
+</item>
+<item historyLabel="sockops.h" index="11">
+<position info="not_deleted" x="531" y="10"/>
+</item>
+<item historyLabel="syscall.h" index="13">
+<position info="not_deleted" x="6312" y="10"/>
+</item>
+<item historyLabel="ftpclnt.c" index="14">
+<position info="not_deleted" x="32958" y="10"/>
+</item>
+<item historyLabel="ftpclnt.c" index="14">
+<position info="not_deleted" x="43267" y="10"/>
+</item>
+<item historyLabel="ftpsrv.c" index="15">
+<position info="not_deleted" x="56745" y="10"/>
+</item>
+<item historyLabel="ftpssock.c" index="16">
+<position info="not_deleted" x="6388" y="10"/>
+</item>
+<item historyLabel="ftpssock.c" index="16">
+<position info="not_deleted" x="8170" y="10"/>
+</item>
+<item historyLabel="ftpssock.c" index="16">
+<position info="not_deleted" x="9607" y="10"/>
+</item>
+<item historyLabel="ftpssock.c" index="16">
+<position info="not_deleted" x="10405" y="10"/>
+</item>
+<item historyLabel="ftpssock.c" index="16">
+<position info="not_deleted" x="11510" y="10"/>
+</item>
+<item historyLabel="bsdsock.h" index="17">
+<position info="not_deleted" x="4977" y="10"/>
+</item>
+<item historyLabel="sockcall.h" index="18">
+<position info="not_deleted" x="1354" y="10"/>
+</item>
+<item historyLabel="socket.h" index="19">
+<position info="not_deleted" x="4470" y="10"/>
+</item>
+<item historyLabel="socket.h" index="19">
+<position info="not_deleted" x="5050" y="10"/>
+</item>
+<item historyLabel="socket6.h" index="20">
+<position info="not_deleted" x="1544" y="10"/>
+</item>
+<item historyLabel="tcpport.h" index="21">
+<position info="not_deleted" x="9270" y="10"/>
+</item>
+<item historyLabel="tcpport.h" index="21">
+<position info="not_deleted" x="9309" y="10"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="17925" y="0"/>
+</item>
+<item historyLabel="tcpport.h" index="21">
+<position info="not_deleted" x="9309" y="10"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="17925" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="22">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="17952" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="22">
+<position info="not_deleted" x="8573" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="17952" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="23">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="8489" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="23">
+<position info="not_deleted" x="6115" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="24">
+<position/>
+</item>
+<item historyLabel="led.c" index="25">
+<position/>
+</item>
+<item historyLabel="network_utilities.c" index="26">
+<position/>
+</item>
+<item historyLabel="network_utilities.c" index="26">
+<position/>
+</item>
+<item historyLabel="led.c" index="25">
+<position info="not_deleted" x="1103" y="0"/>
+</item>
+<item active="true" historyLabel="simple_socket_server.c" index="24">
+<position/>
+</item>
+</navigationHistory>
+<stickyState/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simple_socket_server.c" tooltip="simple_socket_server/simple_socket_server.c">
+<persistable path="/simple_socket_server/simple_socket_server.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="network_utilities.c" tooltip="simple_socket_server/network_utilities.c">
+<persistable path="/simple_socket_server/network_utilities.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="led.c" tooltip="simple_socket_server/led.c">
+<persistable path="/simple_socket_server/led.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="in_pcb.h" tooltip="altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/netinet/in_pcb.h">
+<persistable path="/altera.components/Newlib C Library/src/newlib/newlib/libc/sys/linux/include/netinet/in_pcb.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ucos_ii.h" tooltip="altera.components/Nios II Software Packages/micrium_uc_osii/UCOSII/inc/ucos_ii.h">
+<persistable path="/altera.components/Nios II Software Packages/micrium_uc_osii/UCOSII/inc/ucos_ii.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simple_socket_server.h" tooltip="simple_socket_server/simple_socket_server.h">
+<persistable path="/simple_socket_server/simple_socket_server.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ins_tse_mac.c" tooltip="altera.components/IP Device Drivers/altera/triple_speed_ethernet/lib/sopc_builder/altera_triple_speed_ethernet/UCOSII/src/iniche/ins_tse_mac.c">
+<persistable path="/altera.components/IP Device Drivers/altera/triple_speed_ethernet/lib/sopc_builder/altera_triple_speed_ethernet/UCOSII/src/iniche/ins_tse_mac.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="network_utilities.h" tooltip="simple_socket_server/network_utilities.h">
+<persistable path="/simple_socket_server/network_utilities.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tcpport.h" tooltip="altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/h/tcpport.h">
+<persistable path="/altera.components/Nios II Software Packages/altera_iniche/UCOSII/src/h/tcpport.h"/>
+</file>
+</mruList>
+</workbench>

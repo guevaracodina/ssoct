@@ -1,0 +1,96 @@
+Checking for plaintext license.
+Plaintext license not found.
+Checking for encrypted license (non-evaluation).
+Encrypted license found.  SOF will not be time-limited.
+
+ERROR:
+In object '' of class e_jtag_project: can't access `is_hardcopy_compatible' field
+known fields are: 
+ _AUTOLOAD_ACCEPT_ALL
+ __system_directory
+ _a_bloody_simulation_hack
+ _array
+ _begin_comment
+ _bus_only
+ _creation_history
+ _device_family
+ _end_comment
+ _generate
+ _module_lib_dir
+ _projectname
+ _quartus_translate_off
+ _quartus_translate_on
+ _simgen
+ _software_only
+ _sopc_directory
+ _sopc_lib_path
+ _sopc_modelsim_dir
+ _sopc_quartus_dir
+ _special_modules_added
+ _system_name
+ _test_bench_component
+ _top
+ _translate_off
+ _translate_on
+ _unknown_modules_name_hash
+ _verbose
+ all_names_hash
+ check_x
+ comment
+ design_for
+ do_make_sim_project
+ do_make_symbol
+ do_make_top_level_instance_wrapper
+ do_setup_quartus_synth
+ do_write_ptf
+ global
+ global_copyright_notice
+ isa_dummy
+ language
+ module_hash
+ module_pool
+ name
+ parameter_module_pool
+ read_wait_states
+ user_comment_array
+ write_wait_states
+known pointers are: 
+ _test_module
+ module_ptf
+ spaceless_ptf_hash
+keys: 
+ _AUTOLOAD_ACCEPT_ALL
+ __system_directory
+ _array
+ _begin_comment
+ _device_family
+ _end_comment
+ _generate
+ _module_lib_dir
+ _permitted
+ _pointers
+ _projectname
+ _simgen
+ _software_only
+ _sopc_directory
+ _sopc_lib_path
+ _sopc_quartus_dir
+ _special_modules_added
+ _system_name
+ _target_module_name
+ _test_bench_component
+ _top
+ _unknown_modules_name_hash
+ _verbose
+ all_names_hash
+ device_family
+ do_write_ptf
+ global
+ isa_dummy
+ language
+ module_hash
+ module_ptf
+ ptf_file
+ ptf_hash
+ spaceless_ptf_hash
+by the way, this object is not a dummy

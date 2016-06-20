@@ -1,0 +1,144 @@
+<sld_project_info>
+  <hub_info ir_width="2" node_count="2"/>
+  <node_info>
+    <node hpath="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst" instance_id="0" mfg_id="70" node_id="34" sld_node_info="0x19104600" version="3">
+      <parameters>
+        <parameter name="sld_mfg_id" type="dec" value="70"/>
+        <parameter name="sld_type_id" type="dec" value="34"/>
+        <parameter name="sld_version" type="dec" value="3"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_ir_width" type="dec" value="2"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="420496896"/>
+      </parameters>
+      <inputs>
+        <port name="usr_tdo" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|tdo"/>
+        <port name="usr_ir_out[0]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|ir_out[0]"/>
+        <port name="usr_ir_out[1]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|ir_out[1]"/>
+        <port name="raw_tck" source="altera_internal_jtag"/>
+        <port name="raw_tms" source="altera_internal_jtag"/>
+        <port name="tdi" source="altera_internal_jtag"/>
+        <port name="jtag_state_tlr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[0]"/>
+        <port name="jtag_state_rti" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[1]"/>
+        <port name="jtag_state_sdrs" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[2]"/>
+        <port name="jtag_state_cdr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[3]"/>
+        <port name="jtag_state_sdr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[4]"/>
+        <port name="jtag_state_e1dr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[5]"/>
+        <port name="jtag_state_pdr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[6]"/>
+        <port name="jtag_state_e2dr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[7]"/>
+        <port name="jtag_state_udr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[8]"/>
+        <port name="jtag_state_sirs" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[9]"/>
+        <port name="jtag_state_cir" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[10]"/>
+        <port name="jtag_state_sir" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[11]"/>
+        <port name="jtag_state_e1ir" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[12]"/>
+        <port name="jtag_state_pir" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[13]"/>
+        <port name="jtag_state_e2ir" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[14]"/>
+        <port name="jtag_state_uir" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[15]"/>
+        <port name="usr1" source="sld_hub:sld_hub_inst|virtual_ir_scan_reg"/>
+        <port name="clr" source="sld_hub:sld_hub_inst|node_clr~0"/>
+        <port name="ena" source="sld_hub:sld_hub_inst|node_ena[1]~reg0"/>
+        <port name="ir_in[0]" source="sld_hub:sld_hub_inst|irf_reg[1][0]"/>
+        <port name="ir_in[1]" source="sld_hub:sld_hub_inst|irf_reg[1][1]"/>
+      </inputs>
+      <outputs>
+        <port name="usr_tck"/>
+        <port name="usr_tdi"/>
+        <port name="usr_ir_in[0]"/>
+        <port name="usr_ir_in[1]"/>
+        <port name="usr_virtual_state_cdr"/>
+        <port name="usr_virtual_state_sdr"/>
+        <port name="usr_virtual_state_e1dr"/>
+        <port name="usr_virtual_state_pdr"/>
+        <port name="usr_virtual_state_e2dr"/>
+        <port name="usr_virtual_state_udr"/>
+        <port name="usr_virtual_state_cir"/>
+        <port name="usr_virtual_state_uir"/>
+        <port name="usr_tms"/>
+        <port name="usr_jtag_state_tlr"/>
+        <port name="usr_jtag_state_rti"/>
+        <port name="usr_jtag_state_sdrs"/>
+        <port name="usr_jtag_state_cdr"/>
+        <port name="usr_jtag_state_sdr"/>
+        <port name="usr_jtag_state_e1dr"/>
+        <port name="usr_jtag_state_pdr"/>
+        <port name="usr_jtag_state_e2dr"/>
+        <port name="usr_jtag_state_udr"/>
+        <port name="usr_jtag_state_sirs"/>
+        <port name="usr_jtag_state_cir"/>
+        <port name="usr_jtag_state_sir"/>
+        <port name="usr_jtag_state_e1ir"/>
+        <port name="usr_jtag_state_pir"/>
+        <port name="usr_jtag_state_e2ir"/>
+        <port name="usr_jtag_state_uir"/>
+        <port name="tdo"/>
+        <port name="ir_out[0]"/>
+        <port name="ir_out[0]"/>
+        <port name="ir_out[1]"/>
+        <port name="ir_out[1]"/>
+      </outputs>
+    </node>
+    <node hpath="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|alt_jtag_atlantic:jtag_uart_alt_jtag_atlantic" instance_id="0" mfg_id="110" node_id="128" sld_node_info="0xC006E00" version="1">
+      <parameters>
+        <parameter name="INSTANCE_ID" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="ubin" value="00001100000000000110111000000000"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="YES"/>
+        <parameter name="LOG2_TXFIFO_DEPTH" type="dec" value="6"/>
+        <parameter name="LOG2_RXFIFO_DEPTH" type="dec" value="6"/>
+        <parameter name="RESERVED" type="dec" value="0"/>
+        <parameter name="DATA_WIDTH" type="dec" value="8"/>
+        <parameter name="NODE_IR_WIDTH" type="dec" value="1"/>
+        <parameter name="SCAN_LENGTH" type="dec" value="11"/>
+        <parameter name=" constraint(t_dat)" type="string" value="7 downto 0"/>
+        <parameter name=" constraint(sld_auto_instance_index)" type="string" value="1 to 3"/>
+        <parameter name=" constraint(r_dat)" type="string" value="7 downto 0"/>
+      </parameters>
+      <inputs>
+        <port name="raw_tck" source="altera_internal_jtag"/>
+        <port name="tck" source="altera_internal_jtag"/>
+        <port name="tdi" source="altera_internal_jtag"/>
+        <port name="rti" source="altera_internal_jtag"/>
+        <port name="shift" source="altera_internal_jtag"/>
+        <port name="update" source="altera_internal_jtag"/>
+        <port name="usr1" source="sld_hub:sld_hub_inst|virtual_ir_scan_reg"/>
+        <port name="clrn" source="sld_hub:sld_hub_inst|clr_reg"/>
+        <port name="ena" source="sld_hub:sld_hub_inst|node_ena[2]~reg0"/>
+        <port name="ir_in[0]" source="sld_hub:sld_hub_inst|irf_reg[2][0]"/>
+        <port name="jtag_state_cdr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[3]"/>
+        <port name="jtag_state_sdr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[4]"/>
+        <port name="jtag_state_udr" source="sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[8]"/>
+        <port name="clk" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|clk"/>
+        <port name="rst_n" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|rst_n"/>
+        <port name="r_val" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|r_val"/>
+        <port name="r_dat[0]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[0]"/>
+        <port name="r_dat[1]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[1]"/>
+        <port name="r_dat[2]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[2]"/>
+        <port name="r_dat[3]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[3]"/>
+        <port name="r_dat[4]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[4]"/>
+        <port name="r_dat[5]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[5]"/>
+        <port name="r_dat[6]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[6]"/>
+        <port name="r_dat[7]" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|r_dat[7]"/>
+        <port name="t_dav" source="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|jtag_uart:the_jtag_uart|t_dav"/>
+      </inputs>
+      <outputs>
+        <port name="tdo"/>
+        <port name="irq"/>
+        <port name="ir_out[0]"/>
+        <port name="ir_out[0]"/>
+        <port name="r_ena"/>
+        <port name="r_ena"/>
+        <port name="t_ena"/>
+        <port name="t_ena"/>
+        <port name="t_dat[0]"/>
+        <port name="t_dat[1]"/>
+        <port name="t_dat[2]"/>
+        <port name="t_dat[3]"/>
+        <port name="t_dat[4]"/>
+        <port name="t_dat[5]"/>
+        <port name="t_dat[6]"/>
+        <port name="t_dat[7]"/>
+        <port name="t_pause"/>
+        <port name="t_pause"/>
+      </outputs>
+    </node>
+  </node_info>
+</sld_project_info>

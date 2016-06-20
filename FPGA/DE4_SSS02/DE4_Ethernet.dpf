@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="ETH_RX_p[0]" direction="Input" source="Hierarchy Database" diff_pair_node="ETH_RX_p[0](n)" >
+		</pin>
+		<pin name="ETH_TX_p[0]" direction="Output" source="Hierarchy Database" diff_pair_node="ETH_TX_p[0](n)" >
+		</pin>
+		<pin name="PLL_CLKIN_p" direction="Input" source="Hierarchy Database" diff_pair_node="PLL_CLKIN_p(n)" >
+		</pin>
+		<pin name="ETH_RX_p[1]" source="Assignments" diff_pair_node="ETH_RX_p[1](n)" >
+		</pin>
+		<pin name="ETH_TX_p[1]" source="Assignments" diff_pair_node="ETH_TX_p[1](n)" >
+		</pin>
+		<pin name="ETH_RX_p[2]" source="Assignments" diff_pair_node="ETH_RX_p[2](n)" >
+		</pin>
+		<pin name="ETH_TX_p[2]" source="Assignments" diff_pair_node="ETH_TX_p[2](n)" >
+		</pin>
+		<pin name="ETH_RX_p[3]" source="Assignments" diff_pair_node="ETH_RX_p[3](n)" >
+		</pin>
+		<pin name="ETH_TX_p[3]" source="Assignments" diff_pair_node="ETH_TX_p[3](n)" >
+		</pin>
+		<pin name="ref_clk" source="Assignments" diff_pair_node="ref_clk(n)" >
+		</pin>
+		<pin name="txp" source="Assignments" diff_pair_node="txp(n)" >
+		</pin>
+		<pin name="rxp" source="Assignments" diff_pair_node="rxp(n)" >
+		</pin>
+		<pin name="PLL_CLKIN_p(n)" direction="Input" source="Report Database" diff_pair_node="PLL_CLKIN_p" >
+		</pin>
+		<pin name="ETH_TX_p[0](n)" direction="Output" source="Report Database" diff_pair_node="ETH_TX_p[0]" >
+		</pin>
+		<pin name="ETH_RX_p[0](n)" direction="Input" source="Report Database" diff_pair_node="ETH_RX_p[0]" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

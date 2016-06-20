@@ -1,0 +1,226 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : 2.472 ns
+Required Time  : 6.000 ns
+Actual Time    : 3.528 ns
+From           : ext_ssram_bus_data[8]
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ext_ssram_bus_avalon_slave_arbitrator:the_ext_ssram_bus_avalon_slave|incoming_ext_ssram_bus_data[8]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : 1.082 ns
+Required Time  : 3.300 ns
+Actual Time    : 2.218 ns
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ext_ssram_bus_avalon_slave_arbitrator:the_ext_ssram_bus_avalon_slave|ext_ssram_bus_address[8]
+To             : ext_ssram_bus_address[8]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : 0.651 ns
+Required Time  : 1.600 ns
+Actual Time    : 0.949 ns
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\g_datapath:1:g_ddr_io|dq_captured_rising[2]
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\g_datapath:1:g_ddr_io|resynched_data[2]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.727 ns
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|tms
+To             : sld_hub:sld_hub_inst|sld_shadow_jsm:shadow_jsm|state[3]
+From Clock     : --
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|tck
+Failed Paths   : 0
+
+Type           : Clock Setup: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0'
+Slack          : 0.223 ns
+Required Time  : 150.02 MHz ( period = 6.666 ns )
+Actual Time    : 155.21 MHz ( period = 6.443 ns )
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_mult_cell:the_cpu_mult_cell|altmult_add:the_altmult_add|mult_add_1f82:auto_generated|result[61]
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_oci_dbrk:the_cpu_nios2_oci_dbrk|dbrk_traceoff
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_ext_trace_pll_module:the_cpu_ext_trace_pll_module|altclklock:cpu_nios2_oci_altclklock|altpll:pll|_clk1'
+Slack          : 0.684 ns
+Required Time  : 300.03 MHz ( period = 3.333 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_oci_fifo:the_cpu_nios2_oci_fifo|fiforp[1]~_Duplicate_38_Duplicate
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_oci_pib:the_cpu_nios2_oci_pib|tr_data_reg[11]
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_ext_trace_pll_module:the_cpu_ext_trace_pll_module|altclklock:cpu_nios2_oci_altclklock|altpll:pll|_clk1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'phy_rx_clk'
+Slack          : 0.878 ns
+Required Time  : 125.00 MHz ( period = 8.000 ns )
+Actual Time    : 140.41 MHz ( period = 7.122 ns )
+From           : phy_rx_d[7]
+To             : gmii_mii_mux:gmii_mii_mux_instance|gm_rx_d_r[7]
+From Clock     : phy_rx_clk
+To Clock       : phy_rx_clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : 1.618 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_0:the_NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_0|NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_0_slave_FSM:slave_FSM|internal_slave_read_request
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_0:the_NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_0|altera_std_synchronizer:the_altera_std_synchronizer2|din_s1
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk2'
+Slack          : 1.749 ns
+Required Time  : 150.02 MHz ( period = 6.666 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\g_datapath:1:g_ddr_io|wdata_r[10]
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\g_datapath:1:g_ddr_io|\g_dq_io:2:dq_io~ddio_data_in_reg
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'gmii_mii_mux:gmii_mii_mux_instance|tx_clk_int'
+Slack          : 2.624 ns
+Required Time  : 125.00 MHz ( period = 8.000 ns )
+Actual Time    : 186.01 MHz ( period = 5.376 ns )
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_mac:the_tse_mac|altera_tse_mac:altera_tse_mac_inst|altera_tse_top_gen_host:top_gen_host_inst|altera_tse_top_w_fifo_10_100_1000:U_MAC_TOP|altera_tse_clk_cntl:U_CLKCT|txclk_ena
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_mac:the_tse_mac|altera_tse_mac:altera_tse_mac_inst|altera_tse_top_gen_host:top_gen_host_inst|altera_tse_top_w_fifo_10_100_1000:U_MAC_TOP|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|dout_reg_sft[7]
+From Clock     : gmii_mii_mux:gmii_mii_mux_instance|tx_clk_int
+To Clock       : gmii_mii_mux:gmii_mii_mux_instance|tx_clk_int
+Failed Paths   : 0
+
+Type           : Clock Setup: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll:the_tse_pll|altplltse_pll:the_pll|altpll:altpll_component|_clk0'
+Slack          : 7.297 ns
+Required Time  : 125.00 MHz ( period = 8.000 ns )
+Actual Time    : Restricted to 816.99 MHz ( period = 1.224 ns )
+From           : gmii_mii_mux:gmii_mii_mux_instance|mode_reg1
+To             : gmii_mii_mux:gmii_mii_mux_instance|mode_reg2
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll:the_tse_pll|altplltse_pll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll:the_tse_pll|altplltse_pll:the_pll|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk_to_tse_pll'
+Slack          : 17.257 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : 364.56 MHz ( period = 2.743 ns )
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_1:the_NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_clock_1|master_nativeaddress[0]
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll:the_tse_pll|control_reg_out[15]
+From Clock     : clk_to_tse_pll
+To Clock       : clk_to_tse_pll
+Failed Paths   : 0
+
+Type           : Clock Setup: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|tck'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 178.44 MHz ( period = 5.604 ns )
+From           : sld_hub:sld_hub_inst|irsr_reg[0]
+To             : sld_hub:sld_hub_inst|tdo
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|tck
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|sld_virtual_jtag_basic:cpu_jtag_debug_module_phy|tck
+Failed Paths   : 0
+
+Type           : Clock Hold: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0'
+Slack          : 0.341 ns
+Required Time  : 150.02 MHz ( period = 6.666 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|auk_ddr_controller:ddr_control|auk_ddr_init:\g_ddr_init:init_block|init_addr[6]
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|auk_ddr_controller:ddr_control|auk_ddr_init:\g_ddr_init:init_block|init_addr[6]
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'phy_rx_clk'
+Slack          : 0.341 ns
+Required Time  : 125.00 MHz ( period = 8.000 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_mac:the_tse_mac|altera_tse_mac:altera_tse_mac_inst|altera_tse_top_gen_host:top_gen_host_inst|altera_tse_top_w_fifo_10_100_1000:U_MAC_TOP|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_rx:U_RX|col_int
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_mac:the_tse_mac|altera_tse_mac:altera_tse_mac_inst|altera_tse_top_gen_host:top_gen_host_inst|altera_tse_top_w_fifo_10_100_1000:U_MAC_TOP|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_rx:U_RX|col_int
+From Clock     : phy_rx_clk
+To Clock       : phy_rx_clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'gmii_mii_mux:gmii_mii_mux_instance|tx_clk_int'
+Slack          : 0.341 ns
+Required Time  : 125.00 MHz ( period = 8.000 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_mac:the_tse_mac|altera_tse_mac:altera_tse_mac_inst|altera_tse_top_gen_host:top_gen_host_inst|altera_tse_top_w_fifo_10_100_1000:U_MAC_TOP|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_retransmit_cntl:U_RETR|altera_tse_lfsr_10:U_LFSR|z_reg[11]
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_mac:the_tse_mac|altera_tse_mac:altera_tse_mac_inst|altera_tse_top_gen_host:top_gen_host_inst|altera_tse_top_w_fifo_10_100_1000:U_MAC_TOP|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_retransmit_cntl:U_RETR|altera_tse_lfsr_10:U_LFSR|z_reg[11]
+From Clock     : gmii_mii_mux:gmii_mii_mux_instance|tx_clk_int
+To Clock       : gmii_mii_mux:gmii_mii_mux_instance|tx_clk_int
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : 0.341 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll_s1_arbitrator:the_pll_s1|d1_reasons_to_wait
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll_s1_arbitrator:the_pll_s1|d1_reasons_to_wait
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk_to_tse_pll'
+Slack          : 0.341 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll_s1_arbitrator:the_tse_pll_s1|d1_reasons_to_wait
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll_s1_arbitrator:the_tse_pll_s1|d1_reasons_to_wait
+From Clock     : clk_to_tse_pll
+To Clock       : clk_to_tse_pll
+Failed Paths   : 0
+
+Type           : Clock Hold: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll:the_tse_pll|altplltse_pll:the_pll|altpll:altpll_component|_clk0'
+Slack          : 0.464 ns
+Required Time  : 125.00 MHz ( period = 8.000 ns )
+Actual Time    : N/A
+From           : gmii_mii_mux:gmii_mii_mux_instance|mode_reg1
+To             : gmii_mii_mux:gmii_mii_mux_instance|mode_reg2
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll:the_tse_pll|altplltse_pll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|tse_pll:the_tse_pll|altplltse_pll:the_pll|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_ext_trace_pll_module:the_cpu_ext_trace_pll_module|altclklock:cpu_nios2_oci_altclklock|altpll:pll|_clk1'
+Slack          : 0.658 ns
+Required Time  : 300.03 MHz ( period = 3.333 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_oci_pib:the_cpu_nios2_oci_pib|x1
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_oci_pib:the_cpu_nios2_oci_pib|x2
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_ext_trace_pll_module:the_cpu_ext_trace_pll_module|altclklock:cpu_nios2_oci_altclklock|altpll:pll|_clk1
+Failed Paths   : 0
+
+Type           : Clock Hold: 'NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk2'
+Slack          : 2.785 ns
+Required Time  : 150.02 MHz ( period = 6.666 ns )
+Actual Time    : N/A
+From           : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\g_datapath:0:g_ddr_io|dq_oe
+To             : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|ddr_sdram_0:the_ddr_sdram_0|ddr_sdram_0_auk_ddr_sdram:ddr_sdram_0_auk_ddr_sdram_inst|ddr_sdram_0_auk_ddr_datapath:ddr_io|ddr_sdram_0_auk_ddr_dqs_group:\g_datapath:0:g_ddr_io|\g_dq_io:5:dq_io~oe_reg
+From Clock     : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk0
+To Clock       : NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc:NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc_instance|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|_clk2
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,1705 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP4SGX230/ES (0x024090DD)" sof_file="DE4_DDR2_time_limited.sof" top_level_entity="DE4_DDR2">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="data horizontal scroll position" value="2949"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup hierarchy RAM:RAM_inst" value="1"/>
+      <single attribute="setup hierarchy root" value="1"/>
+      <single attribute="setup hierarchy sample_addressing_custom:sample_addressing_custom_inst" value="1"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="1"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="16"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="1560"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2011/09/29 16:01:39  #0">
+      <clock name="ADA_DCO" polarity="posedge" tap_mode="probeonly"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="16384" trigger_in_enable="yes" trigger_in_node="RAMtoDDR2:RAMtoDDR2_inst|acq_done" trigger_in_tap_mode="classic" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="ADA_D[0]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[10]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[11]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[12]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[13]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[1]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[2]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[3]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[4]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[5]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[6]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[7]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[8]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[9]" tap_mode="classic" type="input pin"/>
+          <wire name="DA[0]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[10]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[11]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[12]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[13]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[1]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[2]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[3]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[4]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[5]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[6]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[7]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[8]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[9]" tap_mode="classic" type="output pin"/>
+          <wire name="DE4_SOPC:DE4_SOPC_inst|control_done_from_the_master_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="DE4_SOPC:DE4_SOPC_inst|user_buffer_full_from_the_master_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[100]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[101]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[102]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[103]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[104]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[105]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[106]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[107]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[108]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[109]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[110]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[111]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[112]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[113]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[114]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[115]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[116]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[117]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[118]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[119]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[120]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[121]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[122]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[123]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[124]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[125]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[126]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[127]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[128]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[129]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[130]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[131]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[132]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[133]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[134]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[135]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[136]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[137]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[138]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[139]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[140]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[141]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[142]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[143]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[144]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[145]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[146]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[147]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[148]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[149]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[150]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[151]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[152]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[153]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[154]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[155]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[156]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[157]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[158]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[159]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[160]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[161]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[162]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[163]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[164]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[165]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[166]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[167]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[168]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[169]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[170]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[171]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[172]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[173]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[174]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[175]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[176]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[177]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[178]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[179]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[180]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[181]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[182]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[183]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[184]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[185]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[186]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[187]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[188]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[189]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[190]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[191]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[192]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[193]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[194]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[195]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[196]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[197]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[198]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[199]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[200]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[201]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[202]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[203]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[204]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[205]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[206]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[207]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[208]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[209]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[210]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[211]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[212]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[213]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[214]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[215]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[216]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[217]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[218]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[219]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[220]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[221]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[222]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[223]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[224]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[225]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[226]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[227]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[228]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[229]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[230]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[231]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[232]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[233]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[234]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[235]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[236]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[237]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[238]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[239]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[240]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[241]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[242]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[243]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[244]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[245]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[246]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[247]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[248]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[249]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[250]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[251]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[252]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[253]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[254]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[255]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[32]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[33]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[34]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[35]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[36]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[37]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[38]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[39]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[40]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[41]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[42]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[43]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[44]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[45]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[46]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[47]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[48]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[49]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[50]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[51]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[52]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[53]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[54]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[55]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[56]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[57]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[58]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[59]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[60]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[61]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[62]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[63]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[64]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[65]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[66]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[67]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[68]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[69]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[70]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[71]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[72]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[73]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[74]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[75]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[76]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[77]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[78]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[79]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[80]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[81]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[82]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[83]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[84]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[85]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[86]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[87]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[88]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[89]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[90]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[91]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[92]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[93]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[94]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[95]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[96]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[97]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[98]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[99]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[0]" tap_mode="classic" type="register"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[1]" tap_mode="classic" type="register"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[2]" tap_mode="classic" type="register"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_done" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="trigger50kHz" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="ADA_D[0]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[10]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[11]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[12]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[13]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[1]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[2]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[3]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[4]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[5]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[6]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[7]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[8]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[9]" tap_mode="classic" type="input pin"/>
+          <wire name="DA[0]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[10]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[11]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[12]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[13]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[1]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[2]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[3]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[4]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[5]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[6]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[7]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[8]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[9]" tap_mode="classic" type="output pin"/>
+          <wire name="DE4_SOPC:DE4_SOPC_inst|control_done_from_the_master_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="DE4_SOPC:DE4_SOPC_inst|user_buffer_full_from_the_master_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[100]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[101]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[102]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[103]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[104]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[105]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[106]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[107]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[108]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[109]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[110]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[111]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[112]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[113]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[114]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[115]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[116]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[117]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[118]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[119]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[120]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[121]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[122]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[123]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[124]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[125]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[126]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[127]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[128]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[129]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[130]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[131]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[132]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[133]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[134]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[135]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[136]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[137]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[138]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[139]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[140]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[141]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[142]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[143]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[144]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[145]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[146]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[147]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[148]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[149]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[150]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[151]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[152]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[153]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[154]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[155]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[156]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[157]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[158]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[159]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[160]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[161]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[162]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[163]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[164]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[165]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[166]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[167]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[168]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[169]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[170]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[171]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[172]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[173]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[174]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[175]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[176]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[177]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[178]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[179]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[180]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[181]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[182]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[183]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[184]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[185]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[186]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[187]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[188]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[189]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[190]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[191]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[192]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[193]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[194]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[195]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[196]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[197]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[198]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[199]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[200]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[201]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[202]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[203]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[204]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[205]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[206]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[207]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[208]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[209]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[210]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[211]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[212]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[213]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[214]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[215]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[216]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[217]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[218]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[219]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[220]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[221]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[222]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[223]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[224]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[225]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[226]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[227]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[228]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[229]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[230]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[231]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[232]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[233]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[234]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[235]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[236]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[237]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[238]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[239]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[240]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[241]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[242]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[243]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[244]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[245]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[246]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[247]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[248]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[249]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[250]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[251]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[252]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[253]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[254]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[255]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[32]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[33]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[34]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[35]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[36]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[37]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[38]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[39]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[40]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[41]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[42]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[43]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[44]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[45]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[46]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[47]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[48]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[49]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[50]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[51]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[52]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[53]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[54]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[55]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[56]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[57]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[58]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[59]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[60]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[61]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[62]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[63]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[64]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[65]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[66]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[67]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[68]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[69]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[70]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[71]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[72]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[73]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[74]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[75]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[76]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[77]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[78]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[79]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[80]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[81]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[82]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[83]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[84]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[85]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[86]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[87]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[88]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[89]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[90]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[91]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[92]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[93]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[94]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[95]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[96]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[97]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[98]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[99]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[0]" tap_mode="classic" type="register"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[1]" tap_mode="classic" type="register"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[2]" tap_mode="classic" type="register"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_done" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="trigger50kHz" tap_mode="classic" type="combinatorial"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="ADA_D[0]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[10]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[11]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[12]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[13]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[1]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[2]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[3]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[4]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[5]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[6]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[7]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[8]" tap_mode="classic" type="input pin"/>
+          <wire name="ADA_D[9]" tap_mode="classic" type="input pin"/>
+          <wire name="DA[0]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[10]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[11]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[12]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[13]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[1]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[2]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[3]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[4]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[5]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[6]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[7]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[8]" tap_mode="classic" type="output pin"/>
+          <wire name="DA[9]" tap_mode="classic" type="output pin"/>
+          <wire name="DE4_SOPC:DE4_SOPC_inst|control_done_from_the_master_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="DE4_SOPC:DE4_SOPC_inst|user_buffer_full_from_the_master_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[100]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[101]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[102]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[103]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[104]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[105]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[106]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[107]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[108]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[109]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[110]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[111]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[112]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[113]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[114]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[115]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[116]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[117]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[118]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[119]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[120]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[121]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[122]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[123]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[124]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[125]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[126]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[127]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[128]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[129]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[130]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[131]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[132]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[133]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[134]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[135]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[136]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[137]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[138]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[139]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[140]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[141]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[142]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[143]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[144]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[145]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[146]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[147]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[148]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[149]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[150]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[151]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[152]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[153]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[154]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[155]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[156]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[157]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[158]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[159]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[160]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[161]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[162]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[163]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[164]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[165]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[166]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[167]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[168]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[169]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[170]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[171]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[172]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[173]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[174]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[175]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[176]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[177]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[178]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[179]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[180]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[181]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[182]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[183]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[184]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[185]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[186]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[187]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[188]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[189]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[190]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[191]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[192]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[193]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[194]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[195]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[196]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[197]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[198]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[199]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[200]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[201]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[202]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[203]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[204]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[205]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[206]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[207]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[208]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[209]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[210]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[211]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[212]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[213]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[214]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[215]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[216]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[217]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[218]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[219]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[220]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[221]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[222]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[223]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[224]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[225]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[226]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[227]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[228]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[229]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[230]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[231]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[232]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[233]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[234]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[235]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[236]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[237]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[238]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[239]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[240]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[241]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[242]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[243]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[244]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[245]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[246]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[247]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[248]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[249]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[250]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[251]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[252]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[253]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[254]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[255]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[32]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[33]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[34]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[35]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[36]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[37]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[38]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[39]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[40]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[41]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[42]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[43]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[44]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[45]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[46]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[47]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[48]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[49]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[50]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[51]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[52]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[53]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[54]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[55]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[56]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[57]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[58]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[59]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[60]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[61]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[62]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[63]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[64]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[65]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[66]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[67]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[68]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[69]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[70]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[71]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[72]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[73]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[74]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[75]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[76]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[77]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[78]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[79]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[80]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[81]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[82]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[83]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[84]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[85]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[86]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[87]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[88]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[89]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[90]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[91]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[92]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[93]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[94]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[95]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[96]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[97]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[98]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[99]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAM:RAM_inst|q[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[0]" tap_mode="classic" type="register"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[1]" tap_mode="classic" type="register"/>
+          <wire name="RAMtoDDR2:RAMtoDDR2_inst|state[2]" tap_mode="classic" type="register"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|acq_done" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="trigger50kHz" tap_mode="classic" type="combinatorial"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="DA" order="lsb_to_msb" radix="line" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="DA[0]"/>
+            <net is_signal_inverted="no" name="DA[1]"/>
+            <net is_signal_inverted="no" name="DA[2]"/>
+            <net is_signal_inverted="no" name="DA[3]"/>
+            <net is_signal_inverted="no" name="DA[4]"/>
+            <net is_signal_inverted="no" name="DA[5]"/>
+            <net is_signal_inverted="no" name="DA[6]"/>
+            <net is_signal_inverted="no" name="DA[7]"/>
+            <net is_signal_inverted="no" name="DA[8]"/>
+            <net is_signal_inverted="no" name="DA[9]"/>
+            <net is_signal_inverted="no" name="DA[10]"/>
+            <net is_signal_inverted="no" name="DA[11]"/>
+            <net is_signal_inverted="no" name="DA[12]"/>
+            <net is_signal_inverted="no" name="DA[13]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ADA_D" order="lsb_to_msb" radix="line" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="ADA_D[0]"/>
+            <net is_signal_inverted="no" name="ADA_D[1]"/>
+            <net is_signal_inverted="no" name="ADA_D[2]"/>
+            <net is_signal_inverted="no" name="ADA_D[3]"/>
+            <net is_signal_inverted="no" name="ADA_D[4]"/>
+            <net is_signal_inverted="no" name="ADA_D[5]"/>
+            <net is_signal_inverted="no" name="ADA_D[6]"/>
+            <net is_signal_inverted="no" name="ADA_D[7]"/>
+            <net is_signal_inverted="no" name="ADA_D[8]"/>
+            <net is_signal_inverted="no" name="ADA_D[9]"/>
+            <net is_signal_inverted="no" name="ADA_D[10]"/>
+            <net is_signal_inverted="no" name="ADA_D[11]"/>
+            <net is_signal_inverted="no" name="ADA_D[12]"/>
+            <net is_signal_inverted="no" name="ADA_D[13]"/>
+          </bus>
+          <net is_signal_inverted="no" name="trigger50kHz"/>
+          <bus is_signal_inverted="no" link="all" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]"/>
+          </bus>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_done"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read"/>
+          <net is_signal_inverted="no" name="DE4_SOPC:DE4_SOPC_inst|control_done_from_the_master_write"/>
+          <net is_signal_inverted="no" name="DE4_SOPC:DE4_SOPC_inst|user_buffer_full_from_the_master_write"/>
+          <bus is_signal_inverted="no" link="all" name="RAMtoDDR2:RAMtoDDR2_inst|state" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="RAMtoDDR2:RAMtoDDR2_inst|state[0]"/>
+            <net is_signal_inverted="no" name="RAMtoDDR2:RAMtoDDR2_inst|state[1]"/>
+            <net is_signal_inverted="no" name="RAMtoDDR2:RAMtoDDR2_inst|state[2]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[0..15]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[0]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[1]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[2]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[3]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[4]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[5]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[6]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[7]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[8]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[9]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[10]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[11]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[12]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[13]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[14]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[15]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[16..31]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[16]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[17]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[18]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[19]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[20]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[21]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[22]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[23]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[24]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[25]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[26]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[27]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[28]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[29]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[30]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[32..47]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[32]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[33]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[34]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[35]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[36]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[37]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[38]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[39]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[40]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[41]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[42]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[43]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[44]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[45]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[46]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[47]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[48..63]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[48]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[49]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[50]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[51]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[52]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[53]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[54]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[55]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[56]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[57]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[58]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[59]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[60]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[61]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[62]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[63]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[64..79]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[64]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[65]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[66]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[67]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[68]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[69]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[70]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[71]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[72]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[73]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[74]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[75]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[76]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[77]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[78]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[79]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[80..95]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[80]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[81]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[82]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[83]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[84]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[85]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[86]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[87]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[88]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[89]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[90]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[91]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[92]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[93]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[94]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[95]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[96..111]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[96]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[97]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[98]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[99]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[100]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[101]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[102]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[103]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[104]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[105]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[106]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[107]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[108]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[109]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[110]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[111]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[112..127]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[112]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[113]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[114]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[115]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[116]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[117]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[118]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[119]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[120]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[121]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[122]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[123]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[124]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[125]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[126]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[127]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[128..143]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[128]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[129]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[130]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[131]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[132]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[133]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[134]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[135]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[136]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[137]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[138]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[139]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[140]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[141]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[142]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[143]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[144..159]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[144]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[145]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[146]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[147]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[148]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[149]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[150]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[151]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[152]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[153]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[154]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[155]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[156]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[157]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[158]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[159]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[160..175]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[160]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[161]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[162]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[163]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[164]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[165]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[166]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[167]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[168]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[169]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[170]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[171]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[172]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[173]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[174]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[175]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[176..191]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[176]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[177]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[178]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[179]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[180]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[181]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[182]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[183]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[184]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[185]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[186]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[187]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[188]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[189]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[190]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[191]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[192..207]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[192]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[193]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[194]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[195]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[196]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[197]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[198]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[199]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[200]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[201]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[202]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[203]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[204]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[205]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[206]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[207]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[208..223]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[208]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[209]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[210]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[211]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[212]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[213]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[214]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[215]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[216]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[217]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[218]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[219]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[220]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[221]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[222]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[223]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[224..239]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[224]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[225]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[226]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[227]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[228]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[229]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[230]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[231]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[232]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[233]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[234]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[235]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[236]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[237]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[238]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[239]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[240..255]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[240]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[241]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[242]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[243]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[244]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[245]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[246]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[247]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[248]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[249]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[250]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[251]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[252]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[253]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[254]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[255]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="DA" order="lsb_to_msb" radix="line" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="DA[0]"/>
+            <net is_signal_inverted="no" name="DA[1]"/>
+            <net is_signal_inverted="no" name="DA[2]"/>
+            <net is_signal_inverted="no" name="DA[3]"/>
+            <net is_signal_inverted="no" name="DA[4]"/>
+            <net is_signal_inverted="no" name="DA[5]"/>
+            <net is_signal_inverted="no" name="DA[6]"/>
+            <net is_signal_inverted="no" name="DA[7]"/>
+            <net is_signal_inverted="no" name="DA[8]"/>
+            <net is_signal_inverted="no" name="DA[9]"/>
+            <net is_signal_inverted="no" name="DA[10]"/>
+            <net is_signal_inverted="no" name="DA[11]"/>
+            <net is_signal_inverted="no" name="DA[12]"/>
+            <net is_signal_inverted="no" name="DA[13]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ADA_D" order="lsb_to_msb" radix="line" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="ADA_D[0]"/>
+            <net is_signal_inverted="no" name="ADA_D[1]"/>
+            <net is_signal_inverted="no" name="ADA_D[2]"/>
+            <net is_signal_inverted="no" name="ADA_D[3]"/>
+            <net is_signal_inverted="no" name="ADA_D[4]"/>
+            <net is_signal_inverted="no" name="ADA_D[5]"/>
+            <net is_signal_inverted="no" name="ADA_D[6]"/>
+            <net is_signal_inverted="no" name="ADA_D[7]"/>
+            <net is_signal_inverted="no" name="ADA_D[8]"/>
+            <net is_signal_inverted="no" name="ADA_D[9]"/>
+            <net is_signal_inverted="no" name="ADA_D[10]"/>
+            <net is_signal_inverted="no" name="ADA_D[11]"/>
+            <net is_signal_inverted="no" name="ADA_D[12]"/>
+            <net is_signal_inverted="no" name="ADA_D[13]"/>
+          </bus>
+          <net is_signal_inverted="no" name="trigger50kHz"/>
+          <bus is_signal_inverted="no" link="all" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[0]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[1]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[2]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[3]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[4]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[5]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[6]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[7]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[8]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[9]"/>
+            <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|sample_position[10]"/>
+          </bus>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_busy"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|acq_done"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_write"/>
+          <net is_signal_inverted="no" name="sample_addressing_custom:sample_addressing_custom_inst|dualMSB_read"/>
+          <net is_signal_inverted="no" name="DE4_SOPC:DE4_SOPC_inst|control_done_from_the_master_write"/>
+          <net is_signal_inverted="no" name="DE4_SOPC:DE4_SOPC_inst|user_buffer_full_from_the_master_write"/>
+          <bus is_signal_inverted="no" link="all" name="RAMtoDDR2:RAMtoDDR2_inst|state" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="RAMtoDDR2:RAMtoDDR2_inst|state[0]"/>
+            <net is_signal_inverted="no" name="RAMtoDDR2:RAMtoDDR2_inst|state[1]"/>
+            <net is_signal_inverted="no" name="RAMtoDDR2:RAMtoDDR2_inst|state[2]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[0..15]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[0]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[1]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[2]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[3]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[4]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[5]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[6]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[7]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[8]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[9]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[10]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[11]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[12]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[13]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[14]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[15]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[16..31]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[16]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[17]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[18]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[19]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[20]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[21]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[22]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[23]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[24]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[25]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[26]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[27]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[28]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[29]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[30]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[32..47]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[32]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[33]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[34]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[35]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[36]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[37]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[38]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[39]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[40]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[41]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[42]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[43]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[44]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[45]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[46]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[47]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[48..63]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[48]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[49]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[50]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[51]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[52]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[53]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[54]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[55]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[56]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[57]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[58]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[59]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[60]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[61]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[62]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[63]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[64..79]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[64]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[65]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[66]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[67]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[68]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[69]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[70]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[71]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[72]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[73]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[74]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[75]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[76]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[77]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[78]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[79]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[80..95]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[80]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[81]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[82]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[83]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[84]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[85]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[86]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[87]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[88]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[89]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[90]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[91]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[92]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[93]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[94]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[95]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[96..111]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[96]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[97]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[98]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[99]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[100]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[101]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[102]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[103]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[104]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[105]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[106]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[107]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[108]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[109]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[110]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[111]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[112..127]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[112]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[113]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[114]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[115]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[116]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[117]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[118]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[119]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[120]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[121]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[122]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[123]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[124]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[125]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[126]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[127]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[128..143]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[128]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[129]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[130]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[131]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[132]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[133]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[134]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[135]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[136]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[137]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[138]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[139]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[140]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[141]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[142]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[143]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[144..159]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[144]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[145]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[146]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[147]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[148]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[149]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[150]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[151]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[152]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[153]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[154]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[155]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[156]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[157]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[158]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[159]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[160..175]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[160]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[161]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[162]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[163]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[164]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[165]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[166]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[167]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[168]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[169]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[170]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[171]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[172]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[173]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[174]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[175]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[176..191]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[176]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[177]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[178]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[179]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[180]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[181]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[182]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[183]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[184]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[185]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[186]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[187]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[188]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[189]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[190]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[191]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[192..207]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[192]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[193]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[194]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[195]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[196]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[197]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[198]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[199]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[200]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[201]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[202]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[203]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[204]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[205]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[206]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[207]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[208..223]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[208]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[209]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[210]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[211]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[212]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[213]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[214]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[215]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[216]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[217]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[218]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[219]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[220]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[221]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[222]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[223]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[224..239]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[224]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[225]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[226]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[227]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[228]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[229]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[230]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[231]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[232]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[233]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[234]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[235]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[236]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[237]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[238]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[239]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="RAM:RAM_inst|q[240..255]" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[240]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[241]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[242]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[243]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[244]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[245]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[246]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[247]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[248]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[249]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[250]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[251]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[252]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[253]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[254]"/>
+            <net is_signal_inverted="no" name="RAM:RAM_inst|q[255]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2011/09/29 16:01:39  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="rising edge" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node>
+              <op_node left="281" top="291" type="Advanced Trigger Level Result"/>
+            </op_node>
+          </level>
+          <custom_flow_control>
+            <flow_expression><![CDATA[state ST1:
+trigger;]]>
+            </flow_expression>
+            <runtime_configurable comparison_operator="yes" counter_action="no" flag_action="no" logical_operator="yes" numerical_value="yes" state_transition="yes"/>
+            <power_up_flow_expression><![CDATA[state ST1:
+trigger;]]>
+            </power_up_flow_expression>
+          </custom_flow_control>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics>
+    <table name="state_table" width="6">
+      <symbol name="State_CheckAcqDone" value="000001"/>
+      <symbol name="State_CheckAcqDone2" value="000010"/>
+      <symbol name="State_CheckControllerReady" value="000100"/>
+      <symbol name="State_CheckFIFOFull" value="001000"/>
+      <symbol name="State_Done" value="010000"/>
+      <symbol name="State_Writing" value="100000"/>
+    </table>
+  </mnemonics>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="column width" size="23" value="34,34,431,74,68,70,88,88,98,98,88,88,110,101,101,101,101,101,101,101,101,107,78"/>
+    <multi attribute="window position" size="9" value="1920,980,398,124,356,50,24,0,0"/>
+  </global_info>
+</session>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="simple_socket_server.nios2.exec.1027363775" name="Nios II Executable" projectType="nios2.exec">
+<configuration artifactExtension="elf" artifactName="simple_socket_server" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.exec.debug.1886357701" name="Debug" parent="nios2.exec.debug">
+<toolChain id="com.altera.nj.ui.exe.Debug.63496228" name="com.altera.nj.ui.exe.Debug" superClass="com.altera.nj.ui.exe.Debug">
+<tool id="com.altera.nj.ui.tool.compiler.exe.debug.1542071161" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.exe.debug">
+<option id="com.altera.nj.compiler.exe.debug.option.optimization.level.1447944726" superClass="com.altera.nj.compiler.exe.debug.option.optimization.level" value="nios2.optimization.level.most" valueType="enumerated"/>
+</tool>
+<tool id="com.altera.nj.ui.tool.linker.exe.debug.1912339284" name="Linker" superClass="com.altera.nj.ui.tool.linker.exe.debug"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="elf" artifactName="simple_socket_server" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.exec.release.84280929" name="Release" parent="nios2.exec.release">
+<toolChain id="com.altera.nj.ui.exe.Release.160690166" name="com.altera.nj.ui.exe.Release" superClass="com.altera.nj.ui.exe.Release">
+<tool id="com.altera.nj.ui.tool.compiler.exe.release.737983738" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.exe.release"/>
+<tool id="com.altera.nj.ui.tool.linker.exe.release.2125589141" name="Linker" superClass="com.altera.nj.ui.tool.linker.exe.release"/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

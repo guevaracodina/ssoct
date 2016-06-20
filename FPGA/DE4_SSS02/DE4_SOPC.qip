@@ -1,0 +1,8 @@
+set_global_assignment -name SDC_FILE tse_mac_constraints.sdc
+set_global_assignment -name SDC_FILE pll.sdc
+set_global_assignment -name QIP_FILE tse_mac.qip
+set_global_assignment -name SOURCE_FILE cpu.ocp
+set_global_assignment -name SDC_FILE cpu.sdc
+set_global_assignment -name SDC_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 00259010848C000001311022624B 
+ 

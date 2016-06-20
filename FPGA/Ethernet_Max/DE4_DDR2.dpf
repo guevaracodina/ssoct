@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="M1_DDR2_clk[1]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_clk_n[1]" >
+		</pin>
+		<pin name="M1_DDR2_clk[0]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_clk_n[0]" >
+		</pin>
+		<pin name="M1_DDR2_clk_n[1]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_clk[1]" >
+		</pin>
+		<pin name="M1_DDR2_clk_n[0]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_clk[0]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[7]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[7]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[6]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[6]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[5]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[5]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[4]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[4]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[3]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[3]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[2]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[2]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[1]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[1]" >
+		</pin>
+		<pin name="M1_DDR2_dqs[0]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqsn[0]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[7]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[7]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[6]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[6]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[5]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[5]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[4]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[4]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[3]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[3]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[2]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[2]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[1]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[1]" >
+		</pin>
+		<pin name="M1_DDR2_dqsn[0]" direction="Bidir" source="Hierarchy Database" diff_pair_node="M1_DDR2_dqs[0]" >
+		</pin>
+		<pin name="PLL_CLKIN_p" direction="Input" source="Hierarchy Database" diff_pair_node="PLL_CLKIN_p(n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[0]" source="Assignments" diff_pair_node="M2_DDR2_dqs[0]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[0]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[0]" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[1]" source="Assignments" diff_pair_node="M2_DDR2_dqs[1]" >
+		</pin>
+		<pin name="M2_DDR2_clk[0]" source="Assignments" diff_pair_node="M2_DDR2_clk_n[0]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[1]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[1]" >
+		</pin>
+		<pin name="M2_DDR2_clk_n[0]" source="Assignments" diff_pair_node="M2_DDR2_clk[0]" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[2]" source="Assignments" diff_pair_node="M2_DDR2_dqs[2]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[2]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[2]" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[3]" source="Assignments" diff_pair_node="M2_DDR2_dqs[3]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[3]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[3]" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[4]" source="Assignments" diff_pair_node="M2_DDR2_dqs[4]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[4]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[4]" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[5]" source="Assignments" diff_pair_node="M2_DDR2_dqs[5]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[5]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[5]" >
+		</pin>
+		<pin name="M2_DDR2_clk[1]" source="Assignments" diff_pair_node="M2_DDR2_clk_n[1]" >
+		</pin>
+		<pin name="M2_DDR2_clk_n[1]" source="Assignments" diff_pair_node="M2_DDR2_clk[1]" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[6]" source="Assignments" diff_pair_node="M2_DDR2_dqs[6]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[6]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[6]" >
+		</pin>
+		<pin name="M2_DDR2_dqsn[7]" source="Assignments" diff_pair_node="M2_DDR2_dqs[7]" >
+		</pin>
+		<pin name="M2_DDR2_dqs[7]" source="Assignments" diff_pair_node="M2_DDR2_dqsn[7]" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[2]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[2](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[3]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[3](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[4]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[4](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[5]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[5](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[6]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[6](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqs_to_and_from_the_ddr2[7]" source="Assignments" diff_pair_node="M2_DDR2_dqs_to_and_from_the_ddr2[7](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[2]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[2](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[3]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[3](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[4]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[4](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[5]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[5](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[6]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[6](n)" >
+		</pin>
+		<pin name="M2_DDR2_dqsn_to_and_from_the_ddr2[7]" source="Assignments" diff_pair_node="M2_DDR2_dqsn_to_and_from_the_ddr2[7](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[2]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[2](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[3]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[3](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[4]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[4](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[5]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[5](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[6]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[6](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqs_to_and_from_the_ddr2[7]" source="Assignments" diff_pair_node="M1_DDR2_dqs_to_and_from_the_ddr2[7](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[2]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[2](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[3]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[3](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[4]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[4](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[5]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[5](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[6]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[6](n)" >
+		</pin>
+		<pin name="M1_DDR2_dqsn_to_and_from_the_ddr2[7]" source="Assignments" diff_pair_node="M1_DDR2_dqsn_to_and_from_the_ddr2[7](n)" >
+		</pin>
+		<pin name="M2_DDR2_clk_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M2_DDR2_clk_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M2_DDR2_clk_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M2_DDR2_clk_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="M2_DDR2_clk_n_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M2_DDR2_clk_n_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M2_DDR2_clk_n_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M2_DDR2_clk_n_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="M1_DDR2_clk_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M1_DDR2_clk_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M1_DDR2_clk_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M1_DDR2_clk_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="M1_DDR2_clk_n_to_and_from_the_ddr2[0]" source="Assignments" diff_pair_node="M1_DDR2_clk_n_to_and_from_the_ddr2[0](n)" >
+		</pin>
+		<pin name="M1_DDR2_clk_n_to_and_from_the_ddr2[1]" source="Assignments" diff_pair_node="M1_DDR2_clk_n_to_and_from_the_ddr2[1](n)" >
+		</pin>
+		<pin name="PLL_CLKIN_p(n)" direction="Input" source="Report Database" diff_pair_node="PLL_CLKIN_p" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

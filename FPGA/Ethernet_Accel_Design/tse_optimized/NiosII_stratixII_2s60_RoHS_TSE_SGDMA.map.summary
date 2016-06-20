@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Tue May 26 16:24:42 2009
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+Top-level Entity Name : NiosII_stratixII_2s60_RoHS_TSE_SGDMA
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 10,130
+    Dedicated logic registers : 9,093
+Total registers : 9232
+Total pins : 229
+Total virtual pins : 9
+Total block memory bits : 1,250,468
+DSP block 9-bit elements : 8
+Total PLLs : 3
+Total DLLs : 1

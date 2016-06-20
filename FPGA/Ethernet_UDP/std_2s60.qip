@@ -1,0 +1,4 @@
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) adBUF_hw.tcl]
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) adBUF.v]
+ 

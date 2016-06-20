@@ -1,0 +1,11 @@
+In Nios II  9.1 Command Shell:
+
+cd D:/Edgar/Documents/ssoct/FPGA/Ethernet_Max/software/ss_oct/workstation
+ 
+./bm –m :50 –p tcp –b 2000
+
+In Nios II IDE:
+
+bm -m 192.168.1.9:50 -p tcp -b 1458 -d 1000000000
+
+

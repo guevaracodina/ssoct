@@ -1,0 +1,6 @@
+DATE = "18:18:55 April 04, 2011"
+QUARTUS_VERSION = "9.1"
+
+# Revisions
+
+PROJECT_REVISION = "my_first_niosII"

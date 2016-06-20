@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="simple_socket_server_1_syslib.nios2.lib.1912547272" name="Nios II Library" projectType="nios2.lib">
+<configuration artifactExtension="a" artifactName="simple_socket_server_1_syslib" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.lib.debug.975453318" name="Debug" parent="nios2.lib.debug">
+<toolChain id="com.altera.nj.ui.lib.Debug.1467212839" name="com.altera.nj.ui.lib.Debug" superClass="com.altera.nj.ui.lib.Debug">
+<tool id="com.altera.nj.ui.tool.compiler.lib.debug.1461403273" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.lib.debug">
+<option id="com.altera.nj.compiler.lib.debug.option.optimization.level.112212420" superClass="com.altera.nj.compiler.lib.debug.option.optimization.level" value="nios2.optimization.level.most" valueType="enumerated"/>
+</tool>
+<tool id="com.altera.nj.ui.tool.archiver.lib.debug.1985013733" name="Archiver" superClass="com.altera.nj.ui.tool.archiver.lib.debug"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="a" artifactName="simple_socket_server_1_syslib" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.lib.release.1137659339" name="Release" parent="nios2.lib.release">
+<toolChain id="com.altera.nj.ui.lib.Release.284457089" name="com.altera.nj.ui.lib.Release" superClass="com.altera.nj.ui.lib.Release">
+<tool id="com.altera.nj.ui.tool.compiler.lib.release.1846939083" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.lib.release"/>
+<tool id="com.altera.nj.ui.tool.archiver.lib.release.2034656660" name="Archiver" superClass="com.altera.nj.ui.tool.archiver.lib.release"/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

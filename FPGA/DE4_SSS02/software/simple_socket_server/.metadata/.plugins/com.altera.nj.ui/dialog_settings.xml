@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="PTF_FILES">
+		<item value="C:\altera\91\nios2eds\examples\verilog\niosII_cycloneII_2c35\standard\NiosII_cycloneII_2c35_standard_sopc.ptf"/>
+		<item value="C:\altera\91\nios2eds\examples\verilog\niosII_stratixII_2s60\standard\NiosII_stratixII_2s60_standard.ptf"/>
+		<item value="C:\altera\91\nios2eds\examples\verilog\niosII_stratixII_2s60ES\standard\NiosII_stratixII_2s60ES_standard.ptf"/>
+		<item value="C:\altera\91\nios2eds\examples\verilog\niosII_stratixII_2s60_RoHS\standard\NiosII_stratixII_2s60_RoHS_standard_sopc.ptf"/>
+	</list>
+</section>

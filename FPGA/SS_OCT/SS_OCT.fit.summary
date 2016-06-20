@@ -1,0 +1,22 @@
+Fitter Status : Successful - Fri Mar 09 13:18:15 2012
+Quartus II 64-Bit Version : 9.1 Build 350 03/24/2010 SP 2 SJ Full Version
+Revision Name : SS_OCT
+Top-level Entity Name : SS_OCT
+Family : Stratix IV
+Device : EP4SGX230KF40C2
+Timing Models : Final
+Logic utilization : 13 %
+    Combinational ALUTs : 15,191 / 182,400 ( 8 % )
+    Memory ALUTs : 417 / 91,200 ( < 1 % )
+    Dedicated logic registers : 17,944 / 182,400 ( 10 % )
+Total registers : 18452
+Total pins : 394 / 888 ( 44 % )
+Total virtual pins : 1
+Total block memory bits : 11,802,000 / 14,625,792 ( 81 % )
+DSP block 18-bit elements : 4 / 1,288 ( < 1 % )
+Total GXB Receiver Channel PCS : 0 / 24 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 36 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 24 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 36 ( 0 % )
+Total PLLs : 5 / 8 ( 63 % )
+Total DLLs : 1 / 4 ( 25 % )

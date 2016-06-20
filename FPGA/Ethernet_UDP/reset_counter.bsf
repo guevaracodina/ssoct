@@ -1,0 +1,76 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2003 Altera Corporation
+Any  megafunction  design,  and related netlist (encrypted  or  decrypted),
+support information,  device programming or simulation file,  and any other
+associated  documentation or information  provided by  Altera  or a partner
+under  Altera's   Megafunction   Partnership   Program  may  be  used  only
+to program  PLD  devices (but not masked  PLD  devices) from  Altera.   Any
+other  use  of such  megafunction  design,  netlist,  support  information,
+device programming or simulation file,  or any other  related documentation
+or information  is prohibited  for  any  other purpose,  including, but not
+limited to  modification,  reverse engineering,  de-compiling, or use  with
+any other  silicon devices,  unless such use is  explicitly  licensed under
+a separate agreement with  Altera  or a megafunction partner.  Title to the
+intellectual property,  including patents,  copyrights,  trademarks,  trade
+secrets,  or maskworks,  embodied in any such megafunction design, netlist,
+support  information,  device programming or simulation file,  or any other
+related documentation or information provided by  Altera  or a megafunction
+partner, remains with Altera, the megafunction partner, or their respective
+licensors. No other licenses, including any licenses needed under any third
+party's intellectual property, are provided herein.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 144 112)
+	(text "reset_counter" (rect 33 1 119 17)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 96 24 108)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 27 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 26 26 49 39)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "cnt_en" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "cnt_en" (rect 20 58 52 71)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 80 112)
+		(input)
+		(text "aclr" (rect 0 0 14 19)(font "Arial" (font_size 8))(vertical))
+		(text "aclr" (rect 73 75 86 92)(font "Arial" (font_size 8))(vertical))
+		(line (pt 80 112)(pt 80 96)(line_width 1))
+	)
+	(port
+		(pt 144 40)
+		(output)
+		(text "q[9..0]" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "q[9..0]" (rect 95 34 125 47)(font "Arial" (font_size 8)))
+		(line (pt 144 40)(pt 128 40)(line_width 3))
+	)
+	(port
+		(pt 144 56)
+		(output)
+		(text "cout" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "cout" (rect 104 50 124 63)(font "Arial" (font_size 8)))
+		(line (pt 144 56)(pt 128 56)(line_width 1))
+	)
+	(drawing
+		(text "up counter" (rect 84 17 128 29)(font "Arial" ))
+		(line (pt 16 16)(pt 128 16)(line_width 1))
+		(line (pt 128 16)(pt 128 96)(line_width 1))
+		(line (pt 128 96)(pt 16 96)(line_width 1))
+		(line (pt 16 96)(pt 16 16)(line_width 1))
+		(line (pt 16 26)(pt 22 32)(line_width 1))
+		(line (pt 22 32)(pt 16 38)(line_width 1))
+	)
+)

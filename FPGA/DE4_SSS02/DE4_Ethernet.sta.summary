@@ -1,0 +1,449 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.944
+TNS   : -2.992
+
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 2.950
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.364
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 10.384
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'OSC_50_BANK3'
+Slack : 17.881
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'OSC_50_BANK2'
+Slack : 18.275
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'OSC_50_BANK6'
+Slack : 18.454
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'altera_reserved_tck'
+Slack : 44.304
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'altera_reserved_tck'
+Slack : -0.549
+TNS   : -0.549
+
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'OSC_50_BANK6'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'OSC_50_BANK2'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'OSC_50_BANK3'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.280
+TNS   : -4.560
+
+Type  : Slow 900mV 85C Model Recovery 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -1.513
+TNS   : -3.026
+
+Type  : Slow 900mV 85C Model Recovery 'OSC_50_BANK6'
+Slack : 0.859
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.503
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'OSC_50_BANK3'
+Slack : 15.912
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 46.714
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'altera_reserved_tck'
+Slack : -1.325
+TNS   : -4.817
+
+Type  : Slow 900mV 85C Model Removal 'OSC_50_BANK6'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.483
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.713
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'OSC_50_BANK3'
+Slack : 3.357
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|pll|clk[0]'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 3.086
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.211
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.760
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 6.355
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'OSC_50_BANK3'
+Slack : 9.197
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'OSC_50_BANK2'
+Slack : 9.325
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'OSC_50_BANK6'
+Slack : 9.327
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.893
+TNS   : -2.818
+
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.546
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 10.501
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'OSC_50_BANK3'
+Slack : 17.941
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'OSC_50_BANK2'
+Slack : 18.337
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'OSC_50_BANK6'
+Slack : 18.513
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'altera_reserved_tck'
+Slack : 44.562
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'altera_reserved_tck'
+Slack : -0.507
+TNS   : -0.507
+
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'OSC_50_BANK6'
+Slack : 0.209
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.209
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.235
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'OSC_50_BANK2'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'OSC_50_BANK3'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.139
+TNS   : -4.278
+
+Type  : Slow 900mV 0C Model Recovery 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -1.364
+TNS   : -2.728
+
+Type  : Slow 900mV 0C Model Recovery 'OSC_50_BANK6'
+Slack : 1.014
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.554
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'OSC_50_BANK3'
+Slack : 16.132
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 46.913
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'altera_reserved_tck'
+Slack : -1.190
+TNS   : -3.566
+
+Type  : Slow 900mV 0C Model Removal 'OSC_50_BANK6'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.680
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'OSC_50_BANK3'
+Slack : 3.103
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|pll|clk[0]'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 3.090
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.215
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.775
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 6.371
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'OSC_50_BANK3'
+Slack : 9.203
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'OSC_50_BANK2'
+Slack : 9.325
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'OSC_50_BANK6'
+Slack : 9.329
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.508
+TNS   : -1.592
+
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 3.345
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.660
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 11.967
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'OSC_50_BANK3'
+Slack : 18.838
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'OSC_50_BANK2'
+Slack : 19.016
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'OSC_50_BANK6'
+Slack : 19.150
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'altera_reserved_tck'
+Slack : 47.139
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'altera_reserved_tck'
+Slack : -0.136
+TNS   : -1.690
+
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 0.092
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'OSC_50_BANK6'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'OSC_50_BANK2'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'OSC_50_BANK3'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.534
+TNS   : -1.068
+
+Type  : Fast 900mV 0C Model Recovery 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'OSC_50_BANK6'
+Slack : 1.211
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 7.117
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'OSC_50_BANK3'
+Slack : 17.441
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 48.049
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'altera_reserved_tck'
+Slack : -0.983
+TNS   : -4.304
+
+Type  : Fast 900mV 0C Model Removal 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'OSC_50_BANK6'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'OSC_50_BANK3'
+Slack : 2.154
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|pll|clk[0]'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_tse_mac|altera_tse_mac_pcs_pma_inst|the_altera_tse_pma_lvds_rx|altlvds_rx_component|auto_generated|rx[0]|clk0'
+Slack : 3.199
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_125_ins|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.211
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.762
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'SOPC_INST|the_pll|the_pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 6.354
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'OSC_50_BANK2'
+Slack : 9.290
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'OSC_50_BANK6'
+Slack : 9.291
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'OSC_50_BANK3'
+Slack : 9.507
+TNS   : 0.000
+
+------------------------------------------------------------

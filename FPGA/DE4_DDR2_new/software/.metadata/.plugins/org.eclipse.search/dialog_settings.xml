@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DialogBounds_SearchDialog">
+		<item value="519" key="DIALOG_WIDTH"/>
+		<item value="259" key="DIALOG_Y_ORIGIN"/>
+		<item value="386" key="DIALOG_X_ORIGIN"/>
+		<item value="384" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="Search">
+		<list key="Search.processedPageIds">
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.cdt.ui.pdomSearchPage"/>
+		</list>
+		<list key="Search.enabledPageIds">
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.cdt.ui.pdomSearchPage"/>
+		</list>
+	</section>
+	<section name="org.eclipse.search.text.FileSearchResultPage">
+	</section>
+	<section name="org.eclipse.cdt.ui.pdomSearchViewPage">
+	</section>
+	<section name="TextSearchPage">
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="false" key="REG_EX_SEARCH"/>
+		<item value="true" key="SEARCH_DERIVED"/>
+		<item value="3" key="HISTORY_SIZE"/>
+		<section name="HISTORY2">
+			<item value="false" key="isRegExSearch"/>
+			<item value="" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="altera_avalon_timer_ts.c"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item value="false" key="isRegExSearch"/>
+			<item value="EXPANDED_DIAGNOSIS_CODE" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.h"/>
+				<item value="*.c"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item value="false" key="isRegExSearch"/>
+			<item value="serial" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.c"/>
+				<item value="*.h"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="SearchDialog.ScopePart">
+		<item value="0" key="scope"/>
+	</section>
+</section>

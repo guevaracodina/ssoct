@@ -1,0 +1,63 @@
+Warning (10262): Verilog HDL Event Control warning at pll.v(92): event expression is a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(95): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(104): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(113): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(239): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(248): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(257): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(266): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at ss_oct_sopc_clock_0.v(275): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(1963): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(1965): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(2115): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(3013): conditional expression evaluates to a constant
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(67): object "MEM_CAS_WR_LAT" differs only in case from object "mem_cas_wr_lat" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(68): object "MEM_ADD_LAT" differs only in case from object "mem_add_lat" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(69): object "MEM_TCL" differs only in case from object "mem_tcl" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(70): object "MEM_TRRD" differs only in case from object "mem_trrd" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(71): object "MEM_TFAW" differs only in case from object "mem_tfaw" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(72): object "MEM_TRFC" differs only in case from object "mem_trfc" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(73): object "MEM_TREFI" differs only in case from object "mem_trefi" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(74): object "MEM_TRCD" differs only in case from object "mem_trcd" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(75): object "MEM_TRP" differs only in case from object "mem_trp" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(76): object "MEM_TWR" differs only in case from object "mem_twr" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(77): object "MEM_TWTR" differs only in case from object "mem_twtr" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(78): object "MEM_TRTP" differs only in case from object "mem_trtp" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(79): object "MEM_TRAS" differs only in case from object "mem_tras" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(80): object "MEM_TRC" differs only in case from object "mem_trc" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(81): object "MEM_AUTO_PD_CYCLES" differs only in case from object "mem_auto_pd_cycles" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_controller.v(87): object "ADDR_ORDER" differs only in case from object "addr_order" in the same scope
+Warning (10268): Verilog HDL information at alt_ddrx_timers.v(2265): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_state_machine.v(1626): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at alt_ddrx_state_machine.v(252): object "fetch" differs only in case from object "FETCH" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_odt_gen.v(205): object "i" differs only in case from object "I" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_odt_gen.v(384): object "i" differs only in case from object "I" in the same scope
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(492): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(578): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(644): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(722): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(757): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(828): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(885): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(940): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(997): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(1086): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_ddrx_csr.v(1143): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(61): object "MEM_CAS_WR_LAT" differs only in case from object "mem_cas_wr_lat" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(62): object "MEM_ADD_LAT" differs only in case from object "mem_add_lat" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(63): object "MEM_TCL" differs only in case from object "mem_tcl" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(64): object "MEM_TRRD" differs only in case from object "mem_trrd" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(65): object "MEM_TFAW" differs only in case from object "mem_tfaw" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(66): object "MEM_TRFC" differs only in case from object "mem_trfc" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(67): object "MEM_TREFI" differs only in case from object "mem_trefi" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(68): object "MEM_TRCD" differs only in case from object "mem_trcd" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(69): object "MEM_TRP" differs only in case from object "mem_trp" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(70): object "MEM_TWR" differs only in case from object "mem_twr" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(71): object "MEM_TWTR" differs only in case from object "mem_twtr" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(72): object "MEM_TRTP" differs only in case from object "mem_trtp" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(73): object "MEM_TRAS" differs only in case from object "mem_tras" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(74): object "MEM_TRC" differs only in case from object "mem_trc" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(75): object "MEM_AUTO_PD_CYCLES" differs only in case from object "mem_auto_pd_cycles" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_ddrx_csr.v(78): object "ADDR_ORDER" differs only in case from object "addr_order" in the same scope
+Warning (10268): Verilog HDL information at ddr2_phy_alt_mem_phy.v(1617): always construct contains both blocking and non-blocking assignments
+Warning (10037): Verilog HDL or VHDL warning at sgdma_tx.v(1331): conditional expression evaluates to a constant

@@ -1,0 +1,17 @@
+Fitter Status : Successful - Mon Dec 07 18:55:50 2009
+Quartus II Version : 8.0 Build 231 07/10/2008 SP 1 SJ Full Version
+Revision Name : standard
+Top-level Entity Name : standard
+Family : Stratix II
+Device : EP2S60F1020C3
+Timing Models : Final
+Logic utilization : 14 %
+    Combinational ALUTs : 5,561 / 48,352 ( 12 % )
+    Dedicated logic registers : 4,158 / 48,352 ( 9 % )
+Total registers : 4455
+Total pins : 188 / 719 ( 26 % )
+Total virtual pins : 0
+Total block memory bits : 1,973,504 / 2,544,192 ( 78 % )
+DSP block 9-bit elements : 8 / 288 ( 3 % )
+Total PLLs : 1 / 12 ( 8 % )
+Total DLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,2950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc">
+ <parameter name="bonusData">bonusData 
+{
+   element tse_pll
+   {
+      datum _sortIndex
+      {
+         value = "16";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element descriptor_memory.s1
+   {
+      datum baseAddress
+      {
+         value = "138477568";
+         type = "long";
+      }
+   }
+   element bswap
+   {
+      datum _sortIndex
+      {
+         value = "22";
+         type = "int";
+      }
+   }
+   element tse_mac.control_port
+   {
+      datum baseAddress
+      {
+         value = "138485760";
+         type = "long";
+      }
+   }
+   element button_pio.s1
+   {
+      datum baseAddress
+      {
+         value = "16781456";
+         type = "long";
+      }
+   }
+   element seven_seg_pio
+   {
+      datum _sortIndex
+      {
+         value = "14";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element sgdma_tx
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element reconfig_request_pio.s1
+   {
+      datum baseAddress
+      {
+         value = "16783680";
+         type = "long";
+      }
+   }
+   element packet_memory.s2
+   {
+      datum baseAddress
+      {
+         value = "138412032";
+         type = "long";
+      }
+   }
+   element pll
+   {
+      datum _sortIndex
+      {
+         value = "15";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element reconfig_request_pio
+   {
+      datum _sortIndex
+      {
+         value = "25";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element sys_clk_timer
+   {
+      datum _sortIndex
+      {
+         value = "18";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element pll.s1
+   {
+      datum baseAddress
+      {
+         value = "16781312";
+         type = "long";
+      }
+   }
+   element ext_flash.s1
+   {
+      datum _lockedAddress
+      {
+         value = "0";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "0";
+         type = "long";
+      }
+   }
+   element packet_memory
+   {
+      datum _sortIndex
+      {
+         value = "5";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element high_res_timer
+   {
+      datum _sortIndex
+      {
+         value = "17";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element NiosII_stratixII_2s60_RoHS_TSE_SGDMA_sopc
+   {
+   }
+   element uart1.s1
+   {
+      datum baseAddress
+      {
+         value = "16783552";
+         type = "long";
+      }
+   }
+   element uart1
+   {
+      datum _sortIndex
+      {
+         value = "26";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element led_pio
+   {
+      datum _sortIndex
+      {
+         value = "13";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element ext_ssram_bus
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element interrupt_vector
+   {
+      datum _sortIndex
+      {
+         value = "23";
+         type = "int";
+      }
+   }
+   element seven_seg_pio.s1
+   {
+      datum baseAddress
+      {
+         value = "16781488";
+         type = "long";
+      }
+   }
+   element ext_flash_enet_bus
+   {
+      datum _sortIndex
+      {
+         value = "21";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element sys_clk_timer.s1
+   {
+      datum baseAddress
+      {
+         value = "16781408";
+         type = "long";
+      }
+   }
+   element ddr_sdram_0.s1
+   {
+      datum baseAddress
+      {
+         value = "33554432";
+         type = "long";
+      }
+   }
+   element sgdma_rx.csr
+   {
+      datum baseAddress
+      {
+         value = "16780288";
+         type = "long";
+      }
+   }
+   element sgdma_rx
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element lcd_display.control_slave
+   {
+      datum baseAddress
+      {
+         value = "16781440";
+         type = "long";
+      }
+   }
+   element ext_flash
+   {
+      datum _sortIndex
+      {
+         value = "20";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element led_pio.s1
+   {
+      datum baseAddress
+      {
+         value = "16781472";
+         type = "long";
+      }
+   }
+   element tse_mac
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element descriptor_memory
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element ddr_sdram_0
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element jtag_uart
+   {
+      datum _sortIndex
+      {
+         value = "19";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element cpu
+   {
+      datum _sortIndex
+      {
+         value = "9";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element clk_to_tse_pll
+   {
+      datum _sortIndex
+      {
+         value = "24";
+         type = "int";
+      }
+   }
+   element lcd_display
+   {
+      datum _sortIndex
+      {
+         value = "11";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element ext_ssram.s1
+   {
+      datum baseAddress
+      {
+         value = "136314880";
+         type = "long";
+      }
+   }
+   element pipeline_bridge.s1
+   {
+      datum baseAddress
+      {
+         value = "100663296";
+         type = "long";
+      }
+   }
+   element jtag_uart.avalon_jtag_slave
+   {
+      datum baseAddress
+      {
+         value = "16781504";
+         type = "long";
+      }
+   }
+   element button_pio
+   {
+      datum _sortIndex
+      {
+         value = "12";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element ext_ssram
+   {
+      datum _sortIndex
+      {
+         value = "7";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element clk
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+   }
+   element pipeline_bridge
+   {
+      datum _sortIndex
+      {
+         value = "10";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element sgdma_tx.csr
+   {
+      datum baseAddress
+      {
+         value = "16779264";
+         type = "long";
+      }
+   }
+   element tse_pll.s1
+   {
+      datum baseAddress
+      {
+         value = "16781344";
+         type = "long";
+      }
+   }
+   element cpu.jtag_debug_module
+   {
+      datum baseAddress
+      {
+         value = "16777216";
+         type = "long";
+      }
+   }
+   element high_res_timer.s1
+   {
+      datum baseAddress
+      {
+         value = "16781376";
+         type = "long";
+      }
+   }
+   element packet_memory.s1
+   {
+      datum baseAddress
+      {
+         value = "138412032";
+         type = "long";
+      }
+   }
+}
+</parameter>
+ <parameter name="deviceFamily" value="STRATIXII" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="hardcopyCompatible" value="false" />
+ <parameter name="hdlLanguage" value="VHDL" />
+ <parameter name="projectName">NiosII_stratixII_2s60_RoHS_TSE_SGDMA.qpf</parameter>
+ <parameter name="systemHash" value="5290232947" />
+ <parameter name="timeStamp" value="1243377592427" />
+ <module name="clk" kind="clock_source" version="9.0" enabled="1">
+  <parameter name="clockFrequency" value="50000000" />
+  <parameter name="clockFrequencyKnown" value="true" /></module>
+ <module name="pll" kind="altera_avalon_pll" version="9.0" enabled="1">
+  <parameter name="c0">tap c0 mult 3 div 1 phase 0 enabled true inputfreq 50000000 outputfreq 150000000 
+</parameter>
+  <parameter name="c1">tap c1 mult 3 div 1 phase 620 enabled true inputfreq 50000000 outputfreq 150000000 
+</parameter>
+  <parameter name="c2">tap c2 mult 3 div 1 phase -1667 enabled true inputfreq 50000000 outputfreq 150000000 
+</parameter>
+  <parameter name="c3">tap c3 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c4">tap c4 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c5">tap c5 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c6">tap c6 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c7">tap c7 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c8">tap c8 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c9">tap c9 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="deviceFamily" value="STRATIXII" />
+  <parameter name="e0">tap e0 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="e1">tap e1 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="e2">tap e2 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="e3">tap e3 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="inputClockFrequency" value="50000000" />
+  <parameter name="lockedOutputPortOption" value="Export" />
+  <parameter name="pfdenaInputPortOption" value="Register" />
+  <parameter name="pllHdl">--  megafunction wizard: %ALTPLL%
+--  GENERATION: STANDARD
+--  VERSION: WM1.0
+--  MODULE: altpll
+
+-- ============================================================
+-- CNX file retrieval info
+-- ============================================================
+-- Retrieval info: PRIVATE: ACTIVECLK_CHECK STRING "0"
+-- Retrieval info: PRIVATE: BANDWIDTH STRING "1.000"
+-- Retrieval info: PRIVATE: BANDWIDTH_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: BANDWIDTH_FREQ_UNIT STRING "MHz"
+-- Retrieval info: PRIVATE: BANDWIDTH_PRESET STRING "Low"
+-- Retrieval info: PRIVATE: BANDWIDTH_USE_AUTO STRING "1"
+-- Retrieval info: PRIVATE: BANDWIDTH_USE_CUSTOM STRING "0"
+-- Retrieval info: PRIVATE: BANDWIDTH_USE_PRESET STRING "0"
+-- Retrieval info: PRIVATE: CLKBAD_SWITCHOVER_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CLKLOSS_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CLKSWITCH_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CNX_NO_COMPENSATE_RADIO STRING "0"
+-- Retrieval info: PRIVATE: CREATE_CLKBAD_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CREATE_INCLK1_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CUR_DEDICATED_CLK STRING "c0"
+-- Retrieval info: PRIVATE: CUR_FBIN_CLK STRING "e0"
+-- Retrieval info: PRIVATE: DEVICE_SPEED_GRADE STRING "Any"
+-- Retrieval info: PRIVATE: DIV_FACTOR0 NUMERIC "2"
+-- Retrieval info: PRIVATE: DIV_FACTOR1 NUMERIC "2"
+-- Retrieval info: PRIVATE: DIV_FACTOR2 NUMERIC "2"
+-- Retrieval info: PRIVATE: DUTY_CYCLE0 STRING "50.00000000"
+-- Retrieval info: PRIVATE: DUTY_CYCLE1 STRING "50.00000000"
+-- Retrieval info: PRIVATE: DUTY_CYCLE2 STRING "50.00000000"
+-- Retrieval info: PRIVATE: EFF_OUTPUT_FREQ_VALUE0 STRING "150.000000"
+-- Retrieval info: PRIVATE: EFF_OUTPUT_FREQ_VALUE1 STRING "150.000000"
+-- Retrieval info: PRIVATE: EFF_OUTPUT_FREQ_VALUE2 STRING "150.000000"
+-- Retrieval info: PRIVATE: EXPLICIT_SWITCHOVER_COUNTER STRING "0"
+-- Retrieval info: PRIVATE: EXT_FEEDBACK_RADIO STRING "0"
+-- Retrieval info: PRIVATE: GLOCKED_COUNTER_EDIT_CHANGED STRING "1"
+-- Retrieval info: PRIVATE: GLOCKED_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: GLOCKED_MODE_CHECK STRING "0"
+-- Retrieval info: PRIVATE: GLOCK_COUNTER_EDIT NUMERIC "1048575"
+-- Retrieval info: PRIVATE: HAS_MANUAL_SWITCHOVER STRING "1"
+-- Retrieval info: PRIVATE: INCLK0_FREQ_EDIT STRING "50.0"
+-- Retrieval info: PRIVATE: INCLK0_FREQ_UNIT_COMBO STRING "MHz"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_EDIT STRING "100.000"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_EDIT_CHANGED STRING "1"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_UNIT_CHANGED STRING "1"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_UNIT_COMBO STRING "MHz"
+-- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
+-- Retrieval info: PRIVATE: INT_FEEDBACK__MODE_RADIO STRING "1"
+-- Retrieval info: PRIVATE: LOCKED_OUTPUT_CHECK STRING "0"
+-- Retrieval info: PRIVATE: LONG_SCAN_RADIO STRING "1"
+-- Retrieval info: PRIVATE: LVDS_MODE_DATA_RATE STRING "150.000"
+-- Retrieval info: PRIVATE: LVDS_MODE_DATA_RATE_DIRTY NUMERIC "0"
+-- Retrieval info: PRIVATE: LVDS_PHASE_SHIFT_UNIT0 STRING "ps"
+-- Retrieval info: PRIVATE: LVDS_PHASE_SHIFT_UNIT1 STRING "ps"
+-- Retrieval info: PRIVATE: LVDS_PHASE_SHIFT_UNIT2 STRING "ps"
+-- Retrieval info: PRIVATE: MIG_DEVICE_SPEED_GRADE STRING "Any"
+-- Retrieval info: PRIVATE: MULT_FACTOR0 NUMERIC "6"
+-- Retrieval info: PRIVATE: MULT_FACTOR1 NUMERIC "6"
+-- Retrieval info: PRIVATE: MULT_FACTOR2 NUMERIC "6"
+-- Retrieval info: PRIVATE: NORMAL_MODE_RADIO STRING "1"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ0 STRING "151.00000000"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ1 STRING "151.00000000"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ2 STRING "151.00000000"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ_MODE0 STRING "0"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ_MODE1 STRING "0"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ_MODE2 STRING "0"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ_UNIT0 STRING "MHz"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ_UNIT1 STRING "MHz"
+-- Retrieval info: PRIVATE: OUTPUT_FREQ_UNIT2 STRING "MHz"
+-- Retrieval info: PRIVATE: PHASE_RECONFIG_FEATURE_ENABLED STRING "0"
+-- Retrieval info: PRIVATE: PHASE_RECONFIG_INPUTS_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PHASE_SHIFT0 STRING "0.00000000"
+-- Retrieval info: PRIVATE: PHASE_SHIFT1 STRING "0.62000000"
+-- Retrieval info: PRIVATE: PHASE_SHIFT2 STRING "-90.00000000"
+-- Retrieval info: PRIVATE: PHASE_SHIFT_STEP_ENABLED_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PHASE_SHIFT_UNIT0 STRING "ps"
+-- Retrieval info: PRIVATE: PHASE_SHIFT_UNIT1 STRING "ns"
+-- Retrieval info: PRIVATE: PHASE_SHIFT_UNIT2 STRING "deg"
+-- Retrieval info: PRIVATE: PLL_ADVANCED_PARAM_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_ARESET_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_AUTOPLL_CHECK NUMERIC "1"
+-- Retrieval info: PRIVATE: PLL_ENA_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_ENHPLL_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PLL_FASTPLL_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PLL_FBMIMIC_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_LVDS_PLL_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PLL_PFDENA_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_TARGET_HARCOPY_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PRIMARY_CLK_COMBO STRING "inclk0"
+-- Retrieval info: PRIVATE: RECONFIG_FILE STRING "altpllpll.mif"
+-- Retrieval info: PRIVATE: SACN_INPUTS_CHECK STRING "0"
+-- Retrieval info: PRIVATE: SCAN_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: SELF_RESET_LOCK_LOSS STRING "0"
+-- Retrieval info: PRIVATE: SHORT_SCAN_RADIO STRING "0"
+-- Retrieval info: PRIVATE: SPREAD_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: SPREAD_FREQ STRING "50.000"
+-- Retrieval info: PRIVATE: SPREAD_FREQ_UNIT STRING "KHz"
+-- Retrieval info: PRIVATE: SPREAD_PERCENT STRING "0.500"
+-- Retrieval info: PRIVATE: SPREAD_USE STRING "0"
+-- Retrieval info: PRIVATE: SRC_SYNCH_COMP_RADIO STRING "0"
+-- Retrieval info: PRIVATE: STICKY_CLK0 STRING "1"
+-- Retrieval info: PRIVATE: STICKY_CLK1 STRING "1"
+-- Retrieval info: PRIVATE: STICKY_CLK2 STRING "1"
+-- Retrieval info: PRIVATE: SWITCHOVER_COUNT_EDIT NUMERIC "1"
+-- Retrieval info: PRIVATE: SWITCHOVER_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
+-- Retrieval info: PRIVATE: USE_CLK0 STRING "1"
+-- Retrieval info: PRIVATE: USE_CLK1 STRING "1"
+-- Retrieval info: PRIVATE: USE_CLK2 STRING "1"
+-- Retrieval info: PRIVATE: USE_MIL_SPEED_GRADE NUMERIC "0"
+-- Retrieval info: PRIVATE: ZERO_DELAY_RADIO STRING "0"
+-- Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
+-- Retrieval info: CONSTANT: BANDWIDTH_TYPE STRING "AUTO"
+-- Retrieval info: CONSTANT: CLK0_DIVIDE_BY NUMERIC "1"
+-- Retrieval info: CONSTANT: CLK0_DUTY_CYCLE NUMERIC "50"
+-- Retrieval info: CONSTANT: CLK0_MULTIPLY_BY NUMERIC "3"
+-- Retrieval info: CONSTANT: CLK0_PHASE_SHIFT STRING "0"
+-- Retrieval info: CONSTANT: CLK1_DIVIDE_BY NUMERIC "1"
+-- Retrieval info: CONSTANT: CLK1_DUTY_CYCLE NUMERIC "50"
+-- Retrieval info: CONSTANT: CLK1_MULTIPLY_BY NUMERIC "3"
+-- Retrieval info: CONSTANT: CLK1_PHASE_SHIFT STRING "620"
+-- Retrieval info: CONSTANT: CLK2_DIVIDE_BY NUMERIC "1"
+-- Retrieval info: CONSTANT: CLK2_DUTY_CYCLE NUMERIC "50"
+-- Retrieval info: CONSTANT: CLK2_MULTIPLY_BY NUMERIC "3"
+-- Retrieval info: CONSTANT: CLK2_PHASE_SHIFT STRING "-1667"
+-- Retrieval info: CONSTANT: COMPENSATE_CLOCK STRING "CLK0"
+-- Retrieval info: CONSTANT: INCLK0_INPUT_FREQUENCY NUMERIC "20000"
+-- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Stratix II"
+-- Retrieval info: CONSTANT: LPM_TYPE STRING "altpll"
+-- Retrieval info: CONSTANT: OPERATION_MODE STRING "NORMAL"
+-- Retrieval info: CONSTANT: PLL_TYPE STRING "AUTO"
+-- Retrieval info: CONSTANT: PORT_ACTIVECLOCK STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_ARESET STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKBAD0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKBAD1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKLOSS STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKSWITCH STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CONFIGUPDATE STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_FBIN STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_INCLK0 STRING "PORT_USED"
+-- Retrieval info: CONSTANT: PORT_INCLK1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_LOCKED STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PFDENA STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PHASECOUNTERSELECT STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PHASEDONE STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PHASESTEP STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PHASEUPDOWN STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PLLENA STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANACLR STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANCLK STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANCLKENA STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANDATA STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANDATAOUT STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANDONE STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANREAD STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANWRITE STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk0 STRING "PORT_USED"
+-- Retrieval info: CONSTANT: PORT_clk1 STRING "PORT_USED"
+-- Retrieval info: CONSTANT: PORT_clk2 STRING "PORT_USED"
+-- Retrieval info: CONSTANT: PORT_clk3 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk4 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk5 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena2 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena3 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena4 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena5 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_enable0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_enable1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk2 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk3 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_sclkout0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_sclkout1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: SPREAD_FREQUENCY NUMERIC "0"
+-- Retrieval info: USED_PORT: c0 0 0 0 0 OUTPUT_CLK_EXT VCC "c0"
+-- Retrieval info: USED_PORT: c1 0 0 0 0 OUTPUT_CLK_EXT VCC "c1"
+-- Retrieval info: USED_PORT: c2 0 0 0 0 OUTPUT_CLK_EXT VCC "c2"
+-- Retrieval info: USED_PORT: inclk0 0 0 0 0 INPUT_CLK_EXT GND "inclk0"
+</parameter>
+  <parameter name="resetInputPortOption" value="Register" /></module>
+ <module name="cpu" kind="altera_nios2" version="9.0" enabled="1">
+  <parameter name="userDefinedSettings" value="" />
+  <parameter name="setting_showUnpublishedSettings" value="false" />
+  <parameter name="setting_showInternalSettings" value="false" />
+  <parameter name="setting_shadowRegisterSetsPresent" value="false" />
+  <parameter name="setting_preciseSlaveAccessErrorException" value="false" />
+  <parameter name="setting_preciseIllegalMemAccessException" value="false" />
+  <parameter name="setting_preciseDivisionErrorException" value="false" />
+  <parameter name="setting_performanceCounter" value="false" />
+  <parameter name="setting_perfCounterWidth" value="_32" />
+  <parameter name="setting_numShadowRegisterSets" value="1" />
+  <parameter name="setting_illegalMemAccessDetection" value="false" />
+  <parameter name="setting_illegalInstructionsTrap" value="false" />
+  <parameter name="setting_fullWaveformSignals" value="false" />
+  <parameter name="setting_extraExceptionInfo" value="false" />
+  <parameter name="setting_exportPCB" value="false" />
+  <parameter name="setting_eicPresent" value="false" />
+  <parameter name="setting_debugSimGen" value="false" />
+  <parameter name="setting_clearXBitsLDNonBypass" value="true" />
+  <parameter name="setting_branchPredictionType" value="Automatic" />
+  <parameter name="setting_bit31BypassDCache" value="true" />
+  <parameter name="setting_bhtPtrSz" value="_8" />
+  <parameter name="setting_bhtIndexPcOnly" value="false" />
+  <parameter name="setting_avalonDebugPortPresent" value="false" />
+  <parameter name="setting_autoAssignNumShadowRegisterSets" value="true" />
+  <parameter name="setting_alwaysEncrypt" value="true" />
+  <parameter name="setting_allowFullAddressRange" value="false" />
+  <parameter name="setting_activateTrace" value="true" />
+  <parameter name="setting_activateTestEndChecker" value="false" />
+  <parameter name="setting_activateMonitors" value="true" />
+  <parameter name="setting_activateModelChecker" value="false" />
+  <parameter name="setting_HDLSimCachesCleared" value="true" />
+  <parameter name="setting_HBreakTest" value="false" />
+  <parameter name="resetSlave" value="ext_flash.s1" />
+  <parameter name="resetOffset" value="0" />
+  <parameter name="muldiv_multiplierType" value="DSPBlock" />
+  <parameter name="muldiv_divider" value="false" />
+  <parameter name="mpu_useLimit" value="false" />
+  <parameter name="mpu_numOfInstRegion" value="8" />
+  <parameter name="mpu_numOfDataRegion" value="8" />
+  <parameter name="mpu_minInstRegionSize" value="_12" />
+  <parameter name="mpu_minDataRegionSize" value="_12" />
+  <parameter name="mpu_enabled" value="false" />
+  <parameter name="mmu_uitlbNumEntries" value="_4" />
+  <parameter name="mmu_udtlbNumEntries" value="_6" />
+  <parameter name="mmu_tlbPtrSz" value="_7" />
+  <parameter name="mmu_tlbNumWays" value="_16" />
+  <parameter name="mmu_processIDNumBits" value="_10" />
+  <parameter name="mmu_enabled" value="false" />
+  <parameter name="mmu_autoAssignTlbPtrSz" value="true" />
+  <parameter name="mmu_TLBMissExcSlave" value="" />
+  <parameter name="mmu_TLBMissExcOffset" value="0" />
+  <parameter name="manuallyAssignCpuID" value="false" />
+  <parameter name="impl" value="Fast" />
+  <parameter name="icache_size" value="_32768" />
+  <parameter name="icache_ramBlockType" value="Automatic" />
+  <parameter name="icache_numTCIM" value="_0" />
+  <parameter name="icache_burstType" value="None" />
+  <parameter name="exceptionSlave" value="ddr_sdram_0.s1" />
+  <parameter name="exceptionOffset" value="32" />
+  <parameter name="debug_triggerArming" value="true" />
+  <parameter name="debug_level" value="Level4" />
+  <parameter name="debug_jtagInstanceID" value="0" />
+  <parameter name="debug_embeddedPLL" value="true" />
+  <parameter name="debug_debugReqSignals" value="false" />
+  <parameter name="debug_assignJtagInstanceID" value="false" />
+  <parameter name="debug_OCIOnchipTrace" value="_128" />
+  <parameter name="dcache_size" value="_32768" />
+  <parameter name="dcache_ramBlockType" value="Automatic" />
+  <parameter name="dcache_omitDataMaster" value="false" />
+  <parameter name="dcache_numTCDM" value="_0" />
+  <parameter name="dcache_lineSize" value="_32" />
+  <parameter name="dcache_bursts" value="false" />
+  <parameter name="cpuReset" value="false" />
+  <parameter name="cpuID" value="0" />
+  <parameter name="breakSlave">cpu.jtag_debug_module</parameter>
+  <parameter name="breakOffset" value="32" /></module>
+ <module
+   name="ext_flash_enet_bus"
+   kind="altera_avalon_tri_state_bridge"
+   version="9.0"
+   enabled="1">
+  <parameter name="registerIncomingSignals" value="true" /></module>
+ <module
+   name="sys_clk_timer"
+   kind="altera_avalon_timer"
+   version="9.0"
+   enabled="1">
+  <parameter name="alwaysRun" value="false" />
+  <parameter name="counterSize" value="32" />
+  <parameter name="fixedPeriod" value="false" />
+  <parameter name="period" value="20" />
+  <parameter name="periodUnits" value="MSEC" />
+  <parameter name="resetOutput" value="false" />
+  <parameter name="snapshot" value="true" />
+  <parameter name="timeoutPulseOutput" value="false" />
+  <parameter name="timerPreset" value="FULL_FEATURED" /></module>
+ <module
+   name="jtag_uart"
+   kind="altera_avalon_jtag_uart"
+   version="9.0"
+   enabled="1">
+  <parameter name="allowMultipleConnections" value="false" />
+  <parameter name="hubInstanceID" value="0" />
+  <parameter name="readBufferDepth" value="64" />
+  <parameter name="readIRQThreshold" value="8" />
+  <parameter name="simInputCharacterStream" value="" />
+  <parameter name="simInteractiveOptions">INTERACTIVE_ASCII_OUTPUT</parameter>
+  <parameter name="useRegistersForReadBuffer" value="false" />
+  <parameter name="useRegistersForWriteBuffer" value="false" />
+  <parameter name="writeBufferDepth" value="64" />
+  <parameter name="writeIRQThreshold" value="8" /></module>
+ <module
+   name="high_res_timer"
+   kind="altera_avalon_timer"
+   version="9.0"
+   enabled="1">
+  <parameter name="alwaysRun" value="false" />
+  <parameter name="counterSize" value="32" />
+  <parameter name="fixedPeriod" value="false" />
+  <parameter name="period" value="10.0" />
+  <parameter name="periodUnits" value="USEC" />
+  <parameter name="resetOutput" value="false" />
+  <parameter name="snapshot" value="true" />
+  <parameter name="timeoutPulseOutput" value="false" />
+  <parameter name="timerPreset" value="FULL_FEATURED" /></module>
+ <module
+   name="ext_flash"
+   kind="altera_avalon_cfi_flash"
+   version="9.0"
+   enabled="1">
+  <parameter name="addressWidth" value="24" />
+  <parameter name="corePreset">AMD29LV128M123R_BYTE</parameter>
+  <parameter name="dataWidth" value="8" />
+  <parameter name="holdTime" value="35" />
+  <parameter name="setupTime" value="45" />
+  <parameter name="sharedPorts" value="s1/address,s1/data" />
+  <parameter name="timingUnits" value="NS" />
+  <parameter name="waitTime" value="160" /></module>
+ <module
+   name="lcd_display"
+   kind="altera_avalon_lcd_16207"
+   version="9.0"
+   enabled="1" />
+ <module name="button_pio" kind="altera_avalon_pio" version="9.0" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="true" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="ANY" />
+  <parameter name="generateIRQ" value="true" />
+  <parameter name="irqType" value="EDGE" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="true" />
+  <parameter name="simDrivenValue" value="15" />
+  <parameter name="width" value="4" /></module>
+ <module name="led_pio" kind="altera_avalon_pio" version="9.0" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" /></module>
+ <module
+   name="seven_seg_pio"
+   kind="altera_avalon_pio"
+   version="9.0"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="16" /></module>
+ <module
+   name="bswap"
+   kind="altera_nios_custom_instr_bitswap"
+   version="6.1"
+   enabled="1" />
+ <module
+   name="interrupt_vector"
+   kind="altera_nios_custom_instr_interrupt_vector"
+   version="6.1"
+   enabled="1" />
+ <module
+   name="ext_ssram_bus"
+   kind="altera_avalon_tri_state_bridge"
+   version="9.0"
+   enabled="1">
+  <parameter name="registerIncomingSignals" value="true" /></module>
+ <module
+   name="ext_ssram"
+   kind="altera_avalon_cy7c1380_ssram"
+   version="9.0"
+   enabled="1">
+  <parameter name="readLatency" value="3" />
+  <parameter name="sharedPorts" value="s1/address,s1/data" />
+  <parameter name="simMakeModel" value="true" />
+  <parameter name="size" value="2" /></module>
+ <module
+   name="ddr_sdram_0"
+   kind="ddr_sdram_component_classic"
+   version="9.0"
+   enabled="1">
+  <parameter name="instancePTF">MODULE ddr_sdram_0
+{
+   SLAVE s1
+   {
+      PORT_WIRING 
+      {
+         PORT clk
+         {
+            type = "clk";
+            width = "1";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT reset_n
+         {
+            type = "reset_n";
+            width = "1";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT local_read_req
+         {
+            type = "read";
+            width = "1";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT local_write_req
+         {
+            type = "write";
+            width = "1";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT local_addr
+         {
+            type = "address";
+            width = "23";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT local_wdata
+         {
+            type = "writedata";
+            width = "32";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT local_be
+         {
+            type = "byteenable";
+            width = "4";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT local_ready
+         {
+            type = "waitrequest_n";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT local_rdata
+         {
+            type = "readdata";
+            width = "32";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT local_rdata_valid
+         {
+            type = "readdatavalid";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT write_clk
+         {
+            type = "export";
+            width = "1";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT clk_to_sdram
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT clk_to_sdram_n
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_cs_n
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_cke
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_a
+         {
+            type = "export";
+            width = "13";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_ba
+         {
+            type = "export";
+            width = "2";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_ras_n
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_cas_n
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_we_n
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT ddr_dq
+         {
+            type = "export";
+            width = "16";
+            direction = "inout";
+            Is_Enabled = "1";
+         }
+         PORT ddr_dqs
+         {
+            type = "export";
+            width = "2";
+            direction = "inout";
+            Is_Enabled = "1";
+         }
+         PORT ddr_dm
+         {
+            type = "export";
+            width = "2";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT dqs_delay_ctrl
+         {
+            type = "export";
+            width = "6";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+         PORT stratix_dll_control
+         {
+            type = "export";
+            width = "1";
+            direction = "output";
+            Is_Enabled = "1";
+         }
+         PORT dqsupdate
+         {
+            type = "export";
+            width = "1";
+            direction = "input";
+            Is_Enabled = "1";
+         }
+      }
+      SYSTEM_BUILDER_INFO 
+      {
+         Bus_Type = "avalon";
+         Read_Wait_States = "peripheral_controlled";
+         Write_Wait_States = "peripheral_controlled";
+         Hold_Time = "0cycles";
+         Setup_Time = "0cycles";
+         Is_Printable_Device = "0";
+         Address_Alignment = "dynamic";
+         Well_Behaved_Waitrequest = "0";
+         Is_Nonvolatile_Storage = "0";
+         Address_Span = "33554432";
+         Read_Latency = "0";
+         Is_Memory_Device = "1";
+         Maximum_Pending_Read_Transactions = "16";
+         Minimum_Uninterrupted_Run_Length = "1";
+         Accepts_Internal_Connections = "1";
+         Write_Latency = "0";
+         Is_Flash = "0";
+         Data_Width = "32";
+         Address_Width = "23";
+         Maximum_Burst_Size = "1";
+         Register_Incoming_Signals = "0";
+         Register_Outgoing_Signals = "0";
+         Interleave_Bursts = "0";
+         Linewrap_Bursts = "1";
+         Burst_On_Burst_Boundaries_Only = "0";
+         Always_Burst_Max_Burst = "0";
+         Is_Big_Endian = "0";
+         Is_Enabled = "1";
+         Base_Address = "0x02000000";
+         Address_Group = "0";
+      }
+   }
+   class = "ddr_sdram_component";
+   class_version = "9.0";
+   iss_model_name = "altera_memory";
+   WIZARD_SCRIPT_ARGUMENTS 
+   {
+      MEGACORE 
+      {
+         title = "DDR SDRAM Controller";
+         version = "7.1";
+         build = "1";
+         iptb_version = "v1.3.0 build70";
+         format_version = "120";
+         NETLIST_SECTION 
+         {
+            class = "altera.ipbu.flowbase.netlist.model.DDRSDRAMModel";
+            active_core = "ddr_sdram_0_auk_ddr_sdram";
+            STATIC_SECTION 
+            {
+               PRIVATES 
+               {
+                  NAMESPACE parameterization
+                  {
+                     PRIVATE use_mem
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE gMEM_TYPE
+                     {
+                        value = "ddr_sdram";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE projectname
+                     {
+                        value = "NiosII_stratixII_2s60_RoHS_TSE_SGDMA.qpf";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE ddio_memory_clocks
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE new_wizard
+                     {
+                        value = "false";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE local_burst_length
+                     {
+                        value = "1";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE burst_length
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE odt_setting
+                     {
+                        value = "Disabled";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE chip_selects_per_dimm
+                     {
+                        value = "1";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE mig_device
+                     {
+                        value = "NONE";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE mig_package
+                     {
+                        value = "NONE";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE mig_speed_grade
+                     {
+                        value = "NONE";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE mig_family
+                     {
+                        value = "NONE";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE mig_defaultByteGroups
+                     {
+                        value = "default_value";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE mig_ByteGroups
+                     {
+                        value = "default_value";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE ADVANCED
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE include_x4_dm_pins
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "0";
+                     }
+                     PRIVATE chipselects
+                     {
+                        value = "1";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE LOCAL_WIDTH
+                     {
+                        value = "32";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE bankbits
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE width
+                     {
+                        value = "16";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE colbits
+                     {
+                        value = "9";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE rowbits
+                     {
+                        value = "13";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE dq_per_dqs
+                     {
+                        value = "8";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE pch_bit
+                     {
+                        value = "10";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE migratable_bytegroups
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "0";
+                     }
+                     PRIVATE reg_dimm
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE pipeline_commands
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE enable_resynch_clk
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE enable_capture_clk
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE obj_hierarchy_path
+                     {
+                        value = "Automatically extracted by Quartus synthesis";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE clock_pin_positive
+                     {
+                        value = "clk_to_sdram[0]";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE clock_pin_negative
+                     {
+                        value = "clk_to_sdram_n[0]";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE clock_fed_back_input
+                     {
+                        value = "fedback_clk_in";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE run_add_constraints
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE run_verify_timing
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE generate_pll
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE update_top_level
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE manual_hierarchy_control
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE fed_back_clock
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE extra_pipeline_regs
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE pipeline_readdata
+                     {
+                        value = "Automatic";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE addr_command
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE user_refresh
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE avalon
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "0";
+                     }
+                     PRIVATE clock_speed
+                     {
+                        value = "50.0";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE cas_latency
+                     {
+                        value = "2.5";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE burst_type_int
+                     {
+                        value = "0";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE burst_type
+                     {
+                        value = "sequential";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE dll_enable
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE drive_strength
+                     {
+                        value = "normal";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE ras_to_cas_delay
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE act_pch_time
+                     {
+                        value = "4";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE write_to_read
+                     {
+                        value = "1";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE write_recovery_time
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE row_precharge_time
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE refresh_command
+                     {
+                        value = "7";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE load_mode
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE trefi
+                     {
+                        value = "389";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE tinit_time
+                     {
+                        value = "9999";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE trcd
+                     {
+                        value = "18";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE tras
+                     {
+                        value = "42";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE twr
+                     {
+                        value = "15";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE trp
+                     {
+                        value = "18";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE trfc
+                     {
+                        value = "72";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE tmrd
+                     {
+                        value = "12";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE user_trefi
+                     {
+                        value = "7.81";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE user_tinit
+                     {
+                        value = "200.0";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE use_project_timing_estimates
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE device
+                     {
+                        value = "EP2S60";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE package
+                     {
+                        value = "F672";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE speed_grade
+                     {
+                        value = "C5";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE top_level
+                     {
+                        value = "ddr_sdram_0_debug_design";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE pin_prefix
+                     {
+                        value = "ddr_";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE family
+                     {
+                        value = "Stratix II";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE resynch_cycle
+                     {
+                        value = "0";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE intermediate_resynch
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "0";
+                     }
+                     PRIVATE resynch_edge
+                     {
+                        value = "rising";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE capture_edge
+                     {
+                        value = "rising";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE resync_phase
+                     {
+                        value = "270";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE fedback_resync_phase
+                     {
+                        value = "0";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE capture_phase
+                     {
+                        value = "-1";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE postamble_phase
+                     {
+                        value = "270";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE stratixii_dqs_phase
+                     {
+                        value = "6000";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE stratixii_dll_delay_buffer_mode
+                     {
+                        value = "low";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE stratixii_dll_delay_chain_length
+                     {
+                        value = "12";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE stratixii_dqs_out_mode
+                     {
+                        value = "delay_chain2";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE enable_postamble_logic
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "0";
+                     }
+                     PRIVATE stratix_dll_control
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE manual_pin_control
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE pf_pin_load_on_dq
+                     {
+                        value = "4";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE pf_pin_load_on_cmd
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE pf_pin_load_on_clk
+                     {
+                        value = "2";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE fed_back_clock_delay
+                     {
+                        value = "2000";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE board_tpd_clock_trace_nom
+                     {
+                        value = "550";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE board_tpd_dqs_trace_total_nom
+                     {
+                        value = "550";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE board_pcb_delay_var_percent
+                     {
+                        value = "5";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE board_tskew_data_group
+                     {
+                        value = "20";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE memory_tDQSQ
+                     {
+                        value = "450";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tQHS
+                     {
+                        value = "550";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tDQSCK
+                     {
+                        value = "600";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tAC
+                     {
+                        value = "700";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_fmax_at_cl5
+                     {
+                        value = "0.0";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE memory_fmax_at_cl4
+                     {
+                        value = "0.0";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE memory_fmax_at_cl3
+                     {
+                        value = "166.6667";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE memory_fmax_at_cl25
+                     {
+                        value = "166.6667";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE memory_fmax_at_cl2
+                     {
+                        value = "133.3333";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tCK_MAX
+                     {
+                        value = "13000";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tDS
+                     {
+                        value = "450";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tDH
+                     {
+                        value = "450";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tdqss_min
+                     {
+                        value = "0.75";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE memory_tdqss_max
+                     {
+                        value = "1.25";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE byte_groups
+                     {
+                        value = "1T 0T";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE override_resynch_script
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE override_capture_script
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE override_postamble_script
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE override_timings
+                     {
+                        value = "0";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE postamble_cycle
+                     {
+                        value = "0";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE postamble_edge
+                     {
+                        value = "rising";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE inter_postamble
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "0";
+                     }
+                     PRIVATE postamble_clock
+                     {
+                        value = "write_clk";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE postamble_buffers
+                     {
+                        value = "0";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                     PRIVATE capture_clk
+                     {
+                        value = "dedicated";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE board_name
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE device_maxwidth_name
+                     {
+                        value = "64";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE Default_ByteGroups
+                     {
+                        value = "3T 2T 1T 0T 0B 1B 2B 3B";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE Board_ByteGroups
+                     {
+                        value = "1T 0T";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE board_maxwidth
+                     {
+                        value = "16";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE memory_device
+                     {
+                        value = "Nios Development Board, Stratix II (EP2S60) RoHS";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE resynch_clk
+                     {
+                        value = "write_clk";
+                        type = "STRING";
+                        enable = "0";
+                     }
+                     PRIVATE pin_file
+                     {
+                        value = "none";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE local_address_width
+                     {
+                        value = "23";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE local_data_width
+                     {
+                        value = "32";
+                        type = "INTEGER";
+                        enable = "1";
+                     }
+                     PRIVATE clock_pairs
+                     {
+                        value = "1";
+                        type = "INTEGER";
+                        enable = "0";
+                     }
+                  }
+                  NAMESPACE symbol
+                  {
+                  }
+                  NAMESPACE simgen_enable
+                  {
+                     PRIVATE enabled
+                     {
+                        value = "1";
+                        type = "BOOLEAN";
+                        enable = "1";
+                     }
+                     PRIVATE language
+                     {
+                        value = "Verilog HDL";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                  }
+                  NAMESPACE quartus_settings
+                  {
+                     PRIVATE DEVICE
+                     {
+                        value = "EP2S60F672C5";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                     PRIVATE FAMILY
+                     {
+                        value = "Stratix II";
+                        type = "STRING";
+                        enable = "1";
+                     }
+                  }
+                  NAMESPACE generate
+                  {
+                  }
+                  NAMESPACE serializer
+                  {
+                  }
+               }
+               PORTS 
+               {
+               }
+               LIBRARIES 
+               {
+               }
+            }
+         }
+      }
+   }
+   SYSTEM_BUILDER_INFO 
+   {
+      Is_Enabled = "1";
+      Clock_Source = "pll_c0_out";
+      Has_Clock = "1";
+      Instantiate_In_System_Module = "1";
+      Date_Modified = "--unknown--";
+      Default_Module_Name = "ddr_sdram";
+      Required_Device_Family = "STRATIXII,STRATIXIIGX,STRATIX,STRATIXGX,CYCLONEII,CYCLONE";
+      Pins_Assigned_Automatically = "1";
+      View 
+      {
+         MESSAGES 
+         {
+         }
+      }
+   }
+   SIMULATION 
+   {
+      DISPLAY 
+      {
+         SIGNAL a
+         {
+            name = "reset_n";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL b
+         {
+            name = "clk";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL c
+         {
+            name = "write_clk";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL d
+         {
+            name = "clk_to_sdram";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL e
+         {
+            name = "clk_to_sdram_n";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL f
+         {
+            name = "local_addr";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         #SIGNAL g { name = "local_size";        radix = "hexadecimal"; format = "Logic";}
+         #SIGNAL h { name = "local_burstbegin";  radix = "hexadecimal"; format = "Logic";}
+         SIGNAL i
+         {
+            name = "local_read_req";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL j
+         {
+            name = "local_write_req";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL k
+         {
+            name = "local_ready";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL l
+         {
+            name = "local_wdata";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL m
+         {
+            name = "local_be";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL n
+         {
+            name = "local_rdata_valid";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL o
+         {
+            name = "local_rdata";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL p
+         {
+            name = "ddr_cs_n";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL q
+         {
+            name = "ddr_a";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL r
+         {
+            name = "ddr_ba";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL s
+         {
+            name = "ddr_ras_n";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL t
+         {
+            name = "ddr_cas_n";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL u
+         {
+            name = "ddr_we_n";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL v
+         {
+            name = "ddr_dm";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL w
+         {
+            name = "ddr_dq";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL x
+         {
+            name = "ddr_dqs";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+         SIGNAL y
+         {
+            name = "ddr_cke";
+            radix = "hexadecimal";
+            format = "Logic";
+         }
+      }
+   }
+}
+</parameter></module>
+ <module name="sgdma_tx" kind="altera_avalon_sgdma" version="9.0" enabled="1">
+  <parameter name="addressWidth" value="32" />
+  <parameter name="alwaysDoMaxBurst" value="true" />
+  <parameter name="dataTransferFIFODepth" value="2" />
+  <parameter name="enableBurstTransfers" value="false" />
+  <parameter name="enableDescriptorReadMasterBurst" value="false" />
+  <parameter name="enableUnalignedTransfers" value="false" />
+  <parameter name="internalFIFODepth" value="2" />
+  <parameter name="readBlockDataWidth" value="32" />
+  <parameter name="readBurstcountWidth" value="4" />
+  <parameter name="sinkErrorWidth" value="0" />
+  <parameter name="sourceErrorWidth" value="1" />
+  <parameter name="transferMode" value="MEMORY_TO_STREAM" />
+  <parameter name="writeBurstcountWidth" value="4" /></module>
+ <module name="tse_mac" kind="triple_speed_ethernet" version="9.0" enabled="1">
+  <parameter name="atlanticSinkClockRate" value="83333333" />
+  <parameter name="atlanticSinkClockSource" value="pll" />
+  <parameter name="atlanticSourceClockRate" value="83333333" />
+  <parameter name="atlanticSourceClockSource" value="pll" />
+  <parameter name="avalonSlaveClockRate" value="83333333" />
+  <parameter name="avalonSlaveClockSource" value="pll" />
+  <parameter name="avalonStNeighbours">{TRANSMIT=sgdma_tx, RECEIVE=sgdma_rx}</parameter>
+  <parameter name="channel_count" value="1" />
+  <parameter name="core_variation" value="MAC_ONLY" />
+  <parameter name="core_version" value="2304" />
+  <parameter name="crc32check16bit" value="0" />
+  <parameter name="crc32dwidth" value="8" />
+  <parameter name="crc32gendelay" value="6" />
+  <parameter name="crc32s1l2_extern" value="false" />
+  <parameter name="cust_version" value="1" />
+  <parameter name="dataBitsPerSymbol" value="8" />
+  <parameter name="dev_version" value="2304" />
+  <parameter name="deviceFamily" value="STRATIXII" />
+  <parameter name="eg_addr" value="10" />
+  <parameter name="ena_hash" value="true" />
+  <parameter name="enable_alt_reconfig" value="false" />
+  <parameter name="enable_clk_sharing" value="false" />
+  <parameter name="enable_ena" value="32" />
+  <parameter name="enable_fifoless" value="false" />
+  <parameter name="enable_gmii_loopback" value="true" />
+  <parameter name="enable_hd_logic" value="true" />
+  <parameter name="enable_mac_flow_ctrl" value="false" />
+  <parameter name="enable_mac_txaddr_set" value="true" />
+  <parameter name="enable_mac_vlan" value="false" />
+  <parameter name="enable_maclite" value="false" />
+  <parameter name="enable_magic_detect" value="true" />
+  <parameter name="enable_multi_channel" value="false" />
+  <parameter name="enable_pkt_class" value="true" />
+  <parameter name="enable_pma" value="false" />
+  <parameter name="enable_reg_sharing" value="false" />
+  <parameter name="enable_sgmii" value="false" />
+  <parameter name="enable_shift16" value="true" />
+  <parameter name="enable_sup_addr" value="true" />
+  <parameter name="enable_use_internal_fifo" value="true" />
+  <parameter name="export_calblkclk" value="false" />
+  <parameter name="export_pwrdn" value="false" />
+  <parameter name="ext_stat_cnt_ena" value="false" />
+  <parameter name="gigeAdvanceMode" value="false" />
+  <parameter name="ifGMII" value="MII_GMII" />
+  <parameter name="ifPCSuseEmbeddedSerdes" value="false" />
+  <parameter name="ing_addr" value="10" />
+  <parameter name="insert_ta" value="true" />
+  <parameter name="maclite_gige" value="false" />
+  <parameter name="max_channels" value="1" />
+  <parameter name="mdio_clk_div" value="40" />
+  <parameter name="phy_identifier" value="0" />
+  <parameter name="ramType" value="AUTO" />
+  <parameter name="reset_level" value="1" />
+  <parameter name="stat_cnt_ena" value="true" />
+  <parameter name="timingAdapterName" value="sgdma_rx" />
+  <parameter name="toolContext" value="SOPC_BUILDER" />
+  <parameter name="transceiver_type" value="GXB" />
+  <parameter name="uiHostClockFrequency" value="0" />
+  <parameter name="uiMDIOFreq" value="0.0 MHz" />
+  <parameter name="useLvds" value="false" />
+  <parameter name="useMAC" value="true" />
+  <parameter name="useMDIO" value="true" />
+  <parameter name="usePCS" value="false" />
+  <parameter name="use_sync_reset" value="false" /></module>
+ <module name="sgdma_rx" kind="altera_avalon_sgdma" version="9.0" enabled="1">
+  <parameter name="addressWidth" value="32" />
+  <parameter name="alwaysDoMaxBurst" value="true" />
+  <parameter name="dataTransferFIFODepth" value="2" />
+  <parameter name="enableBurstTransfers" value="false" />
+  <parameter name="enableDescriptorReadMasterBurst" value="false" />
+  <parameter name="enableUnalignedTransfers" value="false" />
+  <parameter name="internalFIFODepth" value="2" />
+  <parameter name="readBlockDataWidth" value="32" />
+  <parameter name="readBurstcountWidth" value="4" />
+  <parameter name="sinkErrorWidth" value="6" />
+  <parameter name="sourceErrorWidth" value="0" />
+  <parameter name="transferMode" value="STREAM_TO_MEMORY" />
+  <parameter name="writeBurstcountWidth" value="4" /></module>
+ <module
+   name="descriptor_memory"
+   kind="altera_avalon_onchip_memory2"
+   version="9.0"
+   enabled="1">
+  <parameter name="allowInSystemMemoryContentEditor" value="false" />
+  <parameter name="blockType" value="AUTO" />
+  <parameter name="dataWidth" value="32" />
+  <parameter name="dualPort" value="false" />
+  <parameter name="initMemContent" value="true" />
+  <parameter name="initializationFileName" value="descriptor_memory" />
+  <parameter name="instanceID" value="NONE" />
+  <parameter name="memorySize" value="8192" />
+  <parameter name="readDuringWriteMode" value="DONT_CARE" />
+  <parameter name="simAllowMRAMContentsFile" value="false" />
+  <parameter name="slave1Latency" value="1" />
+  <parameter name="slave2Latency" value="1" />
+  <parameter name="useNonDefaultInitFile" value="false" />
+  <parameter name="useShallowMemBlocks" value="false" />
+  <parameter name="writable" value="true" /></module>
+ <module name="tse_pll" kind="altera_avalon_pll" version="9.0" enabled="1">
+  <parameter name="c0">tap c0 mult 5 div 2 phase 0 enabled true inputfreq 50000000 outputfreq 125000000 
+</parameter>
+  <parameter name="c1">tap c1 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c2">tap c2 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c3">tap c3 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c4">tap c4 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c5">tap c5 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c6">tap c6 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c7">tap c7 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c8">tap c8 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="c9">tap c9 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="deviceFamily" value="STRATIXII" />
+  <parameter name="e0">tap e0 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="e1">tap e1 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="e2">tap e2 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="e3">tap e3 mult 1 div 1 phase 0 enabled false inputfreq 0 outputfreq 0 
+</parameter>
+  <parameter name="inputClockFrequency" value="50000000" />
+  <parameter name="lockedOutputPortOption" value="Export" />
+  <parameter name="pfdenaInputPortOption" value="Register" />
+  <parameter name="pllHdl">--  megafunction wizard: %ALTPLL%
+--  GENERATION: STANDARD
+--  VERSION: WM1.0
+--  MODULE: altpll
+
+-- ============================================================
+-- CNX file retrieval info
+-- ============================================================
+-- Retrieval info: PRIVATE: ACTIVECLK_CHECK STRING "0"
+-- Retrieval info: PRIVATE: BANDWIDTH STRING "1.000"
+-- Retrieval info: PRIVATE: BANDWIDTH_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: BANDWIDTH_FREQ_UNIT STRING "MHz"
+-- Retrieval info: PRIVATE: BANDWIDTH_PRESET STRING "Low"
+-- Retrieval info: PRIVATE: BANDWIDTH_USE_AUTO STRING "1"
+-- Retrieval info: PRIVATE: BANDWIDTH_USE_CUSTOM STRING "0"
+-- Retrieval info: PRIVATE: BANDWIDTH_USE_PRESET STRING "0"
+-- Retrieval info: PRIVATE: CLKBAD_SWITCHOVER_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CLKLOSS_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CLKSWITCH_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CNX_NO_COMPENSATE_RADIO STRING "0"
+-- Retrieval info: PRIVATE: CREATE_CLKBAD_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CREATE_INCLK1_CHECK STRING "0"
+-- Retrieval info: PRIVATE: CUR_DEDICATED_CLK STRING "c0"
+-- Retrieval info: PRIVATE: CUR_FBIN_CLK STRING "e0"
+-- Retrieval info: PRIVATE: DEVICE_SPEED_GRADE STRING "Any"
+-- Retrieval info: PRIVATE: EXT_FEEDBACK_RADIO STRING "0"
+-- Retrieval info: PRIVATE: GLOCKED_COUNTER_EDIT_CHANGED STRING "1"
+-- Retrieval info: PRIVATE: GLOCKED_FEATURE_ENABLED STRING "0"
+-- Retrieval info: PRIVATE: GLOCKED_MODE_CHECK STRING "0"
+-- Retrieval info: PRIVATE: GLOCK_COUNTER_EDIT NUMERIC "1048575"
+-- Retrieval info: PRIVATE: HAS_MANUAL_SWITCHOVER STRING "1"
+-- Retrieval info: PRIVATE: INCLK0_FREQ_EDIT STRING "50.0"
+-- Retrieval info: PRIVATE: INCLK0_FREQ_UNIT_COMBO STRING "MHz"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_EDIT STRING "100.000"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_EDIT_CHANGED STRING "1"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_UNIT_CHANGED STRING "1"
+-- Retrieval info: PRIVATE: INCLK1_FREQ_UNIT_COMBO STRING "MHz"
+-- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
+-- Retrieval info: PRIVATE: INT_FEEDBACK__MODE_RADIO STRING "1"
+-- Retrieval info: PRIVATE: LOCKED_OUTPUT_CHECK STRING "0"
+-- Retrieval info: PRIVATE: LOCK_LOSS_SWITCHOVER_CHECK STRING "0"
+-- Retrieval info: PRIVATE: LONG_SCAN_RADIO STRING "1"
+-- Retrieval info: PRIVATE: LVDS_MODE_DATA_RATE STRING "Not Available"
+-- Retrieval info: PRIVATE: LVDS_MODE_DATA_RATE_DIRTY NUMERIC "0"
+-- Retrieval info: PRIVATE: NORMAL_MODE_RADIO STRING "1"
+-- Retrieval info: PRIVATE: PLL_ADVANCED_PARAM_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_ARESET_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_AUTOPLL_CHECK NUMERIC "1"
+-- Retrieval info: PRIVATE: PLL_ENA_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_ENHPLL_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PLL_FASTPLL_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PLL_LVDS_PLL_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PLL_PFDENA_CHECK STRING "0"
+-- Retrieval info: PRIVATE: PLL_TARGET_HARCOPY_CHECK NUMERIC "0"
+-- Retrieval info: PRIVATE: PRIMARY_CLK_COMBO STRING "inclk0"
+-- Retrieval info: PRIVATE: SACN_INPUTS_CHECK STRING "0"
+-- Retrieval info: PRIVATE: SCAN_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: SELF_RESET_LOCK_LOSS STRING "0"
+-- Retrieval info: PRIVATE: SHORT_SCAN_RADIO STRING "0"
+-- Retrieval info: PRIVATE: SPREAD_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: SPREAD_FREQ STRING "50.000"
+-- Retrieval info: PRIVATE: SPREAD_FREQ_UNIT STRING "KHz"
+-- Retrieval info: PRIVATE: SPREAD_PERCENT STRING "0.500"
+-- Retrieval info: PRIVATE: SPREAD_USE STRING "0"
+-- Retrieval info: PRIVATE: SRC_SYNCH_COMP_RADIO STRING "0"
+-- Retrieval info: PRIVATE: SWITCHOVER_COUNT_EDIT NUMERIC "1"
+-- Retrieval info: PRIVATE: SWITCHOVER_FEATURE_ENABLED STRING "1"
+-- Retrieval info: PRIVATE: ZERO_DELAY_RADIO STRING "0"
+-- Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
+-- Retrieval info: CONSTANT: BANDWIDTH_TYPE STRING "AUTO"
+-- Retrieval info: CONSTANT: COMPENSATE_CLOCK STRING "CLK0"
+-- Retrieval info: CONSTANT: INCLK0_INPUT_FREQUENCY NUMERIC "20000"
+-- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Stratix II"
+-- Retrieval info: CONSTANT: INVALID_LOCK_MULTIPLIER NUMERIC "5"
+-- Retrieval info: CONSTANT: LPM_TYPE STRING "altpll"
+-- Retrieval info: CONSTANT: OPERATION_MODE STRING "NORMAL"
+-- Retrieval info: CONSTANT: PLL_TYPE STRING "AUTO"
+-- Retrieval info: CONSTANT: PORT_ACTIVECLOCK STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_ARESET STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKBAD0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKBAD1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKLOSS STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_CLKSWITCH STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_FBIN STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_INCLK0 STRING "PORT_USED"
+-- Retrieval info: CONSTANT: PORT_INCLK1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_LOCKED STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PFDENA STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_PLLENA STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANACLR STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANCLK STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANDATA STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANDATAOUT STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANDONE STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANREAD STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_SCANWRITE STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk0 STRING "PORT_USED"
+-- Retrieval info: CONSTANT: PORT_clk1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk2 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk3 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk4 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clk5 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena2 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena3 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena4 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_clkena5 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_enable0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_enable1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk2 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclk3 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclkena0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclkena1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclkena2 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_extclkena3 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_sclkout0 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: PORT_sclkout1 STRING "PORT_UNUSED"
+-- Retrieval info: CONSTANT: SPREAD_FREQUENCY NUMERIC "0"
+-- Retrieval info: CONSTANT: VALID_LOCK_MULTIPLIER NUMERIC "1"
+-- Retrieval info: CONSTANT: CLK0_MULTIPLY_BY NUMERIC "5"
+-- Retrieval info: CONSTANT: CLK0_DIVIDE_BY NUMERIC "2"
+-- Retrieval info: CONSTANT: CLK0_PHASE_SHIFT NUMERIC "0.0"
+-- Retrieval info: USED_PORT: inclk0 0 0 0 0 INPUT_CLK_EXT GND "inclk0"
+-- Retrieval info: USED_PORT: c0 0 0 0 0 OUTPUT_CLK_EXT VCC "c0"
+</parameter>
+  <parameter name="resetInputPortOption" value="Register" /></module>
+ <module name="clk_to_tse_pll" kind="clock_source" version="9.0" enabled="1">
+  <parameter name="clockFrequency" value="50000000" />
+  <parameter name="clockFrequencyKnown" value="true" /></module>
+ <module
+   name="packet_memory"
+   kind="altera_avalon_onchip_memory2"
+   version="9.0"
+   enabled="1">
+  <parameter name="allowInSystemMemoryContentEditor" value="false" />
+  <parameter name="blockType" value="MRAM" />
+  <parameter name="dataWidth" value="32" />
+  <parameter name="dualPort" value="true" />
+  <parameter name="initMemContent" value="false" />
+  <parameter name="initializationFileName" value="packet_memory" />
+  <parameter name="instanceID" value="NONE" />
+  <parameter name="memorySize" value="65536" />
+  <parameter name="readDuringWriteMode" value="DONT_CARE" />
+  <parameter name="simAllowMRAMContentsFile" value="false" />
+  <parameter name="slave1Latency" value="1" />
+  <parameter name="slave2Latency" value="1" />
+  <parameter name="useNonDefaultInitFile" value="false" />
+  <parameter name="useShallowMemBlocks" value="false" />
+  <parameter name="writable" value="true" /></module>
+ <module
+   name="pipeline_bridge"
+   kind="altera_avalon_pipeline_bridge"
+   version="9.0"
+   enabled="1">
+  <parameter name="burstEnable" value="false" />
+  <parameter name="dataWidth" value="32" />
+  <parameter name="downstreamPipeline" value="true" />
+  <parameter name="enableArbiterlock" value="false" />
+  <parameter name="maxBurstSize" value="2" />
+  <parameter name="upstreamPipeline" value="true" />
+  <parameter name="waitrequestPipeline" value="true" /></module>
+ <module
+   name="reconfig_request_pio"
+   kind="altera_avalon_pio"
+   version="9.0"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Bidir" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" /></module>
+ <module name="uart1" kind="altera_avalon_uart" version="9.0" enabled="1">
+  <parameter name="baud" value="115200" />
+  <parameter name="dataBits" value="8" />
+  <parameter name="fixedBaud" value="true" />
+  <parameter name="parity" value="NONE" />
+  <parameter name="simCharStream" value="" />
+  <parameter name="simInteractiveInputEnable" value="false" />
+  <parameter name="simInteractiveOutputEnable" value="false" />
+  <parameter name="simTrueBaud" value="false" />
+  <parameter name="stopBits" value="1" />
+  <parameter name="syncRegDepth" value="2" />
+  <parameter name="useCtsRts" value="false" />
+  <parameter name="useEopRegister" value="false" /></module>
+ <connection
+   kind="clock"
+   version="9.0"
+   start="pll.c0"
+   end="ext_flash_enet_bus.clk" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="sys_clk_timer.clk" />
+ <connection
+   kind="interrupt"
+   version="9.0"
+   start="cpu.d_irq"
+   end="sys_clk_timer.irq">
+  <parameter name="irqNumber" value="5" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="jtag_uart.clk" />
+ <connection kind="interrupt" version="9.0" start="cpu.d_irq" end="jtag_uart.irq">
+  <parameter name="irqNumber" value="3" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="high_res_timer.clk" />
+ <connection
+   kind="interrupt"
+   version="9.0"
+   start="cpu.d_irq"
+   end="high_res_timer.irq">
+  <parameter name="irqNumber" value="6" /></connection>
+ <connection
+   kind="avalon_tristate"
+   version="9.0"
+   start="ext_flash_enet_bus.tristate_master"
+   end="ext_flash.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="ext_flash.clk" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="lcd_display.clk" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="button_pio.clk" />
+ <connection kind="interrupt" version="9.0" start="cpu.d_irq" end="button_pio.irq">
+  <parameter name="irqNumber" value="8" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="led_pio.clk" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="seven_seg_pio.clk" />
+ <connection
+   kind="nios_custom_instruction"
+   version="9.0"
+   start="cpu.custom_instruction_master"
+   end="bswap.s1">
+  <parameter name="CIName" value="bitswap" />
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0" /></connection>
+ <connection
+   kind="nios_custom_instruction"
+   version="9.0"
+   start="cpu.custom_instruction_master"
+   end="interrupt_vector.interrupt_vector">
+  <parameter name="CIName" value="interrupt_vector" />
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="1" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.instruction_master"
+   end="ext_ssram_bus.avalon_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="ext_ssram_bus.avalon_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="ext_ssram_bus.clk" />
+ <connection
+   kind="avalon_tristate"
+   version="9.0"
+   start="ext_ssram_bus.tristate_master"
+   end="ext_ssram.s1">
+  <parameter name="arbitrationPriority" value="8" />
+  <parameter name="baseAddress" value="0x08200000" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="ext_ssram.clk" />
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.instruction_master"
+   end="ddr_sdram_0.s1">
+  <parameter name="arbitrationPriority" value="8" />
+  <parameter name="baseAddress" value="0x02000000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="ddr_sdram_0.s1">
+  <parameter name="arbitrationPriority" value="8" />
+  <parameter name="baseAddress" value="0x02000000" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="ddr_sdram_0.s1_clock" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="cpu.clk" />
+ <connection kind="clock" version="9.0" start="clk.clk" end="pll.inclk0" />
+ <connection
+   kind="clock"
+   version="9.0"
+   start="clk_to_tse_pll.clk"
+   end="tse_pll.inclk0" />
+ <connection
+   kind="clock"
+   version="9.0"
+   start="pll.c0"
+   end="descriptor_memory.clk1" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="sgdma_rx.clk" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="sgdma_tx.clk" />
+ <connection
+   kind="clock"
+   version="9.0"
+   start="pll.c0"
+   end="tse_mac.receive_clock_connection" />
+ <connection
+   kind="clock"
+   version="9.0"
+   start="pll.c0"
+   end="tse_mac.transmit_clock_connection" />
+ <connection
+   kind="clock"
+   version="9.0"
+   start="pll.c0"
+   end="tse_mac.control_port_clock_connection" />
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="descriptor_memory.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08410000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_rx.descriptor_read"
+   end="descriptor_memory.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08410000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_rx.descriptor_write"
+   end="descriptor_memory.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08410000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_tx.descriptor_read"
+   end="descriptor_memory.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08410000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_tx.descriptor_write"
+   end="descriptor_memory.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08410000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_rx.m_write"
+   end="ext_ssram_bus.avalon_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_tx.m_read"
+   end="ext_ssram_bus.avalon_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_rx.m_write"
+   end="ddr_sdram_0.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x02000000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_tx.m_read"
+   end="ddr_sdram_0.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x02000000" /></connection>
+ <connection
+   kind="interrupt"
+   version="9.0"
+   start="cpu.d_irq"
+   end="sgdma_rx.csr_irq">
+  <parameter name="irqNumber" value="1" /></connection>
+ <connection
+   kind="interrupt"
+   version="9.0"
+   start="cpu.d_irq"
+   end="sgdma_tx.csr_irq">
+  <parameter name="irqNumber" value="0" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="tse_mac.control_port">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08412000" /></connection>
+ <connection
+   kind="avalon_streaming"
+   version="9.0"
+   start="sgdma_tx.out"
+   end="tse_mac.transmit" />
+ <connection
+   kind="avalon_streaming"
+   version="9.0"
+   start="tse_mac.receive"
+   end="sgdma_rx.in" />
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="packet_memory.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08400000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_rx.m_write"
+   end="packet_memory.s2">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08400000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="sgdma_tx.m_read"
+   end="packet_memory.s2">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08400000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.instruction_master"
+   end="pipeline_bridge.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x06000000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="pipeline_bridge.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x06000000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="sgdma_tx.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01000800" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="sgdma_rx.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01000c00" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="cpu.jtag_debug_module">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01000000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="lcd_display.control_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001080" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="button_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001090" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="led_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x010010a0" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="seven_seg_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x010010b0" /></connection>
+ <connection kind="avalon" version="6.1" start="pipeline_bridge.m1" end="pll.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="tse_pll.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001020" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="high_res_timer.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001040" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="sys_clk_timer.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001060" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="jtag_uart.avalon_jtag_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x010010c0" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="ext_flash_enet_bus.avalon_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="pipeline_bridge.m1"
+   end="reconfig_request_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001940" /></connection>
+ <connection kind="interrupt" version="9.0" start="cpu.d_irq" end="uart1.irq">
+  <parameter name="irqNumber" value="2" /></connection>
+ <connection kind="avalon" version="6.1" start="pipeline_bridge.m1" end="uart1.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x010018c0" /></connection>
+ <connection kind="clock" version="9.0" start="pll.c0" end="packet_memory.clk1" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="packet_memory.clk2" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="pipeline_bridge.clk" />
+ <connection
+   kind="clock"
+   version="9.0"
+   start="pll.c0"
+   end="reconfig_request_pio.clk" />
+ <connection kind="clock" version="9.0" start="pll.c0" end="uart1.clk" /></system>

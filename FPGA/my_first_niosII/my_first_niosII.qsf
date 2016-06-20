@@ -1,0 +1,367 @@
+#============================================================
+# Build by Terasic System Builder
+#============================================================
+
+set_global_assignment -name FAMILY "Stratix IV"
+set_global_assignment -name DEVICE EP4SGX230KF40C2
+set_global_assignment -name TOP_LEVEL_ENTITY "my_first_niosII"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:18:55 APRIL 04,2011"
+set_global_assignment -name DEVICE_FILTER_PACKAGE FPGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 1152
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 2
+set_global_assignment -name SDC_FILE my_first_niosII.SDC
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AF25 -to termination_blk0~_rup_pad
+set_location_assignment PIN_AG25 -to termination_blk0~_rdn_pad
+set_instance_assignment -name IO_STANDARD "1.8 V" -to termination_blk0~_rup_pad
+set_instance_assignment -name IO_STANDARD "1.8 V" -to termination_blk0~_run_pad
+
+#============================================================
+# CLOCK
+#============================================================
+set_location_assignment PIN_AC35 -to OSC_50_BANK2
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_BANK2
+set_location_assignment PIN_AV22 -to OSC_50_BANK3
+set_instance_assignment -name IO_STANDARD "1.8 V" -to OSC_50_BANK3
+set_location_assignment PIN_AV19 -to OSC_50_BANK4
+set_instance_assignment -name IO_STANDARD "1.8 V" -to OSC_50_BANK4
+set_location_assignment PIN_AC6 -to OSC_50_BANK5
+set_instance_assignment -name IO_STANDARD "3.0-V PCI-X" -to OSC_50_BANK5
+set_location_assignment PIN_AB6 -to OSC_50_BANK6
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_BANK6
+set_location_assignment PIN_A19 -to OSC_50_BANK7
+set_instance_assignment -name IO_STANDARD "1.8 V" -to OSC_50_BANK7
+set_location_assignment PIN_AH19 -to GCLKOUT_FPGA
+set_instance_assignment -name IO_STANDARD "1.8 V" -to GCLKOUT_FPGA
+set_location_assignment PIN_A21 -to GCLKIN
+set_instance_assignment -name IO_STANDARD "1.8 V" -to GCLKIN
+set_location_assignment PIN_B22 -to PLL_CLKIN_p
+set_instance_assignment -name IO_STANDARD LVDS -to PLL_CLKIN_p
+
+#============================================================
+# External PLL
+#============================================================
+set_location_assignment PIN_AP24 -to MAX_I2C_SCLK
+set_instance_assignment -name IO_STANDARD "1.8 V" -to MAX_I2C_SCLK
+set_location_assignment PIN_AN22 -to MAX_I2C_SDAT
+set_instance_assignment -name IO_STANDARD "1.8 V" -to MAX_I2C_SDAT
+
+#============================================================
+# LED x 8
+#============================================================
+set_location_assignment PIN_V28 -to LED[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[0]
+set_location_assignment PIN_W28 -to LED[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[1]
+set_location_assignment PIN_R29 -to LED[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[2]
+set_location_assignment PIN_P29 -to LED[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[3]
+set_location_assignment PIN_N29 -to LED[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[4]
+set_location_assignment PIN_M29 -to LED[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[5]
+set_location_assignment PIN_M30 -to LED[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[6]
+set_location_assignment PIN_N30 -to LED[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[7]
+
+#============================================================
+# CPU_RESET_n
+#============================================================
+set_location_assignment PIN_V34 -to CPU_RESET_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to CPU_RESET_n
+
+#============================================================
+# Flash and SRAM Address/Data Share Bus
+#============================================================
+set_location_assignment PIN_K29 -to FSM_D[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[0]
+set_location_assignment PIN_J30 -to FSM_D[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[1]
+set_location_assignment PIN_K30 -to FSM_D[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[2]
+set_location_assignment PIN_L29 -to FSM_D[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[3]
+set_location_assignment PIN_K31 -to FSM_D[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[4]
+set_location_assignment PIN_E32 -to FSM_D[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[5]
+set_location_assignment PIN_F32 -to FSM_D[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[6]
+set_location_assignment PIN_H32 -to FSM_D[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[7]
+set_location_assignment PIN_B32 -to FSM_D[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[8]
+set_location_assignment PIN_C32 -to FSM_D[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[9]
+set_location_assignment PIN_C35 -to FSM_D[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[10]
+set_location_assignment PIN_D35 -to FSM_D[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[11]
+set_location_assignment PIN_M22 -to FSM_D[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[12]
+set_location_assignment PIN_M28 -to FSM_D[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[13]
+set_location_assignment PIN_C31 -to FSM_D[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[14]
+set_location_assignment PIN_D31 -to FSM_D[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_D[15]
+set_location_assignment PIN_G22 -to FSM_A[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[1]
+set_location_assignment PIN_G23 -to FSM_A[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[2]
+set_location_assignment PIN_A25 -to FSM_A[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[3]
+set_location_assignment PIN_H22 -to FSM_A[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[4]
+set_location_assignment PIN_H23 -to FSM_A[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[5]
+set_location_assignment PIN_J22 -to FSM_A[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[6]
+set_location_assignment PIN_K22 -to FSM_A[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[7]
+set_location_assignment PIN_M21 -to FSM_A[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[8]
+set_location_assignment PIN_J23 -to FSM_A[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[9]
+set_location_assignment PIN_F34 -to FSM_A[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[10]
+set_location_assignment PIN_G35 -to FSM_A[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[11]
+set_location_assignment PIN_E34 -to FSM_A[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[12]
+set_location_assignment PIN_J32 -to FSM_A[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[13]
+set_location_assignment PIN_F35 -to FSM_A[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[14]
+set_location_assignment PIN_C24 -to FSM_A[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[15]
+set_location_assignment PIN_A24 -to FSM_A[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[16]
+set_location_assignment PIN_D23 -to FSM_A[17]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[17]
+set_location_assignment PIN_D24 -to FSM_A[18]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[18]
+set_location_assignment PIN_T27 -to FSM_A[19]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[19]
+set_location_assignment PIN_T28 -to FSM_A[20]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[20]
+set_location_assignment PIN_D22 -to FSM_A[21]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[21]
+set_location_assignment PIN_E23 -to FSM_A[22]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[22]
+set_location_assignment PIN_N20 -to FSM_A[23]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[23]
+set_location_assignment PIN_P20 -to FSM_A[24]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[24]
+set_location_assignment PIN_C22 -to FSM_A[25]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FSM_A[25]
+
+#============================================================
+# Flash Control
+#============================================================
+set_location_assignment PIN_G21 -to FLASH_RYBY_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FLASH_RYBY_n
+set_location_assignment PIN_E22 -to FLASH_CLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FLASH_CLK
+set_location_assignment PIN_D21 -to FLASH_RESET_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FLASH_RESET_n
+set_location_assignment PIN_N21 -to FLASH_OE_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FLASH_OE_n
+set_location_assignment PIN_R20 -to FLASH_WE_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FLASH_WE_n
+set_location_assignment PIN_F21 -to FLASH_ADV_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FLASH_ADV_n
+set_location_assignment PIN_F23 -to FLASH_CE_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FLASH_CE_n
+
+#============================================================
+# HSMC-B, HSMC-B connect to None
+#============================================================
+set_location_assignment PIN_L8 -to CLKOUT0
+set_instance_assignment -name IO_STANDARD "2.5 V" -to CLKOUT0
+set_location_assignment PIN_AA5 -to CLKIN1
+set_instance_assignment -name IO_STANDARD "2.5 V" -to CLKIN1
+set_location_assignment PIN_H10 -to ADA_D[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[13]
+set_location_assignment PIN_D6 -to ADB_D[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[13]
+set_location_assignment PIN_G10 -to ADA_D[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[12]
+set_location_assignment PIN_C6 -to ADB_D[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[12]
+set_location_assignment PIN_K9 -to ADA_D[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[11]
+set_location_assignment PIN_D5 -to ADB_D[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[11]
+set_location_assignment PIN_J9 -to ADA_D[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[10]
+set_location_assignment PIN_C5 -to ADB_D[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[10]
+set_location_assignment PIN_K10 -to ADA_D[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[9]
+set_location_assignment PIN_D10 -to ADB_D[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[9]
+set_location_assignment PIN_J10 -to ADA_D[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[8]
+set_location_assignment PIN_C10 -to ADB_D[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[8]
+set_location_assignment PIN_N11 -to ADA_D[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[7]
+set_location_assignment PIN_D9 -to ADB_D[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[7]
+set_location_assignment PIN_N10 -to ADA_D[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[6]
+set_location_assignment PIN_C9 -to ADB_D[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[6]
+set_location_assignment PIN_N12 -to ADA_D[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[5]
+set_location_assignment PIN_D8 -to ADB_D[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[5]
+set_location_assignment PIN_M12 -to ADA_D[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[4]
+set_location_assignment PIN_C8 -to ADB_D[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[4]
+set_location_assignment PIN_R12 -to ADA_D[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[3]
+set_location_assignment PIN_D7 -to ADB_D[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[3]
+set_location_assignment PIN_R11 -to ADA_D[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[2]
+set_location_assignment PIN_C7 -to ADB_D[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[2]
+set_location_assignment PIN_T13 -to ADA_D[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[1]
+set_location_assignment PIN_F10 -to ADB_D[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[1]
+set_location_assignment PIN_T12 -to ADA_D[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_D[0]
+set_location_assignment PIN_E10 -to ADB_D[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_D[0]
+set_location_assignment PIN_R13 -to ADA_OR
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_OR
+set_location_assignment PIN_G5 -to ADB_OR
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_OR
+set_location_assignment PIN_P13 -to ADA_OE
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_OE
+set_location_assignment PIN_F5 -to ADB_OE
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_OE
+set_location_assignment PIN_H7 -to ADA_SPI_CS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_SPI_CS
+set_location_assignment PIN_G6 -to ADB_SPI_CS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_SPI_CS
+set_location_assignment PIN_G7 -to AD_SDIO
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AD_SDIO
+set_location_assignment PIN_F6 -to AD_SCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AD_SCLK
+set_location_assignment PIN_K8 -to FPGA_CLK_A_P
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FPGA_CLK_A_P
+set_location_assignment PIN_W34 -to XT_IN_P
+set_instance_assignment -name IO_STANDARD "2.5 V" -to XT_IN_P
+set_location_assignment PIN_J8 -to FPGA_CLK_A_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FPGA_CLK_A_N
+set_location_assignment PIN_W35 -to XT_IN_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to XT_IN_N
+set_location_assignment PIN_M10 -to DA[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[13]
+set_location_assignment PIN_F7 -to DB[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[13]
+set_location_assignment PIN_L10 -to DA[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[12]
+set_location_assignment PIN_E7 -to DB[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[12]
+set_location_assignment PIN_M8 -to DA[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[11]
+set_location_assignment PIN_G8 -to DB[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[11]
+set_location_assignment PIN_M7 -to DA[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[10]
+set_location_assignment PIN_F8 -to DB[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[10]
+set_location_assignment PIN_M11 -to DA[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[9]
+set_location_assignment PIN_G9 -to DB[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[9]
+set_location_assignment PIN_L11 -to DA[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[8]
+set_location_assignment PIN_F9 -to DB[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[8]
+set_location_assignment PIN_N9 -to DA[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[7]
+set_location_assignment PIN_N6 -to DB[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[7]
+set_location_assignment PIN_P8 -to DA[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[6]
+set_location_assignment PIN_N5 -to DB[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[6]
+set_location_assignment PIN_R9 -to DA[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[5]
+set_location_assignment PIN_M6 -to DB[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[5]
+set_location_assignment PIN_R8 -to DA[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[4]
+set_location_assignment PIN_L5 -to DB[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[4]
+set_location_assignment PIN_U10 -to DA[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[3]
+set_location_assignment PIN_R6 -to DB[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[3]
+set_location_assignment PIN_T9 -to DA[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[2]
+set_location_assignment PIN_R5 -to DB[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[2]
+set_location_assignment PIN_V10 -to DA[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[1]
+set_location_assignment PIN_R7 -to DB[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[1]
+set_location_assignment PIN_V9 -to DA[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DA[0]
+set_location_assignment PIN_P6 -to DB[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DB[0]
+set_location_assignment PIN_T10 -to AIC_DIN
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AIC_DIN
+set_location_assignment PIN_V6 -to AIC_DOUT
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AIC_DOUT
+set_location_assignment PIN_R10 -to AIC_LRCIN
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AIC_LRCIN
+set_location_assignment PIN_U5 -to AIC_LRCOUT
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AIC_LRCOUT
+set_location_assignment PIN_V12 -to AIC_BCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AIC_BCLK
+set_location_assignment PIN_W8 -to AIC_XCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AIC_XCLK
+set_location_assignment PIN_V11 -to AIC_SPI_CS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to AIC_SPI_CS
+set_location_assignment PIN_W7 -to J1_152
+set_instance_assignment -name IO_STANDARD "2.5 V" -to J1_152
+set_location_assignment PIN_W12 -to FPGA_CLK_B_P
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FPGA_CLK_B_P
+set_location_assignment PIN_W6 -to ADA_DCO
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADA_DCO
+set_location_assignment PIN_W11 -to FPGA_CLK_B_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FPGA_CLK_B_N
+set_location_assignment PIN_W5 -to ADB_DCO
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADB_DCO
+
+#============================================================
+# HSMC I2C
+#============================================================
+set_location_assignment PIN_L19 -to HSMC_SCL
+set_instance_assignment -name IO_STANDARD "1.8 V" -to HSMC_SCL
+set_location_assignment PIN_M19 -to HSMC_SDA
+set_instance_assignment -name IO_STANDARD "1.8 V" -to HSMC_SDA
+
+#============================================================
+# End of pin assignments by Terasic System Builder
+#============================================================
+
+
+set_global_assignment -name QIP_FILE DE4_230_SOPC.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

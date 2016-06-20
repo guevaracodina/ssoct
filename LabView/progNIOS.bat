@@ -1,0 +1,1 @@
+@ "%QUARTUS_ROOTDIR%\bin\cygwin\bin\bash.exe" --rcfile ".\NIOS_bashrc"

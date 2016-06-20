@@ -1,0 +1,165 @@
+Altera SOPC Builder Version 8.00 Build 231
+Copyright (c) 1999-2007 Altera Corporation.  All rights reserved.
+
+
+# 2009.12.07 17:37:12 (*) mk_custom_sdk starting
+
+# 2009.12.07 17:37:12 (*) Reading project H:/Project/Ethernet/std_2s60.ptf.
+
+# 2009.12.07 17:37:13 (*) Finding all CPUs
+# 2009.12.07 17:37:13 (*) Finding all available components
+
+# 2009.12.07 17:37:13 (*) Reading H:/Project/Ethernet/.sopc_builder/install.ptf
+
+# 2009.12.07 17:37:13 (*) Found 67 components
+
+# 2009.12.07 17:37:14 (*) Finding all peripherals
+
+# 2009.12.07 17:37:14 (*) Finding software components
+
+# 2009.12.07 17:37:15 (*) (Legacy SDK Generation Skipped)
+# 2009.12.07 17:37:15 (*) (All TCL Script Generation Skipped)
+# 2009.12.07 17:37:15 (*) (No Libraries Built)
+# 2009.12.07 17:37:15 (*) (Contents Generation Skipped)
+# 2009.12.07 17:37:15 (*) mk_custom_sdk finishing
+
+# 2009.12.07 17:37:15 (*) Starting generation for system: std_2s60.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+....
+...
+....
+..
+...
+.
+.
+.
+
+# 2009.12.07 17:37:18 (*) Running Generator Program for cpu
+
+# 2009.12.07 17:37:21 (*)   Checking for plaintext license.
+# 2009.12.07 17:37:22 (*)   Plaintext license not found.
+# 2009.12.07 17:37:22 (*)   Checking for encrypted license (non-evaluation).
+# 2009.12.07 17:37:22 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2009.12.07 17:37:40 (*)   Creating encrypted HDL
+
+# 2009.12.07 17:37:45 (*) Running Generator Program for ext_flash
+
+# 2009.12.07 17:37:47 (*) Running Generator Program for ext_ram
+
+# 2009.12.07 17:37:49 (*) Running Generator Program for onchip_ram_64_kbytes
+
+# 2009.12.07 17:37:52 (*) Running Generator Program for sys_clk_timer
+
+# 2009.12.07 17:37:55 (*) Running Generator Program for jtag_uart
+
+# 2009.12.07 17:37:58 (*) Running Generator Program for high_res_timer
+
+# 2009.12.07 17:38:01 (*) Running Generator Program for reconfig_request_pio
+
+# 2009.12.07 17:38:04 (*) Running Generator Program for sysid
+
+# 2009.12.07 17:38:06 (*) Running Generator Program for sdram
+
+# 2009.12.07 17:38:10 (*) Running Generator Program for std_2s60_burst_0
+
+# 2009.12.07 17:38:13 (*) Running Generator Program for std_2s60_burst_1
+
+# 2009.12.07 17:38:17 (*) Running Generator Program for std_2s60_burst_2
+
+# 2009.12.07 17:38:20 (*) Running Generator Program for std_2s60_burst_3
+
+# 2009.12.07 17:38:23 (*) Running Generator Program for std_2s60_burst_4
+
+# 2009.12.07 17:38:27 (*) Running Generator Program for std_2s60_burst_5
+
+# 2009.12.07 17:38:30 (*) Running Generator Program for std_2s60_burst_6
+
+# 2009.12.07 17:38:33 (*) Running Generator Program for std_2s60_burst_7
+
+# 2009.12.07 17:38:37 (*) Running Generator Program for std_2s60_burst_8
+
+# 2009.12.07 17:38:40 (*) Running Generator Program for std_2s60_burst_9
+
+# 2009.12.07 17:38:44 (*) Running Generator Program for std_2s60_burst_10
+
+# 2009.12.07 17:38:47 (*) Running Generator Program for std_2s60_burst_11
+
+# 2009.12.07 17:38:51 (*) Running Generator Program for std_2s60_burst_12
+
+# 2009.12.07 17:38:54 (*) Running Generator Program for std_2s60_burst_13
+
+# 2009.12.07 17:38:58 (*) Running Generator Program for std_2s60_burst_14
+
+# 2009.12.07 17:39:01 (*) Running Generator Program for std_2s60_burst_15
+
+# 2009.12.07 17:39:05 (*) Running Generator Program for std_2s60_burst_16
+
+# 2009.12.07 17:39:09 (*) Running Generator Program for std_2s60_burst_17
+
+# 2009.12.07 17:39:14 (*) Running Generator Program for std_2s60_burst_18
+
+.
+
+
+# 2009.12.07 17:39:18 (*) Running Test Generator Program for sdram
+
+# 2009.12.07 17:39:21 (*) Making arbitration and system (top) modules.
+
+# 2009.12.07 17:40:37 (*) Generating Quartus symbol for top level: std_2s60
+
+# 2009.12.07 17:40:37 (*) Symbol H:/Project/Ethernet/std_2s60.bsf already exists, no need to regenerate
+# 2009.12.07 17:40:37 (*) Creating command-line system-generation script: H:/Project/Ethernet/std_2s60_generation_script
+
+# 2009.12.07 17:40:38 (*) Running setup for HDL simulator: modelsim
+
+
+# 2009.12.07 17:40:38 (*) Setting up Quartus with std_2s60_setup_quartus.tcl
+c:/altera/quartus80/quartus/bin/quartus_sh -t std_2s60_setup_quartus.tcl
+
+
+Info: *******************************************************************
+Info: Running Quartus II Shell
+    Info: Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+    Info: Copyright (C) 1991-2008 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.
+  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Mon Dec 07 17:40:38 2009
+Info: Command: quartus_sh -t std_2s60_setup_quartus.tcl
+Info: Evaluation of Tcl script std_2s60_setup_quartus.tcl was successful
+Info: Quartus II Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 49 megabytes
+    Info: Processing ended: Mon Dec 07 17:40:38 2009
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+# 2009.12.07 17:40:41 (*) Completed generation for system: std_2s60.
+# 2009.12.07 17:40:41 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : H:/Project/Ethernet/std_2s60.ptf 
+  System HDL Model : H:/Project/Ethernet/std_2s60.v 
+  System Generation Script : H:/Project/Ethernet/std_2s60_generation_script 
+
+# 2009.12.07 17:40:41 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

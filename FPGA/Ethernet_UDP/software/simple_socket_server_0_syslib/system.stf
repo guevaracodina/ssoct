@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stf>
+	<project ptf="..\..\std_2s60.ptf" target="Nios II System Library">
+	</project>
+	<cpu name="cpu">
+	</cpu>
+	<os_spec clean_exit="yes" direct_drivers="no" exception_stack="no" instruction_emulation="no" license_suppress="yes" name="MicroC/OS-II" no_c_plus_plus="no" no_exit="no" profiling="no" small_footprint="no" sopc_component_dir="micrium_uc_osii" stack_checking="yes" stderr="jtag_uart" stdin="jtag_uart" stdout="jtag_uart">
+	<make_macros>
+<macro name="alt_sim_optimize" quote="no" value="0"/>
+</make_macros>
+<sys_defines>
+<define name="alt_max_fd" quote="no" value="32"/>
+<define name="os_max_tasks" quote="no" value="10"/>
+<define name="os_lowest_prio" quote="no" value="20"/>
+<define name="os_flag_en" quote="no" value="1"/>
+<define name="os_thread_safe_newlib" quote="no" value="1"/>
+<define name="os_mutex_en" quote="no" value="1"/>
+<define name="os_sem_en" quote="no" value="1"/>
+<define name="os_mbox_en" quote="no" value="1"/>
+<define name="os_q_en" quote="no" value="1"/>
+<define name="os_mem_en" quote="no" value="1"/>
+<define name="os_flag_wait_clr_en" quote="no" value="1"/>
+<define name="os_flag_accept_en" quote="no" value="1"/>
+<define name="os_flag_del_en" quote="no" value="1"/>
+<define name="os_flag_query_en" quote="no" value="1"/>
+<define name="os_flag_name_size" quote="no" value="32"/>
+<define name="os_max_flags" quote="no" value="20"/>
+<define name="os_flags_nbits" quote="no" value="16"/>
+<define name="os_mutex_accept_en" quote="no" value="1"/>
+<define name="os_mutex_del_en" quote="no" value="1"/>
+<define name="os_mutex_query_en" quote="no" value="1"/>
+<define name="os_sem_accept_en" quote="no" value="1"/>
+<define name="os_sem_set_en" quote="no" value="1"/>
+<define name="os_sem_del_en" quote="no" value="1"/>
+<define name="os_sem_query_en" quote="no" value="1"/>
+<define name="os_mbox_accept_en" quote="no" value="1"/>
+<define name="os_mbox_del_en" quote="no" value="1"/>
+<define name="os_mbox_post_en" quote="no" value="1"/>
+<define name="os_mbox_post_opt_en" quote="no" value="1"/>
+<define name="os_mbox_query_en" quote="no" value="1"/>
+<define name="os_q_accept_en" quote="no" value="1"/>
+<define name="os_q_del_en" quote="no" value="1"/>
+<define name="os_q_flush_en" quote="no" value="1"/>
+<define name="os_q_post_en" quote="no" value="1"/>
+<define name="os_q_post_front_en" quote="no" value="1"/>
+<define name="os_q_post_opt_en" quote="no" value="1"/>
+<define name="os_q_query_en" quote="no" value="1"/>
+<define name="os_max_qs" quote="no" value="20"/>
+<define name="os_mem_query_en" quote="no" value="1"/>
+<define name="os_mem_name_size" quote="no" value="32"/>
+<define name="os_max_mem_part" quote="no" value="60"/>
+<define name="os_arg_chk_en" quote="no" value="1"/>
+<define name="os_cpu_hooks_en" quote="no" value="1"/>
+<define name="os_debug_en" quote="no" value="1"/>
+<define name="os_sched_lock_en" quote="no" value="1"/>
+<define name="os_task_stat_en" quote="no" value="1"/>
+<define name="os_task_stat_stk_chk_en" quote="no" value="1"/>
+<define name="os_tick_step_en" quote="no" value="1"/>
+<define name="os_event_name_size" quote="no" value="32"/>
+<define name="os_max_events" quote="no" value="60"/>
+<define name="os_task_idle_stk_size" quote="no" value="512"/>
+<define name="os_task_stat_stk_size" quote="no" value="512"/>
+<define name="os_task_change_prio_en" quote="no" value="1"/>
+<define name="os_task_create_en" quote="no" value="1"/>
+<define name="os_task_create_ext_en" quote="no" value="1"/>
+<define name="os_task_del_en" quote="no" value="1"/>
+<define name="os_task_name_size" quote="no" value="32"/>
+<define name="os_task_profile_en" quote="no" value="1"/>
+<define name="os_task_query_en" quote="no" value="1"/>
+<define name="os_task_suspend_en" quote="no" value="1"/>
+<define name="os_task_sw_hook_en" quote="no" value="1"/>
+<define name="os_time_tick_hook_en" quote="no" value="1"/>
+<define name="os_time_get_set_en" quote="no" value="1"/>
+<define name="os_time_dly_resume_en" quote="no" value="1"/>
+<define name="os_time_dly_hmsm_en" quote="no" value="1"/>
+<define name="os_tmr_en" quote="no" value="0"/>
+<define name="os_tmr_cfg_max" quote="no" value="16"/>
+<define name="os_tmr_cfg_name_size" quote="no" value="16"/>
+<define name="os_tmr_cfg_ticks_per_sec" quote="no" value="10"/>
+<define name="os_tmr_cfg_wheel_size" quote="no" value="2"/>
+<define name="os_task_tmr_stk_size" quote="no" value="512"/>
+<define name="os_task_tmr_prio" quote="no" value="1"/>
+<define name="alt_sys_clk" quote="no" value="SYS_CLK_TIMER"/>
+<define name="alt_timestamp_clk" quote="no" value="none"/>
+</sys_defines>
+<sw_component id="INICHE" name="NicheStack TCP/IP Stack" sopc_component_dir="altera_iniche">
+<sys_defines>
+
+
+
+<define name="iniche_default_if" quote="yes" value="lan91c111"/>
+<define name="license_suppress" quote="no" value="1"/>
+<define name="tcp_zerocopy" quote="no" value="1"/>
+<define name="include_tcp" quote="no" value="1"/>
+
+<define name="ip_fragments" quote="no" value="1"/>
+</sys_defines>
+</sw_component>
+</os_spec>
+	<link_spec auto_gen_script="yes">
+		<script name="none">
+		<section memory="ext_ram" name=".text"/>
+<section memory="onchip_ram_64_kbytes" name=".rodata"/>
+<section memory="onchip_ram_64_kbytes" name=".rwdata"/>
+<section memory="sdram" name=".stack"/>
+<section memory="sdram" name=".heap"/>
+<section memory="sdram" name=".exceptionstack" size="0x400"/>
+</script>
+	</link_spec>
+</stf>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="55" key="DIALOG_Y_ORIGIN"/>
+		<item value="411" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wholeword"/>
+		<item value="nFramesPerVol" key="selection"/>
+		<list key="findhistory">
+			<item value="nFramesPerVol"/>
+			<item value="nFrames"/>
+			<item value="usleep"/>
+			<item value="little"/>
+			<item value="wait a little"/>
+			<item value="wait"/>
+			<item value="rx_buf"/>
+			<item value="iLoop"/>
+		</list>
+		<list key="replacehistory">
+			<item value="nFramesPerVol"/>
+			<item value="%p"/>
+			<item value="%P"/>
+			<item value="DDR2_address"/>
+			<item value="DDR2_add"/>
+			<item value="DDR2_data"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="418" key="DIALOG_Y_ORIGIN"/>
+		<item value="281" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

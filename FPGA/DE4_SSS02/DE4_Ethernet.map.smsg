@@ -1,0 +1,5 @@
+Warning (10262): Verilog HDL Event Control warning at pll.v(95): event expression is a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(1963): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(1965): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(2115): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(3013): conditional expression evaluates to a constant

@@ -1,0 +1,3 @@
+Revision name:      SS_OCT
+Created on:         Tuesday, January 24, 2012
+Based on :          DE4_DDR2

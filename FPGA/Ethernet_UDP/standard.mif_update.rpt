@@ -1,0 +1,105 @@
+MIF/HEX Update report for standard
+Mon Dec 07 21:11:05 2009
+Quartus II Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Mon Dec 07 21:11:05 2009 ;
+; Revision Name         ; standard                              ;
+; Top-level Entity Name ; standard                              ;
+; Family                ; Stratix II                            ;
+; Device                ; EP2S60F1020C3                         ;
++-----------------------+---------------------------------------+
+
+
++-----------------------------------------------------+
+; MIF/HEX Update Processed Files                      ;
++-----------------------------------------------------+
+; File Name                                           ;
++-----------------------------------------------------+
+; H:/Project/Ethernet/cpu_dc_tag_ram.mif              ;
+; H:/Project/Ethernet/cpu_ic_tag_ram.mif              ;
+; H:/Project/Ethernet/cpu_ociram_default_contents.mif ;
+; H:/Project/Ethernet/cpu_rf_ram_a.mif                ;
+; H:/Project/Ethernet/cpu_rf_ram_b.mif                ;
+; H:/Project/Ethernet/ethernet_standard.hex           ;
++-----------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus II MIF/HEX Update
+    Info: Version 8.0 Build 231 07/10/2008 Service Pack 1 SJ Full Version
+    Info: Copyright (C) 1991-2008 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Mon Dec 07 21:10:58 2009
+Info: Command: quartus_cdb --update_mif standard.qpf
+Warning: Width of data items in "ethernet_standard.hex" is greater than the memory width. Wrapping data items to subsequent addresses. Found 2048 warnings, reporting 10
+    Warning: Data at line (2) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (3) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (4) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (5) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (6) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (7) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (8) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (9) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (10) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (11) of memory initialization file "ethernet_standard.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+Info: Processed the following Memory Initialization File(s)
+    Info: Processed Memory Initialization File H:/Project/Ethernet/cpu_dc_tag_ram.mif
+    Info: Processed Memory Initialization File H:/Project/Ethernet/cpu_ic_tag_ram.mif
+    Info: Processed Memory Initialization File H:/Project/Ethernet/cpu_ociram_default_contents.mif
+    Info: Processed Memory Initialization File H:/Project/Ethernet/cpu_rf_ram_a.mif
+    Info: Processed Memory Initialization File H:/Project/Ethernet/cpu_rf_ram_b.mif
+    Info: Processed Memory Initialization File H:/Project/Ethernet/ethernet_standard.hex
+Info: Quartus II MIF/HEX Update was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 188 megabytes
+    Info: Processing ended: Mon Dec 07 21:11:05 2009
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
+
+

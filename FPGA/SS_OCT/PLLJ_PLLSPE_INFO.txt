@@ -1,0 +1,25 @@
+PLL_Name	pll_125:pll_125_ins|altpll:altpll_component|pll_125_altpll:auto_generated|pll1
+PLLJITTER	26
+PLLSPEmax	40
+PLLSPEmin	-40
+
+PLL_Name	pll_ADA_DCO:pll_ADA_DCO_inst|altpll:altpll_component|pll_ADA_DCO_altpll:auto_generated|pll1
+PLLJITTER	24
+PLLSPEmax	40
+PLLSPEmin	-40
+
+PLL_Name	SS_OCT_SOPC:SS_OCT_SOPC_inst|ddr2:the_ddr2|ddr2_controller_phy:ddr2_controller_phy_inst|ddr2_phy:ddr2_phy_inst|ddr2_phy_alt_mem_phy:ddr2_phy_alt_mem_phy_inst|ddr2_phy_alt_mem_phy_clk_reset:clk|ddr2_phy_alt_mem_phy_pll:half_rate.pll|altpll:altpll_component|altpll_c7r3:auto_generated|pll1
+PLLJITTER	26
+PLLSPEmax	40
+PLLSPEmin	-40
+
+PLL_Name	SS_OCT_SOPC:SS_OCT_SOPC_inst|pll:the_pll|altpllpll:the_pll|altpll:altpll_component|altpll_0852:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	40
+PLLSPEmin	-40
+
+PLL_Name	SS_OCT_SOPC:SS_OCT_SOPC_inst|tse_mac:the_tse_mac|altera_tse_mac_pcs_pma:altera_tse_mac_pcs_pma_inst|altera_tse_pma_lvds_rx:the_altera_tse_pma_lvds_rx|altlvds_rx:altlvds_rx_component|lvds_rx_4lu1:auto_generated|pll
+PLLJITTER	29
+PLLSPEmax	40
+PLLSPEmin	-40
+

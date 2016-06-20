@@ -1,0 +1,222 @@
+PACKAGE install2 
+{
+   # This file informs the Nios II IDE of non-legacy component paths.
+   # Generated 2009.12.07.20:59:10
+   COMPONENT adBUF 
+   {
+      VERSION 1.0 
+      {
+         local = "H:/Project/Ethernet";
+      }
+   }
+   COMPONENT alt_vip_clip 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/clipper/lib";
+      }
+   }
+   COMPONENT alt_vip_cpr 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/color_plane_sequencer/lib";
+      }
+   }
+   COMPONENT alt_vip_crs 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/chroma_resampler/lib";
+      }
+   }
+   COMPONENT alt_vip_csc 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/csc/lib";
+      }
+   }
+   COMPONENT alt_vip_dil 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/deinterlacer/lib";
+      }
+   }
+   COMPONENT alt_vip_fir 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/fir_filter_2d/lib";
+      }
+   }
+   COMPONENT alt_vip_gam 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/gamma_corrector/lib";
+      }
+   }
+   COMPONENT alt_vip_lbc 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/line_buffer_compiler/lib";
+      }
+   }
+   COMPONENT alt_vip_med 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/median_filter_2d/lib";
+      }
+   }
+   COMPONENT alt_vip_mix 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/alpha_blending_mixer/lib";
+      }
+   }
+   COMPONENT alt_vip_scl 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/scaler/lib";
+      }
+   }
+   COMPONENT alt_vip_vfb 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/frame_buffer/lib";
+      }
+   }
+   COMPONENT altera_avalon_dc_fifo 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_dc_fifo";
+      }
+   }
+   COMPONENT altera_avalon_multi_channel_shared_fifo 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_multi_channel_shared_fifo";
+      }
+   }
+   COMPONENT altera_avalon_packets_to_master 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_packets_to_master";
+      }
+   }
+   COMPONENT altera_avalon_pixel_converter 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_pixel_converter";
+      }
+   }
+   COMPONENT altera_avalon_remote_update_cycloneiii 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_remote_update_cycloneiii";
+      }
+   }
+   COMPONENT altera_avalon_round_robin_scheduler 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_round_robin_scheduler";
+      }
+   }
+   COMPONENT altera_avalon_sc_fifo 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_sc_fifo";
+      }
+   }
+   COMPONENT altera_avalon_st_bytes_to_packets 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_st_bytes_to_packets";
+      }
+   }
+   COMPONENT altera_avalon_st_idle_inserter 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_st_idle_inserter";
+      }
+   }
+   COMPONENT altera_avalon_st_idle_remover 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_st_idle_remover";
+      }
+   }
+   COMPONENT altera_avalon_st_packets_to_bytes 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_st_packets_to_bytes";
+      }
+   }
+   COMPONENT altera_avalon_video_sync_generator 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_video_sync_generator";
+      }
+   }
+   COMPONENT altera_jtag_avalon_master 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_jtag_avalon_master";
+      }
+   }
+   COMPONENT altera_jtag_dc_streaming 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_jtag_phy";
+      }
+   }
+   COMPONENT pci_lite 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_pci_lite";
+      }
+   }
+   COMPONENT sls_avalon_usb20hr 
+   {
+      VERSION 2.0 
+      {
+         local = "C:/altera/quartus80/ip/sls/usb20hr_ocp_eval_pack-v2.0/sls_avalon_usb20hr";
+      }
+   }
+   COMPONENT spi_slave_to_avalon_mm_master_bridge 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_spislave_to_avalonmm_bridge";
+      }
+   }
+   COMPONENT spislave 
+   {
+      VERSION 8.0 
+      {
+         local = "C:/altera/quartus80/ip/sopc_builder_ip/altera_avalon_spi_phy_slave";
+      }
+   }
+}

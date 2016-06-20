@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="1036" width="960" x="960" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="161" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Nios II C/C++">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState columnWidth0="268" columnWidth1="93" columnWidth2="168" columnWidth3="78" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="1"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.altera.nj.ui.Nios2CView" partName="Nios II C/C++ Projects">
+<viewState horizontalPosition="0" verticalPosition="6">
+<expanded>&#x0A;<element path="D:\Edgar\Documents\ssoct\FPGA\DE4_SSS\software\simple_socket_server\simple_socket_server"/>
+<element path="D:\Edgar\Documents\ssoct\FPGA\DE4_SSS\software\simple_socket_server\simple_socket_server_syslib"/>
+</expanded>
+<selection>&#x0A;<element path="D:/Edgar/Documents/ssoct/FPGA/DE4_SSS/software/simple_socket_server/simple_socket_server/simple_socket_server.c"/>
+</selection>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="com.altera.nj.ui.Nios2CView_patternFilterId_.*" isEnabled="true"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ExecutableFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.SharedFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ClosedProjectFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.NonCElementFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ObjectFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.ArchiveFilter" isEnabled="false"/>
+<child filterId="com.altera.nj.ui.Nios2CView.NonCProjectsFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="com.altera.nj.ui.CPerspective">
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.altera.nj.ui.Nios2CPerspectiveFactory" id="com.altera.nj.ui.CPerspective" label="Nios II C/C++"/>
+<alwaysOnActionSet id="com.altera.nj.doc.user.NiosIIDocumentation"/>
+<alwaysOnActionSet id="com.altera.nj.launch.NiosIIToolsMenuActionSet"/>
+<alwaysOnActionSet id="com.altera.nj.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.altera.nj.ui.Nios2CView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="com.altera.ide.chac.views.ChacView"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.ManagedNJWizard"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.ManagedSDKCWizard"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.NJDIYWizard"/>
+<new_wizard_action id="com.altera.nj.ui.wizards.ManagedLibWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="com.altera.ide.gprof.ui.GprofPerspective"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.altera.nj.ui.Nios2CView"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@92af24" ratio="0.74950296" ratioLeft="754" ratioRight="252" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.662766" ratioLeft="623" ratioRight="317" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.altera.nj.ui.Nios2CView" label="Nios II C/C++ Projects"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="4"/>
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.views.BookmarkView" ratio="0.5" ratioLeft="397" ratioRight="397" relationship="2" relative="bottom"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2585e" ratio="0.81345177" ratioLeft="641" ratioRight="147" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/network_utilities.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server_syslib/Debug/system_description/system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/network_utilities.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/simple_socket_server/.svn/text-base/simple_socket_server.c.svn-base"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/simple_socket_server/.svn/text-base/simple_socket_server.h.svn-base"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/simple_socket_server/.svn/tmp/simple_socket_server.c.tmp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server_syslib/Debug/system_description/system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server_syslib/Debug/system_description/system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server_syslib/Debug/system_description/system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/simple_socket_server/simple_socket_server.h"/>
+</editors>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="1831" y="0"/>
+</item>
+<item historyLabel="network_utilities.c" index="1">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="1831" y="0"/>
+</item>
+<item historyLabel="network_utilities.c" index="1">
+<position info="not_deleted" x="1017" y="19"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="1831" y="0"/>
+</item>
+<item historyLabel="system.h" index="2">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="0">
+<position info="not_deleted" x="1831" y="0"/>
+</item>
+<item historyLabel="system.h" index="2">
+<position info="not_deleted" x="167" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position/>
+</item>
+<item historyLabel="network_utilities.c" index="4">
+<position info="not_deleted" x="1959" y="11"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="11722" y="0"/>
+</item>
+<item historyLabel="system.h" index="2">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="2109" y="8"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="12804" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="12256" y="0"/>
+</item>
+<item historyLabel="system.h" index="2">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="10468" y="15"/>
+</item>
+<item historyLabel="simple_socket_server.c.svn-base" index="5">
+<position info="not_deleted" x="7614" y="15"/>
+</item>
+<item historyLabel="simple_socket_server.c.svn-base" index="5">
+<position info="not_deleted" x="10467" y="15"/>
+</item>
+<item historyLabel="simple_socket_server.h.svn-base" index="6">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c.tmp" index="7">
+<position info="not_deleted" x="7355" y="15"/>
+</item>
+<item historyLabel="simple_socket_server.h.svn-base" index="6">
+<position info="not_deleted" x="6138" y="15"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="10468" y="15"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="8">
+<position info="not_deleted" x="6157" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="10468" y="15"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="9">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="13004" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="9">
+<position info="not_deleted" x="6159" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="13999" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="9">
+<position info="not_deleted" x="6159" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.h" index="10">
+<position/>
+</item>
+<item historyLabel="system.h" index="11">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.h" index="10">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="13573" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="13093" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="12999" y="61"/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="14009" y="0"/>
+</item>
+<item historyLabel="simple_socket_server.h" index="10">
+<position/>
+</item>
+<item historyLabel="system.h" index="11">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position/>
+</item>
+<item historyLabel="system.h" index="11">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.h" index="10">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position info="not_deleted" x="1860" y="1"/>
+</item>
+<item historyLabel="system.h" index="12">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position/>
+</item>
+<item historyLabel="system.h" index="13">
+<position/>
+</item>
+<item historyLabel="simple_socket_server.c" index="3">
+<position/>
+</item>
+<item historyLabel="system.h" index="13">
+<position/>
+</item>
+<item active="true" historyLabel="simple_socket_server.h" index="14">
+<position/>
+</item>
+</navigationHistory>
+<stickyState/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simple_socket_server.c" tooltip="simple_socket_server/simple_socket_server.c">
+<persistable path="/simple_socket_server/simple_socket_server.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simple_socket_server.h" tooltip="simple_socket_server/simple_socket_server.h">
+<persistable path="/simple_socket_server/simple_socket_server.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="simple_socket_server.c.svn-base" tooltip="simple_socket_server/.svn/text-base/simple_socket_server.c.svn-base">
+<persistable path="/simple_socket_server/.svn/text-base/simple_socket_server.c.svn-base"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="network_utilities.c" tooltip="simple_socket_server/network_utilities.c">
+<persistable path="/simple_socket_server/network_utilities.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="alt_error_handler.h" tooltip="simple_socket_server/alt_error_handler.h">
+<persistable path="/simple_socket_server/alt_error_handler.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ipport.h" tooltip="simple_socket_server_syslib/Debug/system_description/ipport.h">
+<persistable path="/simple_socket_server_syslib/Debug/system_description/ipport.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="network_utilities.h" tooltip="simple_socket_server/network_utilities.h">
+<persistable path="/simple_socket_server/network_utilities.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" tooltip="simple_socket_server_syslib/Debug/system_description/system.h">
+<persistable path="/simple_socket_server_syslib/Debug/system_description/system.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="led.c" tooltip="simple_socket_server/led.c">
+<persistable path="/simple_socket_server/led.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="alt_error_handler.c" tooltip="simple_socket_server/alt_error_handler.c">
+<persistable path="/simple_socket_server/alt_error_handler.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" tooltip="simple_socket_server_syslib/readme.txt">
+<persistable path="/simple_socket_server_syslib/readme.txt"/>
+</file>
+</mruList>
+</workbench>

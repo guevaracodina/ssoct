@@ -1,0 +1,12 @@
+  <stf>
+    <project
+      sdk="simple_socket_server_0_syslib"
+      target="Nios II Application"
+      >
+      <chac>
+        <accelerators>
+          <buildconfiguration-list />
+        </accelerators>
+      </chac>
+    </project>
+  </stf>
